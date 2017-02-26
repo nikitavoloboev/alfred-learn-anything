@@ -8,7 +8,7 @@
 	<string>productivity</string>
 	<key>connections</key>
 	<dict>
-		<key>878FFC21-35C9-451F-9DC9-02FACC0BEAD6</key>
+		<key>759BE8CA-EF83-48E7-937C-789EDA52ABCC</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -48,33 +48,15 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>79</integer>
-				<key>hotmod</key>
-				<integer>8388608</integer>
-				<key>hotstring</key>
-				<string>F18</string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
+				<key>triggerid</key>
+				<string>researchWebLinks</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
+			<string>alfred.workflow.trigger.external</string>
 			<key>uid</key>
-			<string>878FFC21-35C9-451F-9DC9-02FACC0BEAD6</string>
+			<string>759BE8CA-EF83-48E7-937C-789EDA52ABCC</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -142,6 +124,35 @@ echo "&lt;/items&gt;"</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>696B8EE4-3E99-4B94-9CE5-02A0F6206C28</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>Big thank you to Vitor. (https://www.alfredforum.com/topic/10045-is-there-an-way-i-can-convert-a-markdown-file-of-hyperlink-into-a-script-filter-output/#comment-50546) 💚
@@ -149,17 +160,28 @@ echo "&lt;/items&gt;"</string>
 Without whom this workflow wouldn't exist.</string>
 	<key>uidata</key>
 	<dict>
-		<key>878FFC21-35C9-451F-9DC9-02FACC0BEAD6</key>
+		<key>696B8EE4-3E99-4B94-9CE5-02A0F6206C28</key>
 		<dict>
 			<key>note</key>
-			<string>change hotkey to what you prefer</string>
+			<string>change hotkey to what you prefer and connect it</string>
 			<key>xpos</key>
-			<integer>80</integer>
+			<integer>120</integer>
 			<key>ypos</key>
-			<integer>140</integer>
+			<integer>260</integer>
+		</dict>
+		<key>759BE8CA-EF83-48E7-937C-789EDA52ABCC</key>
+		<dict>
+			<key>note</key>
+			<string>I prefer external trigger and I call the applescript from Karabiner</string>
+			<key>xpos</key>
+			<integer>110</integer>
+			<key>ypos</key>
+			<integer>90</integer>
 		</dict>
 		<key>C3EEFA9C-3355-4A41-BA0F-8578FF6B4AB3</key>
 		<dict>
+			<key>note</key>
+			<string>or set a word trigger if you like</string>
 			<key>xpos</key>
 			<integer>300</integer>
 			<key>ypos</key>

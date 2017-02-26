@@ -26,6 +26,8 @@
 
 ### combinatorial search
 
+## [big O ✨](https://my.mindnode.com/vXDjQixcGsWDxqrMnJDnsrkoxg3GYFNon4B8q3vc)
+
 
 # hacking
 
@@ -371,7 +373,7 @@
 # [virtual machines](https://my.mindnode.com/yYb2h4qJrcC6xq553ubAqbW1hg7dTXV7Xxpz13vn)
 
 
-## jvm
+## [jvm](https://my.mindnode.com/xJivER7pcpjTAHsCwjtpd9meWnzLeMLLYkGLzQZk)
 
 ## clr
 
@@ -557,6 +559,9 @@
 ### [andromeda OS](https://my.mindnode.com/E9T3FZbseA166QRroExnvozpMqv3wPZuLteth18d)
 
 
+# culture
+
+
 # humans
 
 
@@ -629,15 +634,6 @@
 ## database design
 
 
-# culture
-
-
-# [unix](https://my.mindnode.com/AsFDY1F6zzq4K8hu7yxkwKdxD76Vcm8fsPrsUq37)
-
-
-## posix
-
-
 # [psychology](https://my.mindnode.com/wUgQ9eTCyksJgNBez6nWVuVQCShpgaUuqnroZWYE)
 
 
@@ -645,6 +641,12 @@
 
 
 # productivity
+
+
+# [unix](https://my.mindnode.com/AsFDY1F6zzq4K8hu7yxkwKdxD76Vcm8fsPrsUq37)
+
+
+## posix
 
 
 # quantum physics
@@ -668,7 +670,9 @@
 
 ## [zsh](https://my.mindnode.com/x5pjkfzErXaqqYqyBofA9RvoSsqtLsqLywV1zGNT)
 
-## fish
+### [my aliases and commands ✨](https://my.mindnode.com/jGwmewTqeqrXyRkupzgqqVD2zC7yTczxwgw5QTCq)
+
+## [fish](https://my.mindnode.com/39ZpNRjwqYARqqdJK9xHPuNy5jZSiusVf1QXxNAk)
 
 ## [shell commands](https://my.mindnode.com/gyU3hH5exSVYxsuiqbp4WMNWKxxkAc7Aebocz1S4)
 
@@ -885,7 +889,7 @@
 ## [behavioural questions](https://my.mindnode.com/qhp3LXKjsxDoUGN9v7wuMRw4zj9pNqsD9d6yCoyn)
 
 
-# art
+# [art ✨](https://my.mindnode.com/ZzygNSzUr9ZzYA4We7WHywxnFRS6GYAbhhpfqZsp)
 
 
 ## [digital](https://my.mindnode.com/prt1hJquZMr9SoKhXnTijy9ozHWxk7heXbkSHAmi)
@@ -972,6 +976,9 @@
 # [veganism](https://my.mindnode.com/8YQ8ysKmyxaSovNLyPSjx9Wm1VtqnsFikYYRNHUE)
 
 
+# [newsletters ✨](https://my.mindnode.com/SkDXNhQeqqzYgykAMbuxc59MYvbh42TzDFYaphRk)
+
+
 # [consciousness ✨](https://my.mindnode.com/RqzxwchS3WPpsPwXdxkRwJTw2xh2R2QquQNMqpGK)
 
 
@@ -986,15 +993,15 @@
 ## awareness
 
 
-# [advice ✨](https://my.mindnode.com/mUBqDGqqUnz2up9oz3Q55NzAQfcc3tDER3vyH7XG)
-
-
 # sound
 
 
 ## audio
 
 ## speech
+
+
+# [advice ✨](https://my.mindnode.com/mUBqDGqqUnz2up9oz3Q55NzAQfcc3tDER3vyH7XG)
 
 
 # [documentaries ✨](https://my.mindnode.com/7onWs2tu8VrKq14pEzgModqp7q25yWhfjQgW9nPP)
@@ -1144,10 +1151,10 @@
 # fungus
 
 
+# [travel ✨](https://my.mindnode.com/y3JkXrNizHEXEd9yWhxdyGAFPMjSiusFpES7z6UB)
+
+
 # [universe](https://my.mindnode.com/W2fPJssX4R4APsFNJaLRk6xVk5eysLHrCwtfjsQy)
-
-
-# travelling
 
 
 # [health](https://my.mindnode.com/qEhyRseqgzLSpyxSXMSRFTFAcnmx5R54qC34V81X)
@@ -1208,7 +1215,7 @@
 # protocols
 
 
-## irc
+## [irc](https://my.mindnode.com/w6XXqXqjcZzXPDGJkDu9sjjrqnjc4GsknC7ppUWq)
 
 ## http
 
@@ -1296,10 +1303,16 @@
 # [podcasts ✨](https://my.mindnode.com/vJRsKgW5SEdBt685W7xuVtzT1H7JQTKTNyjvPBYn)
 
 
-# [videos ✨](https://my.mindnode.com/j4pxmdo514Lw74iftpWjeyHXttYqUnrvPdpQFqTE)
+# [learning ✨](https://my.mindnode.com/bMgHiMESySRULMG1JWFgKpaoUk1Sw1V21p2ER5pz)
+
+
+## [techniques](https://my.mindnode.com/Q6fpfzt9RnQmdKAy8bKsuPzWJqLrNNDsnxCokpv9)
 
 
 # serverless architecture
+
+
+# [videos ✨](https://my.mindnode.com/j4pxmdo514Lw74iftpWjeyHXttYqUnrvPdpQFqTE)
 
 
 # front end 
@@ -1317,22 +1330,16 @@
 ## standups
 
 
-# [learning ✨](https://my.mindnode.com/bMgHiMESySRULMG1JWFgKpaoUk1Sw1V21p2ER5pz)
+# earth
 
 
-## [techniques](https://my.mindnode.com/Q6fpfzt9RnQmdKAy8bKsuPzWJqLrNNDsnxCokpv9)
+## oceans
 
 
 # [distributed computing](https://my.mindnode.com/sEKHQbwqA8NCpJWSSttobDKJrLvoppdBtafUH17X)
 
 
 ## petri nets
-
-
-# earth
-
-
-## oceans
 
 
 # [courses ✨](https://my.mindnode.com/zNtYR1Q9fAEwWqCpZ52iQzk4xx2TnTuDsFY3C9fJ)
@@ -1369,9 +1376,6 @@
 ## [elastic search ✨](https://my.mindnode.com/GoqFsporq2JFusGfqApP3JjKz83G1CCBxLq3gyZs)
 
 
-# [work](https://my.mindnode.com/VfzgzqowJNSpCQYQNzJ4Ag2gm39QWqjXJXyvWq1M)
-
-
 # [Cocoa](https://my.mindnode.com/pH6CF8NFDAAu6wbFDpZQqKrrszga6P5jYKqenUmD)
 
 
@@ -1399,6 +1403,9 @@
 # full stack
 
 
+# [work](https://my.mindnode.com/VfzgzqowJNSpCQYQNzJ4Ag2gm39QWqjXJXyvWq1M)
+
+
 # [quotes ✨](https://my.mindnode.com/xenLnUXMQeADRoGCU9uCj5HgesBkbxvMzrLfU2pN)
 
 
@@ -1408,6 +1415,28 @@
 ## redis
 
 ## varnish
+
+
+# history
+
+
+## events
+
+### brexit
+
+### cold war
+
+### russian revolution
+
+## wars
+
+### ww2
+
+### ww1
+
+## interesting
+
+### ancient cities
 
 
 # api
@@ -1440,28 +1469,6 @@
 ## threejs
 
 ## [jQuery](https://my.mindnode.com/dZX7Xtp1ytpBPG1BUWh9T9kw5s6xyEdD6xhM2sux)
-
-
-# history
-
-
-## events
-
-### brexit
-
-### cold war
-
-### russian revolution
-
-## wars
-
-### ww2
-
-### ww1
-
-## interesting
-
-### ancient cities
 
 
 # [data science](https://my.mindnode.com/hZxYy5JcsBx5xqyiGcde4vNmWSStHzn72tayCcrC)
@@ -1604,11 +1611,13 @@
 
 ### general
 
-- [code - hidden language of computer hardware and software ✨](https://my.mindnode.com/SMWybEjuyfYwHygskrv9PmDQGHsrgHvMDbUfEumY)
+- [code: hidden language of computer hardware and software ✨](https://my.mindnode.com/SMWybEjuyfYwHygskrv9PmDQGHsrgHvMDbUfEumY)
 
 - crafting interpreters
 
 - programming in the large with design patterns
+
+- [mindstorms: children, computers, and powerful ideas ✨](https://my.mindnode.com/yfE1ZsbauFCB2pBxurqxqUokQNsT5uqytxHQEhNx)
 
 ### haskell
 
