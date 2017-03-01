@@ -565,7 +565,7 @@
 
 - [apps ✨](https://my.mindnode.com/pceUr2MgaHaQpVPPTDzdWJp5RpphZVyzQy6QhyQC)
 
-	- [my setup ✨](%E2%9C%A8)
+	- [my setup ✨](https://my.mindnode.com/H1ejGz58APafNWf3s9MiD9E3CSpkxPTKapJSiNkA)
 
 ### windows
 

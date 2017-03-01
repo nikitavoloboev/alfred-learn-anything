@@ -1,4 +1,4 @@
-#[Download](https://github.com/nikitavoloboev/alfred-my-mindmaps/releases/download/1.4/research.alfredworkflow)
+#[Download](https://github.com/nikitavoloboev/alfred-my-mindmaps/releases/download/1.6/research.alfredworkflow)
 
 #Description
 - Search through my [Mind Maps](https://github.com/nikitavoloboev/research) with Alfred
