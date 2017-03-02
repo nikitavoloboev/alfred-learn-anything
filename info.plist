@@ -33,6 +33,16 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>38A419D1-CA6A-4160-AF17-652D6E7D0462</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 	</dict>
 	<key>createdby</key>
@@ -127,6 +137,89 @@ echo "&lt;/items&gt;"</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>readonly remote_info_plist='https://raw.githubusercontent.com/nikitavoloboev/alfred-my-mindmaps/master/info.plist' # URL of remote info.plist
+
+readonly workflow_url='https://github.com/nikitavoloboev/alfred-my-mindmaps/releases' # URL to directly download workflow or workflow download page
+
+readonly workflow_type='page' # Either 'workflow' if workflow_url points to direct download, or 'page' if it points to download page
+
+readonly frequency_check='15' # Days between update checks
+
+# FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED UNLESS YOU KNOW WHAT YOU ARE DOING
+function abort {
+  echo "${1}" &gt;&amp;2
+  exit 1
+}
+
+function url_exists {
+  curl --silent --location --output /dev/null --fail --range 0-0 "${1}"
+}
+
+function notification {
+  local readonly terminal_notifier="$(find . -name terminal-notifier.app)"
+
+  if [[ -n "${terminal_notifier}" ]]; then
+    "${terminal_notifier}"/Contents/MacOS/terminal-notifier -title "${alfred_workflow_name}" -subtitle 'A new version is available' -message "${1}"
+  else
+    osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
+  fi
+}
+
+# Local sanity checks
+readonly local_info_plist='info.plist'
+readonly local_version="$(/usr/libexec/PlistBuddy -c 'print version' "${local_info_plist}")"
+
+[[ -n "${local_version}" ]] || abort 'You need to set a workflow version in the configuration sheet.'
+[[ "${workflow_type}" =~ ^(workflow|page)$ ]] || abort "'workflow_type' (${workflow_type}) needs to be one of 'workflow' or 'page'."
+[[ "${frequency_check}" =~ ^[0-9]+$ ]] || abort "'frequency_check' (${frequency_check}) needs to be a number."
+
+# Check for updates
+if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
+  if ! url_exists "${remote_info_plist}"; then abort "'remote_info_plist' (${remote_info_plist}) appears to not be reachable."; fi # Remote sanity check
+
+  readonly tmp_file="$(mktemp)"
+  curl --silent --location --output "${tmp_file}" "${remote_info_plist}"
+  readonly remote_version="$(/usr/libexec/PlistBuddy -c 'print version' "${tmp_file}")"
+
+  if [[ "${local_version}" != "${remote_version}" ]]; then
+    if [[ "${workflow_type}" == 'page' ]]; then
+      notification 'Opening download page…'
+      open "${workflow_url}"
+    else
+      if url_exists "${workflow_url}"; then
+        notification 'Downloading and installing…'
+        curl --silent --location --output "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow" "${workflow_url}"
+        open "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow"
+      else
+        abort "'workflow_url' (${workflow_url}) appears to not be reachable."
+      fi # url_exists
+    fi # workflow_type
+  else
+    touch "${local_info_plist}" # Reset timer by touching local file
+  fi # diff
+fi #find</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>38A419D1-CA6A-4160-AF17-652D6E7D0462</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -153,87 +246,6 @@ echo "&lt;/items&gt;"</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string>readonly local_file='info.plist' # Local file to compare to remote_file
-readonly remote_file='https://github.com/nikitavoloboev/alfred-my-mindmaps/blob/master/info.plist' # Remote file (URL) to compare to local_file
-readonly workflow_url='https://someserver.tld/myworkflow.alfredworkflow' # URL to directly download workflow or workflow download page
-readonly workflow_type='workflow' # Either 'workflow' if workflow_url points to direct download, or 'page' if it points to download page
-readonly frequency_check='15' # Days between update checks
-
-# FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED UNLESS YOU KNOW WHAT YOU ARE DOING
-function abort {
-  echo "${1}" 1&gt;&amp;2
-  exit 1
-}
-
-function url_exists {
-  if curl --silent --location --output /dev/null --fail --range 0-0 "${1}"; then
-    return 0
-  else
-    return 1
-  fi
-}
-
-function notification {
-  local readonly terminal_notifier="$(find . -name terminal-notifier.app)"
-
-  if [[ -n "${terminal_notifier}" ]]; then
-    "${terminal_notifier}"/Contents/MacOS/terminal-notifier -title "${alfred_workflow_name}" -subtitle 'A new version is available' -message "${1}"
-  else
-    osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
-  fi
-}
-
-# Local sanity checks
-[[ ! -f "${local_file}" ]] &amp;&amp; abort "'local_file' ("${local_file}") appears to not point to an existing file."
-[[ ! "${workflow_type}" =~ ^(workflow|page)$ ]] &amp;&amp; abort "'workflow_type' ("${workflow_type}") needs to be one of 'workflow' or 'page'."
-[[ ! "${frequency_check}" =~ ^[0-9]+$ ]] &amp;&amp; abort "'frequency_check' ("${frequency_check}") appears to not be a number."
-
-# Check for updates
-if [[ $(find "${local_file}" -mtime +"${frequency_check}") ]]; then
-  if ! url_exists "${remote_file}"; then abort "'remote_file' ("${remote_file}") appears to not be reachable."; fi # Remote sanity check
-
-  readonly tmp_file="$(mktemp)"
-  curl --silent --location --output "${tmp_file}" "${remote_file}"
-
-  if [[ "$(diff "${local_file}" "${tmp_file}")" ]]; then
-    if [[ "${workflow_type}" == 'page' ]]; then
-      notification 'Opening download page…'
-      open "${workflow_url}"
-    else
-      if url_exists "${workflow_url}"; then
-        notification 'Downloading and installing…'
-        curl --silent --location --output "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow" "${workflow_url}"
-        open "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow"
-      else
-        abort "'workflow_url' ("${workflow_url}") appears to not be reachable."
-      fi # url_exists
-    fi # workflow_type
-  else
-    touch "${local_file}" # Reset timer by touching local file
-  fi # diff
-fi #find</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>C70E2DB4-5B27-45F9-9C85-76A6E4E8A456</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string>Big thank you to Vitor. (https://www.alfredforum.com/topic/10045-is-there-an-way-i-can-convert-a-markdown-file-of-hyperlink-into-a-script-filter-output/#comment-50546) 💚
@@ -241,54 +253,54 @@ fi #find</string>
 Without whom this workflow wouldn't exist.</string>
 	<key>uidata</key>
 	<dict>
+		<key>38A419D1-CA6A-4160-AF17-652D6E7D0462</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>note</key>
+			<string>OneUpdater</string>
+			<key>xpos</key>
+			<integer>410</integer>
+			<key>ypos</key>
+			<integer>210</integer>
+		</dict>
 		<key>696B8EE4-3E99-4B94-9CE5-02A0F6206C28</key>
 		<dict>
 			<key>note</key>
 			<string>change hotkey to what you prefer and connect it</string>
 			<key>xpos</key>
-			<integer>120</integer>
+			<integer>20</integer>
 			<key>ypos</key>
-			<integer>260</integer>
+			<integer>210</integer>
 		</dict>
 		<key>759BE8CA-EF83-48E7-937C-789EDA52ABCC</key>
 		<dict>
 			<key>note</key>
 			<string>I prefer external trigger and I call the applescript from Karabiner</string>
 			<key>xpos</key>
-			<integer>110</integer>
+			<integer>10</integer>
 			<key>ypos</key>
-			<integer>90</integer>
+			<integer>40</integer>
 		</dict>
 		<key>C3EEFA9C-3355-4A41-BA0F-8578FF6B4AB3</key>
 		<dict>
 			<key>note</key>
 			<string>or set a word trigger if you like</string>
 			<key>xpos</key>
-			<integer>300</integer>
+			<integer>200</integer>
 			<key>ypos</key>
-			<integer>150</integer>
-		</dict>
-		<key>C70E2DB4-5B27-45F9-9C85-76A6E4E8A456</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>12</integer>
-			<key>note</key>
-			<string>not working yet</string>
-			<key>xpos</key>
-			<integer>630</integer>
-			<key>ypos</key>
-			<integer>370</integer>
+			<integer>100</integer>
 		</dict>
 		<key>EA079DC5-416F-495C-B67D-95AEE3389338</key>
 		<dict>
 			<key>xpos</key>
-			<integer>580</integer>
+			<integer>480</integer>
 			<key>ypos</key>
-			<integer>60</integer>
+			<integer>10</integer>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string></string>
+	<string>1.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev</string>
 </dict>
