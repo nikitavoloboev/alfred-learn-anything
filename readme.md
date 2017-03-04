@@ -1,7 +1,5 @@
 #[Download](https://github.com/nikitavoloboev/alfred-my-mindmaps/releases/download/1.9/research.alfredworkflow)
 
-test 
-
 #Description
 - Search through my [Mind Maps](https://github.com/nikitavoloboev/research) with Alfred
 	- Just start the search and open the mind map that you were looking for fast, wherever you are
