@@ -1,4 +1,6 @@
-# optimisation
+# [research 🌍](https://my.mindnode.com/83qmKgoATj8TyKzprzsPfoirxa2g9WmFGx3xpr1J)
+
+# *optimisation*
 
 
 # [key 🔑](https://my.mindnode.com/Bd58ktc865sQoUvu6VyFYzYun87VmKseGhKNxp4q)
@@ -57,12 +59,12 @@
 # [autonomous driving](https://my.mindnode.com/ZgBM6kHzEvwvHyLBcvTdn9HWsGGTVXyFskppkZNn)
 
 
-# software development
+# [software development](https://my.mindnode.com/WgXAsAKvd4MsMLqxwqvbHuMVz4YYXqVkvZVtSwXB)
 
 
 ## [agile](https://my.mindnode.com/4hPUYtVtfLEL17EEecXhszyRpiM1pmjYec3i9ytr)
 
-## DevOps
+## [devops ✨](https://my.mindnode.com/ns3bCv8vPJrsDaq5koMfMsBZzJfRgeYqmy7SusxR)
 
 
 # transportation
@@ -124,13 +126,13 @@
 
 ## [kubernetes](https://my.mindnode.com/21syuSb9dYNWCvsd5xJV4ybfmxsx8LqWGXqM9xMe)
 
-## docker
-
-
-# [robotics](https://my.mindnode.com/aGwNAy62qd6FVsXxWG4utF95QSRsmypNtuKFzpdq)
+## [docker ✨](https://my.mindnode.com/3tDDSeJdpXeWHxU2L4mLyzpeAGLmCxepmMLWyu1R)
 
 
 # raspberry pi
+
+
+# [robotics](https://my.mindnode.com/aGwNAy62qd6FVsXxWG4utF95QSRsmypNtuKFzpdq)
 
 
 # [programming](https://my.mindnode.com/nyxpNazrso6eyV3M4RNGS9sUyXfNzTXq6pGhRYLZ)
@@ -156,6 +158,8 @@
 
 ## software verification
 
+## [dependency injection](https://my.mindnode.com/L1ZfeUJUTiLaJG9RUbE47q6QkDkYUxBGMA9URp2E)
+
 ## code generation
 
 ## syntax trees
@@ -167,6 +171,8 @@
 ## evaluation
 
 ## [memory](https://my.mindnode.com/wbRrdVuWerWQMHiPNrW7KdeLc9WFyz2EzBBQSgSd)
+
+## [type system ✨](https://my.mindnode.com/S5yqn46mnWuPPzHzQN5yaZPzoJ2gCfTbJWzJt4qZ)
 
 ## [competitive ✨](https://my.mindnode.com/HjzAcCjnzpEcL69NSNYigoEyVeDTUiXLsEh3nM6P)
 
@@ -233,7 +239,7 @@
 ## [functions](https://my.mindnode.com/at5pzEzjNgCrumussLaeqP8vDqXxHreY6WY5XEqB)
 
 
-# hardware
+# [hardware ✨](17:)
 
 
 ## cpu
@@ -302,9 +308,6 @@
 ## magenta
 
 
-# [regular expressions](https://my.mindnode.com/zVrHysMLguuXix8vG2Zqi1bhAY9ypnYLzhV3aChv)
-
-
 # [programming languages](https://my.mindnode.com/HTnD1sSqT7Ky43szTDTrstq7FqEFyU45VLj1j5zi)
 
 
@@ -371,6 +374,9 @@
 ## elixir
 
 ## [elm](https://my.mindnode.com/p3q2ypyBqdQ7rMejEr9xTuKQvWcMSss8xvkfpWUQ)
+
+
+# [regular expressions](https://my.mindnode.com/zVrHysMLguuXix8vG2Zqi1bhAY9ypnYLzhV3aChv)
 
 
 # embedded systems
@@ -749,8 +755,6 @@
 
 ## [cli programs](https://my.mindnode.com/sMNrKZZgN8KeLpFW3pLzJHEiQrrFtxmsXaibaj8e)
 
-### [web](https://my.mindnode.com/q98uzVXyzNgipxbkUpiQs3RAuwTxHxg4u81g2GXP)
-
 
 # 3d printing
 
@@ -827,12 +831,6 @@
 ## european union
 
 
-# pattern recognition
-
-
-# natural language processing
-
-
 # [blockchain](https://my.mindnode.com/Ey91pzzbeFtdJDWsViiZVLFkzxNTbFgTuwoyekAT)
 
 
@@ -851,6 +849,12 @@
 # architecture
 
 
+# pattern recognition
+
+
+# natural language processing
+
+
 # feelings
 
 
@@ -863,18 +867,30 @@
 ## love
 
 
+# life
+
+
+## artificial
+
+## origin of life
+
+
 # photography
 
 
-# management
+# [cryptocurrency](https://my.mindnode.com/Z4B2pqHmRYVzQetyii7pJwdJwAf5h4qwAGqopMKp)
 
 
-# cryptocurrency
+## [dash](https://my.mindnode.com/S3vg9ZoqGUDbQS9gQUufJHCVaWm3sbtx9nKBxhpy)
 
+## ripple
 
 ## [monero](https://my.mindnode.com/P9doYsT2FMAxG2eVVTJ6sSd8zYuthpNJe58CssPD)
 
 ## [bitcoin ✨](https://my.mindnode.com/B7Sr6JyuyXsVriEE3HfxGopDNqB7ydRZs1SA1rEn)
+
+
+# management
 
 
 # renewable energy
@@ -897,14 +913,6 @@
 ## epistemology
 
 
-# life
-
-
-## artificial
-
-## origin of life
-
-
 # creativity
 
 
@@ -918,6 +926,9 @@
 ## [interview tips](https://my.mindnode.com/hpsq3g5SNsmGWzAxsW9UzLNS11aVRvhbRSrPePxz)
 
 ## [behavioural questions](https://my.mindnode.com/qhp3LXKjsxDoUGN9v7wuMRw4zj9pNqsD9d6yCoyn)
+
+
+# [observations](https://my.mindnode.com/S1xd6joc1nT4hfrrNWpfZz5j3GED7MrpvLwwTqND)
 
 
 # ethics
@@ -983,7 +994,7 @@
 
 ## genetics
 
-### dna
+### [dna ✨](https://my.mindnode.com/eHJR69Qvm1maxCdSvqv4ahhjJYETkJmdVasGaEyt)
 
 ## [longevity](https://my.mindnode.com/2pP1tdxXxtxhNyhGy551fVEb1JN8XbS4R6qbQhNf)
 
@@ -1115,6 +1126,8 @@
 
 ## stocks
 
+## [trading ✨](https://my.mindnode.com/Ezm6G58yULabwwzxB8PxfzrDFsNyKT2P5RMbJEMW)
+
 ## financial market
 
 
@@ -1234,29 +1247,29 @@
 
 ## [interesting ✨](https://my.mindnode.com/ntqN4vyxqas9bjqqHsyxwseene1VhRUUSrum4x7z)
 
-### Tesla
+### tesla
 
-### Apple
+### apple
 
-- macbook
+- mac
 
 - iPhone
 
-### SpaceX
+### spacex
 
-### Google
+### google
 
 - [search](https://my.mindnode.com/f8kVtmise9Q9TicGf6Pcudge2GCfhGNpqK1GGZZs)
 
-### DeepMind
+### deepmind
 
 - alpha go
 
-### Amazon
+### amazon
 
-- aws
+- [aws ✨](https://my.mindnode.com/DaYrQ8ok2RVZ2mgW8sVewFDy8sWcdqqAg1QsyrB7)
 
-### Facebook
+### facebook
 
 
 # countries
@@ -1387,12 +1400,6 @@
 ## oceans
 
 
-# [distributed computing](https://my.mindnode.com/sEKHQbwqA8NCpJWSSttobDKJrLvoppdBtafUH17X)
-
-
-## petri nets
-
-
 # [courses ✨](https://my.mindnode.com/zNtYR1Q9fAEwWqCpZ52iQzk4xx2TnTuDsFY3C9fJ)
 
 
@@ -1417,6 +1424,12 @@
 ## iOS
 
 ### developing iOS 10 apps wth Swift
+
+
+# [distributed computing](https://my.mindnode.com/sEKHQbwqA8NCpJWSSttobDKJrLvoppdBtafUH17X)
+
+
+## petri nets
 
 
 # search engines
@@ -1451,7 +1464,7 @@
 # desktop applications
 
 
-## react native
+## [react native](https://my.mindnode.com/QHBq2aJ2sxw3d97ACSTR8tiqsbANfVYpXuDiDGx6)
 
 
 # full stack
@@ -1517,7 +1530,7 @@
 
 ## whitestorm.js
 
-## threejs
+## three.js
 
 ## [jQuery](https://my.mindnode.com/dZX7Xtp1ytpBPG1BUWh9T9kw5s6xyEdD6xhM2sux)
 
@@ -1528,6 +1541,8 @@
 ## angular
 
 ## [d3.js](https://my.mindnode.com/vpj5mM6Tpq4HbDet11qARQp9JqH9zxfv7wLkCKeZ)
+
+## vue.js
 
 
 # [data science](https://my.mindnode.com/hZxYy5JcsBx5xqyiGcde4vNmWSStHzn72tayCcrC)
@@ -1617,7 +1632,7 @@
 ## [playlists ✨](https://my.mindnode.com/gNxq3RNbBdjaBwGDXyUKhLpaf3yPRqws2p9CqpCD)
 
 
-# swift libraries
+# [swift libraries ✨](https://my.mindnode.com/JbqzJycnfpFsi3iAXHNDzSuJEEpgcYxK9nnW8Smo)
 
 
 ## vapor
@@ -1689,7 +1704,7 @@
 
 - [1980: mindstorms: children, computers, and powerful ideas ✨](https://my.mindnode.com/yfE1ZsbauFCB2pBxurqxqUokQNsT5uqytxHQEhNx)
 
-- 08: clean code
+- [08: clean code ✨](https://my.mindnode.com/mQuqEuaQ3EzsCiw9A2QxiEnG2ptY88s3f4Snix4f)
 
 ### haskell
 

@@ -58,25 +58,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>EA079DC5-416F-495C-B67D-95AEE3389338</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>triggerid</key>
 				<string>researchWebLinks</string>
 			</dict>
@@ -133,6 +114,25 @@ echo "&lt;/items&gt;"</string>
 			<string>C3EEFA9C-3355-4A41-BA0F-8578FF6B4AB3</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>EA079DC5-416F-495C-B67D-95AEE3389338</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -260,43 +260,43 @@ Without whom this workflow wouldn't exist.</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>410</integer>
+			<integer>610</integer>
 			<key>ypos</key>
-			<integer>210</integer>
+			<integer>260</integer>
 		</dict>
 		<key>696B8EE4-3E99-4B94-9CE5-02A0F6206C28</key>
 		<dict>
 			<key>note</key>
 			<string>change hotkey to what you prefer and connect it</string>
 			<key>xpos</key>
-			<integer>20</integer>
+			<integer>60</integer>
 			<key>ypos</key>
-			<integer>210</integer>
+			<integer>290</integer>
 		</dict>
 		<key>759BE8CA-EF83-48E7-937C-789EDA52ABCC</key>
 		<dict>
 			<key>note</key>
 			<string>I prefer external trigger and I call the applescript from Karabiner</string>
 			<key>xpos</key>
-			<integer>10</integer>
+			<integer>70</integer>
 			<key>ypos</key>
-			<integer>40</integer>
+			<integer>30</integer>
 		</dict>
 		<key>C3EEFA9C-3355-4A41-BA0F-8578FF6B4AB3</key>
 		<dict>
 			<key>note</key>
 			<string>or set a word trigger if you like</string>
 			<key>xpos</key>
-			<integer>200</integer>
+			<integer>360</integer>
 			<key>ypos</key>
-			<integer>100</integer>
+			<integer>40</integer>
 		</dict>
 		<key>EA079DC5-416F-495C-B67D-95AEE3389338</key>
 		<dict>
 			<key>xpos</key>
-			<integer>480</integer>
+			<integer>680</integer>
 			<key>ypos</key>
-			<integer>10</integer>
+			<integer>60</integer>
 		</dict>
 	</dict>
 	<key>version</key>
