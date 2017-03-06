@@ -1,6 +1,6 @@
 # [research 🌍](https://my.mindnode.com/83qmKgoATj8TyKzprzsPfoirxa2g9WmFGx3xpr1J)
 
-# *optimisation*
+# optimisation
 
 
 # [key 🔑](https://my.mindnode.com/Bd58ktc865sQoUvu6VyFYzYun87VmKseGhKNxp4q)
@@ -20,7 +20,7 @@
 
 ## design
 
-## genetic
+## [genetic](https://my.mindnode.com/Ro5LQq6dzpotuvR3EGq3npFmXsFJQcg3W2t7VNFq)
 
 ## sorting
 
@@ -37,9 +37,6 @@
 ## [big O ✨](https://my.mindnode.com/vXDjQixcGsWDxqrMnJDnsrkoxg3GYFNon4B8q3vc)
 
 
-# cars
-
-
 # security
 
 
@@ -51,6 +48,9 @@
 
 
 # [privacy](https://my.mindnode.com/WfU199kJZjWxNjs5pSqXDB1hgdhRYDnGstVLpP5v)
+
+
+# cars
 
 
 # [data structures ✨](https://my.mindnode.com/wFP5M2WyuNoFEtCaV8osgMJiYDydghpVJQCn9SUb)
@@ -70,13 +70,13 @@
 # transportation
 
 
-# aircraft
-
-
 # computer vision
 
 
 ## image recognition
+
+
+# aircraft
 
 
 # [cellular automata](https://my.mindnode.com/7WxM6UNViGoDE4qpgePBpQyyWURAuSzVLa7zQzEL)
@@ -177,6 +177,18 @@
 ## [competitive ✨](https://my.mindnode.com/HjzAcCjnzpEcL69NSNYigoEyVeDTUiXLsEh3nM6P)
 
 
+# [hardware ✨](https://my.mindnode.com/rnXcxGZ1LQGdHupqvXTsZpgVh4fpgxia5Ke3y6bM)
+
+
+## cpu
+
+## cache
+
+## gpu
+
+### [cuda](https://my.mindnode.com/UzsD8fPyLmedeobRhtjqAygoxdZn9fD86WtFfAVS#-242.9,-144.7,2)
+
+
 # [math ✨](https://my.mindnode.com/JjwuFxXNpusrHpkmfSy9BEqcnbLCFmrqWux5vpby)
 
 
@@ -200,7 +212,7 @@
 
 ### [euclidean space](https://my.mindnode.com/4p6W9xqHA9cq6zPThMs28tXqdxMpLySs24oBbt1a)
 
-## calculus
+## [calculus ✨](https://my.mindnode.com/aRxaYgpsEdv7zBzcsqTPhZ8C4CJ8VzcPGHUGFCwF)
 
 ## [discrete](https://my.mindnode.com/qAia4zcscPtDYjpE6YSHdC5uCzayQGgA3qz87zqm)
 
@@ -238,17 +250,7 @@
 
 ## [functions](https://my.mindnode.com/at5pzEzjNgCrumussLaeqP8vDqXxHreY6WY5XEqB)
 
-
-# [hardware ✨](17:)
-
-
-## cpu
-
-## cache
-
-## gpu
-
-### [cuda](https://my.mindnode.com/UzsD8fPyLmedeobRhtjqAygoxdZn9fD86WtFfAVS#-242.9,-144.7,2)
+## [modularity ✨](https://my.mindnode.com/kXvXxFpeskVny5UVsqjDbnpxdyH6UJbyzxYsAx4o)
 
 
 # build systems
@@ -260,7 +262,7 @@
 # [emulation](https://my.mindnode.com/wKPccGXqDxbUMndMp1nPVs1NbzhzcmsqKzBDyXWx#477.8,-480.0,2)
 
 
-# [kernel](https://my.mindnode.com/seT1fnsza7kbPqFxSaXymT1ptXwspcCp2Co1t6bW#-16.0,-9.4,2)
+# [kernel ✨](https://my.mindnode.com/AHxRjbJxZMr2ZQPeXFc2JPND2XsJ4SoSajx1xevy)
 
 
 ## [linux ✨](https://my.mindnode.com/L1yZKtwKzVawvuyuw3T1JtAeyhdi8CU3bUpPoBV4)
@@ -313,7 +315,7 @@
 
 ## [c](https://my.mindnode.com/83qUPxVDd3qDGsELcxQMso1puBK2qLJYxtCRGAxq)
 
-## [c ++](https://my.mindnode.com/9oZtfTuQRRDK7pbfzUB2Y4Hnzs4KntasHsPGwWMq)
+## [c++](https://my.mindnode.com/9oZtfTuQRRDK7pbfzUB2Y4Hnzs4KntasHsPGwWMq)
 
 ## c#
 
@@ -379,6 +381,12 @@
 # [regular expressions](https://my.mindnode.com/zVrHysMLguuXix8vG2Zqi1bhAY9ypnYLzhV3aChv)
 
 
+# [gamedev ✨](https://my.mindnode.com/4WK2HzQ2xQpJhVqrN6x3yQ7W5qNAxjHpsophZZHC)
+
+
+## [unity ✨](%E2%9C%A8)
+
+
 # embedded systems
 
 
@@ -386,9 +394,6 @@
 
 
 # reverse engineering
-
-
-# [gamedev ✨](https://my.mindnode.com/4WK2HzQ2xQpJhVqrN6x3yQ7W5qNAxjHpsophZZHC)
 
 
 # [virtual machines](https://my.mindnode.com/yYb2h4qJrcC6xq553ubAqbW1hg7dTXV7Xxpz13vn)
@@ -429,6 +434,16 @@
 
 
 ## layouts
+
+
+# [humans](https://my.mindnode.com/tLYktNZGB4FejomDqCZh1MP7FSatjo1qcGpqhzsc)
+
+
+## [interesting ✨](https://my.mindnode.com/JkCzDZMnAGwz3Jsgsaqs8sJzAHR9UUFpVUwbVPra)
+
+### [github ✨](https://my.mindnode.com/f48PASRwBtphdfGccehnzpqXsBTCCRvuyffBtrr8)
+
+## [richest](https://my.mindnode.com/PzvpujT1DgzLs8WNZsSUzjDUSyx1GWE8x4pfN3th)
 
 
 # [computer science ✨](https://my.mindnode.com/LRaxUSscM1rqezzRkuQ3bFayE5bxfUFt22zgK1K2)
@@ -488,7 +503,7 @@
 
 - [workflows ✨](https://my.mindnode.com/88LJ6kp9RsKLUzBQmhHN79G7yyxuUHSHLsfzkWbK)
 
-- my layout
+- [my layout](https://my.mindnode.com/sF1i33RqWrYAWD2H48mg7UeFMJPFKRnEVaQAwoJs)
 
 ### km
 
@@ -529,6 +544,9 @@
 ## [ray tracing ✨](https://my.mindnode.com/pQxkyFqpQ8dynpcFaR2Nbz5VvrfsvpBYo9puGTwa)
 
 
+# culture
+
+
 # [games ✨](https://my.mindnode.com/p2uXbTppku2BpKpqVg7ssA3Dgshyy2zGNhUUDW71)
 
 
@@ -551,9 +569,6 @@
 ### [counter strike](https://my.mindnode.com/t17mZNVbgfHyPdT5UrokGrnZswvyjxzyizpfWnuC)
 
 ### [factorio](https://my.mindnode.com/38rFUTpJSrez6m4w4gAsZgbPWsWdv1hzMc8QcRqq)
-
-
-# [anthropology](https://my.mindnode.com/CaaurWHZJ1Dii1hsx81N6wNY7VZT5xVhjeUqMxq5#-39.3,-23.0,2)
 
 
 # [operating systems](https://my.mindnode.com/jzpMbRePxmDJJaUH6pbVxjJqd1zwXpexYjAsWD79)
@@ -594,23 +609,23 @@
 ## [git ✨](https://my.mindnode.com/TN2aYRpMdhpZfcqqCeaK4tbSjaVYFDJupN9UYZBS)
 
 
-# culture
-
-
 # signal processing
 
 
-# humans
-
-
-## [interesting humans ✨](https://my.mindnode.com/PsEP2wTxvER5DHswwhchyEVSeCXgMVxwwbnpp1z7)
-
-### [github ✨](https://my.mindnode.com/XAEAkzAvts7vjWMhQ8HeVzrbWkNHsRAjxxQvML6K)
-
-## [richest humans](https://my.mindnode.com/QWJe3xY5u9dYAfvZW3HViT4oQGrmShq1XF4Ppdgn)
-
-
 # quantum computing
+
+
+# [anthropology](https://my.mindnode.com/CaaurWHZJ1Dii1hsx81N6wNY7VZT5xVhjeUqMxq5#-39.3,-23.0,2)
+
+
+# [databases](https://my.mindnode.com/Ph6tV2dyFKkmVG5XZr1tzsCoBkPFN2YM32tijBWt)
+
+
+## mySQL
+
+## [cassandra](https://my.mindnode.com/Ymc3et2faMV1TMAzy4q6V7oJxqXufyJ81JULgEFs)
+
+## database design
 
 
 # [physics ✨](https://my.mindnode.com/ZZyhmxBzdPQeqcZjsp7RasytP4SEBWWpXRg6hT93)
@@ -659,20 +674,10 @@
 ## desalination
 
 
-# [databases](https://my.mindnode.com/Ph6tV2dyFKkmVG5XZr1tzsCoBkPFN2YM32tijBWt)
-
-
-## mySQL
-
-## [cassandra](https://my.mindnode.com/Ymc3et2faMV1TMAzy4q6V7oJxqXufyJ81JULgEFs)
-
-## database design
+# [open source ✨](https://my.mindnode.com/fUS8UzoVqq438SCBhimjPJxwKs1YEw2Te2mPhDdi)
 
 
 # [psychology](https://my.mindnode.com/wUgQ9eTCyksJgNBez6nWVuVQCShpgaUuqnroZWYE)
-
-
-# [open source ✨](https://my.mindnode.com/fUS8UzoVqq438SCBhimjPJxwKs1YEw2Te2mPhDdi)
 
 
 # productivity
@@ -698,18 +703,6 @@
 ## [quantum mechanics](https://my.mindnode.com/2c7cnk5x4YZa3SEMhjQkxy2xDtZFj8sKNqsx9Xem)
 
 
-# [automation](https://my.mindnode.com/Bfq2QFjUmvbfB1P5kh8JiTawugNaSfuohrqS9Uzo)
-
-
-# licensing
-
-
-## apache
-
-
-# [config](https://my.mindnode.com/3ioEsx8TAoXL6q1GssBscswypFSfAYofzF4c1yhN)
-
-
 # [websites](https://my.mindnode.com/y4oVGAm2vzypkm3sxqzxVySu5VzN8bRhzRzPQeLs)
 
 
@@ -733,7 +726,21 @@
 
 ## favourite
 
+## [youtube ✨](https://my.mindnode.com/piRNM8PKy63o8mfspx8pXa2n2PEaBgF7BfhguJqs)
+
 ## [inspiration](https://my.mindnode.com/Jqqn15kcJ8z125x5fHwjSF7VtXxMVG5BAxyJh52S)
+
+
+# [automation](https://my.mindnode.com/Bfq2QFjUmvbfB1P5kh8JiTawugNaSfuohrqS9Uzo)
+
+
+# licensing
+
+
+## apache
+
+
+# [config](https://my.mindnode.com/3ioEsx8TAoXL6q1GssBscswypFSfAYofzF4c1yhN)
 
 
 # shells
@@ -817,6 +824,8 @@
 ## [neurotransmitters](https://my.mindnode.com/qcoqRoDpkRevTy2cZ86PRhtA5sqcpcyGVKbp2Kdp)
 
 ### serotonin
+
+### [dopamine](https://my.mindnode.com/xqZQ2ozXsuY5QCuzC8atUWaBfsFSVcHtEyHRWbcs)
 
 ## [cognition](https://my.mindnode.com/xyMqiupnAsbdKJNzaTg4k2Dgim7qHsFwhuBYSRJk)
 
@@ -1011,7 +1020,7 @@
 ## biomimetics
 
 
-# operations research
+# [newsletters ✨](https://my.mindnode.com/SkDXNhQeqqzYgykAMbuxc59MYvbh42TzDFYaphRk)
 
 
 # linguistics
@@ -1040,9 +1049,6 @@
 ## audio
 
 ## speech
-
-
-# [newsletters ✨](https://my.mindnode.com/SkDXNhQeqqzYgykAMbuxc59MYvbh42TzDFYaphRk)
 
 
 # [advice ✨](https://my.mindnode.com/mUBqDGqqUnz2up9oz3Q55NzAQfcc3tDER3vyH7XG)
@@ -1078,6 +1084,25 @@
 # fonts
 
 
+# lessons
+
+
+## [personal ✨](https://my.mindnode.com/Jv6jsM6kGM9SjANr2XLj6hgnxhkzEUeazJyoVRmv)
+
+
+# operations research
+
+
+# human anatomy
+
+
+## [brain](https://my.mindnode.com/YP8Gcxehvsod63hrUX7SKmrmJKJsqTsymJf3ECo8)
+
+### limbic system
+
+## body
+
+
 # [live talks ✨](https://my.mindnode.com/znwExkuKqke9AbcpU64fzndbqVx8MwXPhGsSJttx)
 
 
@@ -1093,22 +1118,6 @@
 ## tuberculosis
 
 
-# humans
-
-
-## [brain](https://my.mindnode.com/YP8Gcxehvsod63hrUX7SKmrmJKJsqTsymJf3ECo8)
-
-### limbic system
-
-## body
-
-
-# lessons
-
-
-## [personal ✨](https://my.mindnode.com/Jv6jsM6kGM9SjANr2XLj6hgnxhkzEUeazJyoVRmv)
-
-
 # economics
 
 
@@ -1118,7 +1127,7 @@
 
 ## basic income
 
-## capitalism
+## [capitalism ✨](https://my.mindnode.com/QEL5z6FiGHaMFs7C9hyTK7soCB59fXpQj7s9xtng)
 
 ## investing
 
@@ -1129,6 +1138,8 @@
 ## [trading ✨](https://my.mindnode.com/Ezm6G58yULabwwzxB8PxfzrDFsNyKT2P5RMbJEMW)
 
 ## financial market
+
+## [communism](https://my.mindnode.com/xv9RWdhRfTUxFiLe25EiqjbsssJLgP5u7pyYgJCY)
 
 
 # fitness
@@ -1215,10 +1226,24 @@
 # [universe](https://my.mindnode.com/W2fPJssX4R4APsFNJaLRk6xVk5eysLHrCwtfjsQy)
 
 
+# [research papers ✨](https://my.mindnode.com/cDDmGwdsnghQCAYGz8s9Eio5M8mK7nPoxSsg1usy)
+
+
+## [web](https://my.mindnode.com/Kkam7na79qaY1Vn41gpwbzV1tW5DpJzSHyryLWKM)
+
+## [math](https://my.mindnode.com/xrVig6mv5mRvNGSgD5vp2bbvUNbgW6QaHEjzVRy4)
+
+## [machine learning](https://my.mindnode.com/KnxHHqeyGXr5Z7BcYAyFbY3z7dpQawANPytSfLi3)
+
+## [computer science](https://my.mindnode.com/1zJ1MKc1gWksgrF7apzqxVBmZo3XszNepTo37PcZ)
+
+## [other](https://my.mindnode.com/pzqbpqnzFJUMNCp9aCGxAXziPDQHbGhKJmfcFa3s)
+
+
 # [health](https://my.mindnode.com/qEhyRseqgzLSpyxSXMSRFTFAcnmx5R54qC34V81X)
 
 
-## nutrition
+## [nutrition ✨](https://my.mindnode.com/KxGQpeGpwRvAYNWaKy7U7pvnxivHzfoU9x73txyL)
 
 ### [drinks](https://my.mindnode.com/QnYKDwuFgWReEQ3uZDMNexpJDsYbi4pqNppiRCbD)
 
@@ -1290,18 +1315,6 @@
 ### russia
 
 ### china
-
-
-# [research papers ✨](https://my.mindnode.com/cDDmGwdsnghQCAYGz8s9Eio5M8mK7nPoxSsg1usy)
-
-
-## [web](https://my.mindnode.com/Kkam7na79qaY1Vn41gpwbzV1tW5DpJzSHyryLWKM)
-
-## [math](https://my.mindnode.com/xrVig6mv5mRvNGSgD5vp2bbvUNbgW6QaHEjzVRy4)
-
-## [machine learning](https://my.mindnode.com/KnxHHqeyGXr5Z7BcYAyFbY3z7dpQawANPytSfLi3)
-
-## [computer science](https://my.mindnode.com/1zJ1MKc1gWksgrF7apzqxVBmZo3XszNepTo37PcZ)
 
 
 # protocols
@@ -1376,30 +1389,6 @@
 # serverless architecture
 
 
-# [videos ✨](https://my.mindnode.com/j4pxmdo514Lw74iftpWjeyHXttYqUnrvPdpQFqTE)
-
-
-# front end 
-
-
-# backend
-
-
-## node.js
-
-
-# comedy
-
-
-## standups
-
-
-# earth
-
-
-## oceans
-
-
 # [courses ✨](https://my.mindnode.com/zNtYR1Q9fAEwWqCpZ52iQzk4xx2TnTuDsFY3C9fJ)
 
 
@@ -1424,6 +1413,30 @@
 ## iOS
 
 ### developing iOS 10 apps wth Swift
+
+
+# [videos ✨](https://my.mindnode.com/j4pxmdo514Lw74iftpWjeyHXttYqUnrvPdpQFqTE)
+
+
+# [front end  ✨](https://my.mindnode.com/GmpAxt9xAYKbFuqj1rrY3NGxiCQxxVp1teNvfVZc)
+
+
+# backend
+
+
+## [node.js](https://my.mindnode.com/5iqRf7zVt3zQq1S8myXgBvddPBMz6TisgQSJWyxU)
+
+
+# comedy
+
+
+## standups
+
+
+# earth
+
+
+## oceans
 
 
 # [distributed computing](https://my.mindnode.com/sEKHQbwqA8NCpJWSSttobDKJrLvoppdBtafUH17X)
@@ -1556,7 +1569,13 @@
 ## sinatra
 
 
-# writing
+# projects
+
+
+## ideas
+
+
+# [writing ✨](https://my.mindnode.com/f3ZYPTxJGgYsLpZrxHt3mqKJSNw8fut2yviamU2J)
 
 
 ## [poetry ✨](https://my.mindnode.com/4x6m1v6SfirRyVZFonNjS1BksMY6z43cR7dJ2qui)
@@ -1578,12 +1597,6 @@
 ## [brew ✨](https://my.mindnode.com/HupczCvRxy6bPrsextNpdkRmez2xxm2a3VyDEpmA)
 
 
-# projects
-
-
-## ideas
-
-
 # music creation
 
 
@@ -1592,6 +1605,12 @@
 ### [tabs](https://my.mindnode.com/cPqzxbqk482g8FxbuhJz3NcWouyudmCp8Cm4XGRL)
 
 ## [sonic pi ✨](https://my.mindnode.com/iQZyMeouRxBfbgDW443mhkE5JwbpyDUT7LHJtXLH)
+
+
+# practice
+
+
+## [programming](https://my.mindnode.com/XVKPw7bLpLTzXUnqPf8QYU7mNVxwxdq8Zc316wJQ)
 
 
 # python libraries
@@ -1608,10 +1627,10 @@
 ## russian
 
 
-# practice
+# [interactive computing](https://my.mindnode.com/gjYfbXP9TBy15gGRHZ6c9pyEBRQyc6fcpMMzecpR)
 
 
-## [programming](https://my.mindnode.com/XVKPw7bLpLTzXUnqPf8QYU7mNVxwxdq8Zc316wJQ)
+## jupyter
 
 
 # [images ✨](https://my.mindnode.com/mTasm9Ay8VtFs7fHRPDUSdEMqHExtjpcgwjBeUTC)
@@ -1622,16 +1641,6 @@
 ## [unix](https://my.mindnode.com/srUddqC3qm9UJvojowyfrW7xLEeWyrrRqqWteLJz)
 
 
-# music
-
-
-## [interesting artists ✨](https://my.mindnode.com/hFXXqZLJitAvi3eRPEMyxZpRMaxuXs5BaiYzynMG)
-
-## [interesting songs](https://my.mindnode.com/WPtnmfxmn1q6VQPpCLLZ5ttVms59ktcG7yUnrLpg)
-
-## [playlists ✨](https://my.mindnode.com/gNxq3RNbBdjaBwGDXyUKhLpaf3yPRqws2p9CqpCD)
-
-
 # [swift libraries ✨](https://my.mindnode.com/JbqzJycnfpFsi3iAXHNDzSuJEEpgcYxK9nnW8Smo)
 
 
@@ -1640,6 +1649,16 @@
 ## [perfect](https://my.mindnode.com/mSag1P8wZHT8JsRSJK5CuksJDqD5h48Lfp8aHESw)
 
 ## RxSwift
+
+
+# [music](https://my.mindnode.com/s1yqBsysNDnQBwAxR9RxyNVWekCa6B9TxjaDFpf2)
+
+
+## [interesting artists ✨](https://my.mindnode.com/hFXXqZLJitAvi3eRPEMyxZpRMaxuXs5BaiYzynMG)
+
+## [interesting songs](https://my.mindnode.com/WPtnmfxmn1q6VQPpCLLZ5ttVms59ktcG7yUnrLpg)
+
+## [playlists ✨](https://my.mindnode.com/gNxq3RNbBdjaBwGDXyUKhLpaf3yPRqws2p9CqpCD)
 
 
 # [go packages](https://my.mindnode.com/Qmi4PvTyjvnguuqwWoY3XJpeEy38jrZyv7kx9rgw)
@@ -1660,6 +1679,9 @@
 ## markdown
 
 
+# [shower thoughts ✨](https://my.mindnode.com/PEvsddHKXz8sETiqPHxZBsEnPZtAUHMhKmQp2SF1)
+
+
 # [java libraries](https://my.mindnode.com/GuUQLsBqRgry9KynyWUWpQERc1CpBQJHFhDWkkkg)
 
 
@@ -1673,6 +1695,28 @@
 
 
 ## programming 
+
+### general
+
+- [1999: code: hidden language of computer hardware and software ✨](https://my.mindnode.com/SMWybEjuyfYwHygskrv9PmDQGHsrgHvMDbUfEumY)
+
+- 15: crafting interpreters
+
+- 12: programming in the large with design patterns
+
+- [1980: mindstorms: children, computers, and powerful ideas ✨](https://my.mindnode.com/yfE1ZsbauFCB2pBxurqxqUokQNsT5uqytxHQEhNx)
+
+- [08: clean code ✨](https://my.mindnode.com/mQuqEuaQ3EzsCiw9A2QxiEnG2ptY88s3f4Snix4f)
+
+- 11: the art of readable code: simple and practical techniques for writing better code
+
+- 1979: structure and interpretation of computer programs
+
+- 1999: the pragmatic programmer
+
+- [1999: refactoring](https://my.mindnode.com/WZyRVRx5r5rAQnDpiZnvYFYjgVqNWMe5c2ap12Dm)
+
+- [10: apprenticeship patterns](https://my.mindnode.com/aKDoUJ6xZcLhqLxQPD2KhMQzLyaSQVuAQccycj71)
 
 ### go
 
@@ -1690,21 +1734,19 @@
 
 - [13: data structures and algorithms in python](https://my.mindnode.com/w1m9U8sjiuyBpvwpACExp6p7gcqHYjNz7NsxkqUE)
 
+- [14: test driven development with python](https://my.mindnode.com/1NuKTSCxb8dihLi5s7RyPTTyofLxxy1fRz7ky85a)
+
+- 15: effective python
+
+- 15: fluent python
+
 ### java
 
 - 01: effective java
 
-### general
+### lisp
 
-- [1999: code: hidden language of computer hardware and software ✨](https://my.mindnode.com/SMWybEjuyfYwHygskrv9PmDQGHsrgHvMDbUfEumY)
-
-- 15: crafting interpreters
-
-- 12: programming in the large with design patterns
-
-- [1980: mindstorms: children, computers, and powerful ideas ✨](https://my.mindnode.com/yfE1ZsbauFCB2pBxurqxqUokQNsT5uqytxHQEhNx)
-
-- [08: clean code ✨](https://my.mindnode.com/mQuqEuaQ3EzsCiw9A2QxiEnG2ptY88s3f4Snix4f)
+- [1974: the little schemer](https://my.mindnode.com/Ew12qsKsWLxWPhaeAkD1vcecyyoo4XFrAB6eqM2t)
 
 ### haskell
 
@@ -1716,7 +1758,11 @@
 
 - [08: cracking the coding interview ✨](https://my.mindnode.com/q56HqUGVibyi8s7MyfVye2cesSoyDndHTpoXEigv)
 
-- elements of programming interviews
+- 12: elements of programming interviews
+
+### javascript
+
+- you don’t know js: up and going ✨✔
 
 ### swift
 
@@ -1726,13 +1772,53 @@
 
 - 13: confident ruby
 
+### smalltalk
+
+- 1997: smalltalk best practice patterns
+
 ### ios
 
 - [15: ios 10 programming fundamentals with swift ✨](https://my.mindnode.com/nqqqvfLsMU38U1Fj6qie3QDQFW3v5gjj1dTqqiza)
 
+### vim
+
+- 12: practical vim
+
+### git
+
+- 14: git in practice
+
 ## algorithms
 
 ### 1990: introduction to algorithms
+
+### 1987: algorithm design manual
+
+### [05: algorithm design](https://my.mindnode.com/9LNaDUqpHqPZAT3uVxjeumMScWLmJyh13FXMrcrJ)
+
+## mindset
+
+### 1936: how to win friends and influence people
+
+### 1937: think and grow rich
+
+### 2014: a mind for numbers: how to excel at math and science ✨✔
+
+### 2011: models ✨✔
+
+## finance
+
+### [1997: rich dad poor dad ✨](https://my.mindnode.com/Qv9ZXvz3yLTDzCLEEgzsTMy1pMesidPSRzWUhNzA)
+
+### 1926: the richest man in babylon
+
+## economics
+
+### [1867: capital](https://my.mindnode.com/5sjd2MzaFJVsbGErUExeLV4kw7GY6q2mZqav7V99)
+
+### 1917: imperialism, the highest stage of capitalism
+
+### 1953: the worldly philosophers
 
 ## physics
 
@@ -1744,9 +1830,25 @@
 
 ### [1994: artificial intelligence a modern approach](https://my.mindnode.com/8ok1w3MLy4TzxZEmanaxmLnHyR8MP4DVpdmKPyB1)
 
+## machine learning
+
+### [deep learning ✨](http://www.deeplearningbook.org/)
+
 ## math
 
 ### [1989: proofs and types](https://my.mindnode.com/WZ64AvXuxwKWhEySkkqzFVmZpL52XvTk8DgNoZ7y)
+
+### [linear algebra](https://my.mindnode.com/xqq1Q4pr7mXuLU2zrifTrSsLYLXLCxJY99c77rAv)
+
+### [17: mathematics for computer science](https://my.mindnode.com/MfRwcmjFzj9khs9N6kgqfQqQHCGpkN5uVPtoE1yU)
+
+### [invitation to ergodic theory](https://my.mindnode.com/xGoRE9DY9RiiJwNJcfprC5zn95RfsnEDijCdQYc4)
+
+### 1999: geometry and the imagination
+
+### 12: foundations of analysis
+
+### 09: essentials of discrete mathematics
 
 ## cs
 
@@ -1754,15 +1856,91 @@
 
 ### 05: the elements of computing systems
 
+### 11: the nature of computation
+
+### 1989: the turing omnibus
+
+### 1996: introduction to the theory of computation
+
+### [02: types and programming languages](https://my.mindnode.com/xMFn66c9gWpFtNbFbQVUyQyUL7dnoqzxMv6TUqph)
+
+### [04: advanced topics in types and programming languages](https://my.mindnode.com/QVgt5LMzTSQqBRvPwC2ct5QMDzsXpqntgfVrC4qN)
+
+## data science
+
+### [14: designing data intensive applications](https://my.mindnode.com/xgazkstoTxKmzb1SFsc1kUJsaPzy2gCpE8xERbCy)
+
+## management
+
+### 1975: the mythical man-month
+
+## compilers
+
+### advanced compiler design and implementation
+
+## gamedev
+
+### 03: tricks of the 3D game programming gurus-advanced 3D graphics and rasterisation
+
 ## bio
 
 ### [1984: surely you’re joking mr Feynman ✨](https://my.mindnode.com/7iz6fHqthxvqyncW6G6uhz3zpPwxihVNgXAJWV8X)
 
+## memoirs
+
+### 2014: a thousand tiny failures: memoirs of a pickup artist ✔
+
 ## fiction
 
+### 1890: the picture of dorian gray ✨✔
+
 ### [1932: brave new world](https://my.mindnode.com/GWS9opvUosRWojTPxiajDbwRxjRH1SJfRHG2Hd5b)
+
+### [1959: flowers for algernon ✨✔](https://my.mindnode.com/HnYCLfb3q3xZCVswbafBfoMeDKngVCT1jaa8vYyh)
+
+### 1925: heart of a dog ✨✔
+
+### 1967: master and margarita ✨✔
+
+### 1972: roadside picnic ✨✔
+
+### 1892: the yellow wallpaper  ✔
+
+### 1954: the doors of perception ✨
+
+### 1949: nineteen eighty-four ✨
+
+### 1943: the glass bead game
+
+### 1981: the soul of new machine
+
+## short stories
+
+### [1956: the last question ✨✔](https://my.mindnode.com/qrGA3PyEVxWZDisJ8dxpz9J7eJTbdqYLLXPnBND4)
+
+### 1943: the little prince ✨✔
+
+### 1991: understand ✨✔
+
+### [2005: the fable of the dragon-tyrant ✨✔](https://my.mindnode.com/jYyp4tzqcpUdapyqQsDSTm8orzBNcMmByq13i2UH)
+
+### 1998: story of your life
+
+## history
+
+### 1986: the making of atomic bomb
 
 ## philosophy
 
 ### [1979: godel, escher, bach ✨](https://my.mindnode.com/SKWBeinTesSXaXSMJ4h8DpEamjQWUcpvZAgsuMgp)
+
+## operating systems
+
+### 1983: operating system concepts
+
+### 1992: modern operating systems
+
+## neuroscience
+
+### [01: molecular basis of neuropharmacology: a foundation for clinical neuroscience](https://my.mindnode.com/ryVUUpnoDx9mYcpXqJVkzdMH9MeyESsy5fWuSnN1)
 
