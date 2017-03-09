@@ -1,6 +1,6 @@
 # [research 🌍](https://my.mindnode.com/83qmKgoATj8TyKzprzsPfoirxa2g9WmFGx3xpr1J)
 
-# optimisation
+# [optimisation ✨](https://my.mindnode.com/aqCYNVg8zpTyucszsAz9s9Czc8mByzDXiCnTjthY)
 
 
 # [key 🔑](https://my.mindnode.com/Bd58ktc865sQoUvu6VyFYzYun87VmKseGhKNxp4q)
@@ -37,7 +37,7 @@
 ## [big O ✨](https://my.mindnode.com/vXDjQixcGsWDxqrMnJDnsrkoxg3GYFNon4B8q3vc)
 
 
-# security
+# [security ✨](https://my.mindnode.com/3jFXER7sziCXC5N1dQTg81jhkMdgZGypTXicggQc)
 
 
 ## [penetration testing ✨](https://my.mindnode.com/fvq398jYzvAdQ4T1cmKnX7vDyyHkooRTyufF49w8)
@@ -76,13 +76,18 @@
 ## image recognition
 
 
-# aircraft
-
-
 # [cellular automata](https://my.mindnode.com/7WxM6UNViGoDE4qpgePBpQyyWURAuSzVLa7zQzEL)
 
 
+# aircraft
+
+
 # cloud hosting
+
+
+## [aws ✨](https://my.mindnode.com/DaYrQ8ok2RVZ2mgW8sVewFDy8sWcdqqAg1QsyrB7)
+
+## google cloud
 
 
 # [artificial intelligence ✨](https://my.mindnode.com/Zf9GpxWxJQsySjHW1ygC5DDP3aE5PowqnpegAike)
@@ -119,12 +124,12 @@
 ## XFS
 
 
-# software deployment
+# [software deployment ✨](https://my.mindnode.com/JHNueMJWFJbZJiHzQdzuY5G8TWBZW4xzEKU19xTx)
 
 
 ## [microservices](https://my.mindnode.com/u79EngB79DqdaYsAzDkGycjBWGAphxDbZp1JpyEx)
 
-## [kubernetes](https://my.mindnode.com/21syuSb9dYNWCvsd5xJV4ybfmxsx8LqWGXqM9xMe)
+## [kubernetes ✨](https://my.mindnode.com/YJ9t85qWRsBsbnJCxj3rvTZPSsrXs62qmKbLv97s)
 
 ## [docker ✨](https://my.mindnode.com/3tDDSeJdpXeWHxU2L4mLyzpeAGLmCxepmMLWyu1R)
 
@@ -240,6 +245,10 @@
 
 ## [theories](https://my.mindnode.com/DxRPEnem49ZwUxyTnfijwE5Mi9gFjN4dBZ2xgy25)
 
+## [fractals ✨](https://my.mindnode.com/8suTHRqawXHqDPGAVYsxCAfbRQo6ZcGvCPvZ5vkp)
+
+## [visualisation](https://my.mindnode.com/KHZZzzkuqLypx2RZzhfLzW8xySgmnD9pkj4piYnG)
+
 ## lambda calculus
 
 ## game theory 
@@ -319,13 +328,15 @@
 
 ## c#
 
+## [python ✨](https://my.mindnode.com/qoU3LqJjWdq5XGVcs4zasUmguyEX6iqyE9zuEKdg#787.9,-1184.3,2)
+
+### [cpython](https://my.mindnode.com/zjVZkR2hejWk3qfEjCys3Fyhx9W9XJDZ9ZwLisQa)
+
 ## [objc ✨](https://my.mindnode.com/66qabf7Zyssep6qqzHE6b4pafuzxxaiVyBpg9SQ9)
 
 ## [swift ✨](https://my.mindnode.com/ytMugWzTWi9FU2ysEdmKetyucqbdXrTzhUFyecdw)
 
 ## [haskell ✨](https://my.mindnode.com/tecLyqHsjQf416hxx1LzXnNY6Hhx6gpUx9qRtv42)
-
-## [python ✨](https://my.mindnode.com/qoU3LqJjWdq5XGVcs4zasUmguyEX6iqyE9zuEKdg#787.9,-1184.3,2)
 
 ## [go ✨](https://my.mindnode.com/gEuiz5ncm3pdAsFYHcSe3pzbYkDxNeya7qmik71U)
 
@@ -404,12 +415,6 @@
 ## clr
 
 
-# [virtual reality](https://my.mindnode.com/b9LbNpewXbYhQnXr2aMHgKpi81C1DSqyEDvgCNd4)
-
-
-## oculus
-
-
 # [compilers ✨](https://my.mindnode.com/JxLJTw9UYqexCqyaqdKPxGGioWsDsWDmASWxpfsp)
 
 
@@ -430,13 +435,19 @@
 ## LLVM
 
 
+# [virtual reality](https://my.mindnode.com/b9LbNpewXbYhQnXr2aMHgKpi81C1DSqyEDvgCNd4)
+
+
+## oculus
+
+
 # keyboard
 
 
 ## layouts
 
 
-# [humans](https://my.mindnode.com/tLYktNZGB4FejomDqCZh1MP7FSatjo1qcGpqhzsc)
+# [humans ✨](https://my.mindnode.com/tLYktNZGB4FejomDqCZh1MP7FSatjo1qcGpqhzsc)
 
 
 ## [interesting ✨](https://my.mindnode.com/JkCzDZMnAGwz3Jsgsaqs8sJzAHR9UUFpVUwbVPra)
@@ -471,7 +482,7 @@
 
 ## text editors
 
-### [vim ✨](https://my.mindnode.com/dsyhczzfLsBAG4EpFt5TZnBYWAD9mfc9ms7nPMCz)
+### [vim ✨](https://my.mindnode.com/yjDM8SpEqm96Vn6gJ8kzUXUef2G2Gh1MHbYFdG4J)
 
 - viml
 
@@ -570,6 +581,8 @@
 
 ### [factorio](https://my.mindnode.com/38rFUTpJSrez6m4w4gAsZgbPWsWdv1hzMc8QcRqq)
 
+## [web](https://my.mindnode.com/iXWWRKCNXnopymKNvg38ovn35QW1VqUPzrd2fiQt)
+
 
 # [operating systems](https://my.mindnode.com/jzpMbRePxmDJJaUH6pbVxjJqd1zwXpexYjAsWD79)
 
@@ -607,25 +620,6 @@
 ## mercurial
 
 ## [git ✨](https://my.mindnode.com/TN2aYRpMdhpZfcqqCeaK4tbSjaVYFDJupN9UYZBS)
-
-
-# signal processing
-
-
-# quantum computing
-
-
-# [anthropology](https://my.mindnode.com/CaaurWHZJ1Dii1hsx81N6wNY7VZT5xVhjeUqMxq5#-39.3,-23.0,2)
-
-
-# [databases](https://my.mindnode.com/Ph6tV2dyFKkmVG5XZr1tzsCoBkPFN2YM32tijBWt)
-
-
-## mySQL
-
-## [cassandra](https://my.mindnode.com/Ymc3et2faMV1TMAzy4q6V7oJxqXufyJ81JULgEFs)
-
-## database design
 
 
 # [physics ✨](https://my.mindnode.com/ZZyhmxBzdPQeqcZjsp7RasytP4SEBWWpXRg6hT93)
@@ -672,6 +666,25 @@
 ### atom
 
 ## desalination
+
+
+# signal processing
+
+
+# quantum computing
+
+
+# [anthropology](https://my.mindnode.com/CaaurWHZJ1Dii1hsx81N6wNY7VZT5xVhjeUqMxq5#-39.3,-23.0,2)
+
+
+# [databases](https://my.mindnode.com/Ph6tV2dyFKkmVG5XZr1tzsCoBkPFN2YM32tijBWt)
+
+
+## mySQL
+
+## [cassandra](https://my.mindnode.com/Ymc3et2faMV1TMAzy4q6V7oJxqXufyJ81JULgEFs)
+
+## database design
 
 
 # [open source ✨](https://my.mindnode.com/fUS8UzoVqq438SCBhimjPJxwKs1YEw2Te2mPhDdi)
@@ -730,17 +743,19 @@
 
 ## [inspiration](https://my.mindnode.com/Jqqn15kcJ8z125x5fHwjSF7VtXxMVG5BAxyJh52S)
 
+## [personal sites ✨](https://my.mindnode.com/vyq8VJhz7QGSAK9AbyKXABWmmz6hZWXpZyZgzQcq)
+
 
 # [automation](https://my.mindnode.com/Bfq2QFjUmvbfB1P5kh8JiTawugNaSfuohrqS9Uzo)
 
 
-# licensing
-
-
-## apache
-
-
 # [config](https://my.mindnode.com/3ioEsx8TAoXL6q1GssBscswypFSfAYofzF4c1yhN)
+
+
+# tools
+
+
+## [software](https://my.mindnode.com/WfFJZUgyVu6WEQsu3RNkYPMZpaBVjsgNd3roCz7n)
 
 
 # shells
@@ -766,6 +781,16 @@
 # 3d printing
 
 
+# [chemistry](https://my.mindnode.com/wYDhE6MqsqRDVpw5CEEJULsjxHkqNFZad3DvDhYr#392.6,-220.4,2)
+
+
+## [compounds](https://my.mindnode.com/Mp1YiKoPGthEkykex4qQx6QnB2iaYfLKFu9S5H2C#-107.9,117.9,2)
+
+## [elements](https://my.mindnode.com/s2t5UnPoUS3CA5BFqvsyqkEnynxCMAspAj2v3VEN)
+
+## [matter](https://my.mindnode.com/C5kfhmQRVWUF8JnEV4THcsb3x3mgYNWqkcM8xN6n#129.1,-9.9,2)
+
+
 # sports
 
 
@@ -775,6 +800,12 @@
 
 
 # [movies ✨](https://my.mindnode.com/KeAsedvAsg8WBbsciwrNNDXsByF4A89bgnKb1feX)
+
+
+# licensing
+
+
+## apache
 
 
 # [problems ✨](https://my.mindnode.com/C2QV5HZCgfa3AeAVTJ3SrCPnWYeZPpkvzZzGUquU)
@@ -789,16 +820,6 @@
 ### [project Euler](https://my.mindnode.com/pWLBybidACnQYbBsZbRnrLnUq5ZQBM2TR2nEXPXs)
 
 ## problem solving
-
-
-# [chemistry](https://my.mindnode.com/wYDhE6MqsqRDVpw5CEEJULsjxHkqNFZad3DvDhYr#392.6,-220.4,2)
-
-
-## [compounds](https://my.mindnode.com/Mp1YiKoPGthEkykex4qQx6QnB2iaYfLKFu9S5H2C#-107.9,117.9,2)
-
-## [elements](https://my.mindnode.com/s2t5UnPoUS3CA5BFqvsyqkEnynxCMAspAj2v3VEN)
-
-## [matter](https://my.mindnode.com/C5kfhmQRVWUF8JnEV4THcsb3x3mgYNWqkcM8xN6n#129.1,-9.9,2)
 
 
 # [series ✨](https://my.mindnode.com/zeBtqY2akRErWnZgkKt1NM7MxqY7xyEE8YxuP3hd)
@@ -832,36 +853,10 @@
 ## [disorders](https://my.mindnode.com/KqktP1jc4dEyZtZRQ34BxfXAwH5gZ9nQ3iyiGpBg)
 
 
-# [law](https://my.mindnode.com/fhHdBxHkJwyKyttdQ4jRssRMfsvzvTUKUrSeKCUU)
-
-
-## justice
-
-## european union
-
-
 # [blockchain](https://my.mindnode.com/Ey91pzzbeFtdJDWsViiZVLFkzxNTbFgTuwoyekAT)
 
 
 ## [ethereum ✨](https://my.mindnode.com/bYFMqmuWgiJpS5XhE4X1Ho59xgyXLBBdbRRxDLjq)
-
-
-# piracy
-
-
-## dmca
-
-
-# politics
-
-
-# architecture
-
-
-# pattern recognition
-
-
-# natural language processing
 
 
 # feelings
@@ -876,7 +871,33 @@
 ## love
 
 
-# life
+# [law](https://my.mindnode.com/fhHdBxHkJwyKyttdQ4jRssRMfsvzvTUKUrSeKCUU)
+
+
+## justice
+
+## european union
+
+
+# politics
+
+
+# architecture
+
+
+# pattern recognition
+
+
+# [natural language processing ✨](https://my.mindnode.com/K53zdzApN4p4PDxyG3tgUxkWFHQ7B2XmuxKavZi5)
+
+
+# piracy
+
+
+## dmca
+
+
+# [life](https://my.mindnode.com/UWrvquq2nK4oqr7AotmfUXkBG3GzaTRNZbyqtep8)
 
 
 ## artificial
@@ -899,7 +920,7 @@
 ## [bitcoin ✨](https://my.mindnode.com/B7Sr6JyuyXsVriEE3HfxGopDNqB7ydRZs1SA1rEn)
 
 
-# management
+# [management](https://my.mindnode.com/15XKqnYJZ1edeVxpyCEhuVW1q5pWxy2Szw8MyyJ6)
 
 
 # renewable energy
@@ -1093,6 +1114,9 @@
 # operations research
 
 
+# [discipline ✨](https://my.mindnode.com/5UzEJxdb8PVxzrYzyP4bj2aGGiMxby65spggHGwM)
+
+
 # human anatomy
 
 
@@ -1192,7 +1216,7 @@
 
 ## browsers
 
-### dom
+### [dom](https://my.mindnode.com/zYGz3TugXNU8qexToyw7BtsM4yG4tZxh2m7Bkfzm)
 
 ### safari
 
@@ -1210,20 +1234,13 @@
 
 ## [webassembly ✨](https://my.mindnode.com/pCeneAU2XnxYcuskLkH9T1ad9i9Cm8ysEMM2p3w1)
 
+## web workers
+
 
 # [marketing](https://my.mindnode.com/geemtWzRmo599xqQwifEti48KefrCqyzcn8cznnx)
 
 
 # [talks ✨](https://my.mindnode.com/KyMr6nnsQ66GpKjgfBWEzqqVpEvHLHkaj1Ujp7Yd)
-
-
-# fungus
-
-
-# [travel ✨](https://my.mindnode.com/y3JkXrNizHEXEd9yWhxdyGAFPMjSiusFpES7z6UB)
-
-
-# [universe](https://my.mindnode.com/W2fPJssX4R4APsFNJaLRk6xVk5eysLHrCwtfjsQy)
 
 
 # [research papers ✨](https://my.mindnode.com/cDDmGwdsnghQCAYGz8s9Eio5M8mK7nPoxSsg1usy)
@@ -1235,9 +1252,23 @@
 
 ## [machine learning](https://my.mindnode.com/KnxHHqeyGXr5Z7BcYAyFbY3z7dpQawANPytSfLi3)
 
+### [neural networks](https://my.mindnode.com/DQcxpqpBKhMizY6LfaysgAMufBsyaxoxTnEeTj9M)
+
 ## [computer science](https://my.mindnode.com/1zJ1MKc1gWksgrF7apzqxVBmZo3XszNepTo37PcZ)
 
 ## [other](https://my.mindnode.com/pzqbpqnzFJUMNCp9aCGxAXziPDQHbGhKJmfcFa3s)
+
+
+# fungus
+
+
+# [travel ✨](https://my.mindnode.com/y3JkXrNizHEXEd9yWhxdyGAFPMjSiusFpES7z6UB)
+
+
+## [nomad ✨](https://my.mindnode.com/M4ishxyhmYszFqBeKrC5x38y14krtxSg5eqkiEoH)
+
+
+# [universe](https://my.mindnode.com/W2fPJssX4R4APsFNJaLRk6xVk5eysLHrCwtfjsQy)
 
 
 # [health](https://my.mindnode.com/qEhyRseqgzLSpyxSXMSRFTFAcnmx5R54qC34V81X)
@@ -1267,34 +1298,20 @@
 # teaching
 
 
-# companies
+# space
 
 
-## [interesting ✨](https://my.mindnode.com/ntqN4vyxqas9bjqqHsyxwseene1VhRUUSrum4x7z)
+## black holes
 
-### tesla
+## stars
 
-### apple
+### [sun](https://my.mindnode.com/7f7y7Hx9f3wGydM9DGJ4nyRR6piSttTp2xjEcZzm)
 
-- mac
+## galaxies
 
-- iPhone
+### milky way
 
-### spacex
-
-### google
-
-- [search](https://my.mindnode.com/f8kVtmise9Q9TicGf6Pcudge2GCfhGNpqK1GGZZs)
-
-### deepmind
-
-- alpha go
-
-### amazon
-
-- [aws ✨](https://my.mindnode.com/DaYrQ8ok2RVZ2mgW8sVewFDy8sWcdqqAg1QsyrB7)
-
-### facebook
+- solar system
 
 
 # countries
@@ -1322,7 +1339,7 @@
 
 ## [irc](https://my.mindnode.com/w6XXqXqjcZzXPDGJkDu9sjjrqnjc4GsknC7ppUWq)
 
-## http
+## [http](https://my.mindnode.com/yFUY6NypjRRpscXyqzvo66s8e5bVS3YCRz2kyytr)
 
 ## tcp/ip
 
@@ -1331,20 +1348,34 @@
 ## LPWAN
 
 
-# space
+# companies
 
 
-## black holes
+## [interesting ✨](https://my.mindnode.com/ntqN4vyxqas9bjqqHsyxwseene1VhRUUSrum4x7z)
 
-## stars
+### tesla
 
-### [sun](https://my.mindnode.com/7f7y7Hx9f3wGydM9DGJ4nyRR6piSttTp2xjEcZzm)
+### apple
 
-## galaxies
+- mac
 
-### milky way
+- iPhone
 
-- solar system
+### spacex
+
+### alphabet
+
+- deepmind
+
+	- [alpha go ✨](https://my.mindnode.com/NLQAk2KBeaeM8Xc5pNuxzn6yy7z1gRBTzeu4e7dC)
+
+- google
+
+	- [search](https://my.mindnode.com/f8kVtmise9Q9TicGf6Pcudge2GCfhGNpqK1GGZZs)
+
+### amazon
+
+### facebook
 
 
 # [articles ✨](https://my.mindnode.com/au8LsqELoJpSq432hCtfzA9H2yUDSJzphpoGYzFL)
@@ -1353,7 +1384,7 @@
 ## [mine ✨](https://my.mindnode.com/aMjDG6PmWaH8zKmTmxoTzLvXSgysdi1nBiRYuVnd)
 
 
-# internet of things
+# [internet of things ✨](/Users/nikivi/Library/Mobile%20Documents/W6L39UYL6Z~com~mindnode~MindNode/Documents/research/research.mindnode)
 
 
 # communication
@@ -1365,6 +1396,9 @@
 
 
 # server
+
+
+## nginx
 
 
 # [podcasts ✨](https://my.mindnode.com/vJRsKgW5SEdBt685W7xuVtzT1H7JQTKTNyjvPBYn)
@@ -1387,6 +1421,24 @@
 
 
 # serverless architecture
+
+
+# [videos ✨](https://my.mindnode.com/j4pxmdo514Lw74iftpWjeyHXttYqUnrvPdpQFqTE)
+
+
+# [front end  ✨](https://my.mindnode.com/GmpAxt9xAYKbFuqj1rrY3NGxiCQxxVp1teNvfVZc)
+
+
+# backend
+
+
+## [node.js](https://my.mindnode.com/5iqRf7zVt3zQq1S8myXgBvddPBMz6TisgQSJWyxU)
+
+
+# comedy
+
+
+## standups
 
 
 # [courses ✨](https://my.mindnode.com/zNtYR1Q9fAEwWqCpZ52iQzk4xx2TnTuDsFY3C9fJ)
@@ -1413,24 +1465,6 @@
 ## iOS
 
 ### developing iOS 10 apps wth Swift
-
-
-# [videos ✨](https://my.mindnode.com/j4pxmdo514Lw74iftpWjeyHXttYqUnrvPdpQFqTE)
-
-
-# [front end  ✨](https://my.mindnode.com/GmpAxt9xAYKbFuqj1rrY3NGxiCQxxVp1teNvfVZc)
-
-
-# backend
-
-
-## [node.js](https://my.mindnode.com/5iqRf7zVt3zQq1S8myXgBvddPBMz6TisgQSJWyxU)
-
-
-# comedy
-
-
-## standups
 
 
 # earth
@@ -1486,14 +1520,6 @@
 # [work](https://my.mindnode.com/VfzgzqowJNSpCQYQNzJ4Ag2gm39QWqjXJXyvWq1M)
 
 
-# caching layers
-
-
-## [redis ✨](https://my.mindnode.com/3fYxqeHfbKSHMmGqG2uqzhzihR7qyqaQwAZ9C3Xt)
-
-## varnish
-
-
 # history
 
 
@@ -1519,6 +1545,12 @@
 # api
 
 
+# data
+
+
+## [serialisation](https://my.mindnode.com/m2aFuEgxbXgm6K4bUzdqXN7SaKKozdVFmohiGrHD)
+
+
 # data mining
 
 
@@ -1530,12 +1562,16 @@
 # literature
 
 
-# javascript libraries
+# js libraries
 
 
-## [react](https://my.mindnode.com/sfEwzy9awRHFVG8hY74fjkfLMeufFJxMETJdg72H)
+## [react ✨](https://my.mindnode.com/sfEwzy9awRHFVG8hY74fjkfLMeufFJxMETJdg72H)
 
 ### fiber
+
+### [jsx](https://my.mindnode.com/X2z555F2ar4vWy6MC2aeKRmNDsdHdbVc33kSEJUh)
+
+### [components ✨](https://my.mindnode.com/wfi8BEQVtwNpezoexVAYxpfvkQp4tMSz8ccxwZBA)
 
 ## browserify
 
@@ -1557,8 +1593,7 @@
 
 ## vue.js
 
-
-# [data science](https://my.mindnode.com/hZxYy5JcsBx5xqyiGcde4vNmWSStHzn72tayCcrC)
+## [preact](https://my.mindnode.com/WAPnPzGkGX1GswCnFApEQKEqRg8t2R1iTx7ysoVm)
 
 
 # [ruby gems](https://my.mindnode.com/zdaC53NdLphBmb8y6pJX3dc3s2FbskFmeynFQHqc)
@@ -1567,6 +1602,17 @@
 ## rails
 
 ## sinatra
+
+
+# [data science](https://my.mindnode.com/hZxYy5JcsBx5xqyiGcde4vNmWSStHzn72tayCcrC)
+
+
+# caching layers
+
+
+## [redis ✨](https://my.mindnode.com/3fYxqeHfbKSHMmGqG2uqzhzihR7qyqaQwAZ9C3Xt)
+
+## varnish
 
 
 # projects
@@ -1613,7 +1659,7 @@
 ## [programming](https://my.mindnode.com/XVKPw7bLpLTzXUnqPf8QYU7mNVxwxdq8Zc316wJQ)
 
 
-# python libraries
+# [python libraries ✨](https://my.mindnode.com/6xnyCho9UfV11sqEKxAyQwzRaQraMdSmkFqs3Ysu)
 
 
 ## scikit-learn
@@ -1639,6 +1685,8 @@
 ## [space](https://my.mindnode.com/shNLZTQtqK2wujLdE2P16CPU18yNcvFcD4Stp4pY)
 
 ## [unix](https://my.mindnode.com/srUddqC3qm9UJvojowyfrW7xLEeWyrrRqqWteLJz)
+
+## [not mine ✨](https://my.mindnode.com/DzrFkXF3VVxgHh9GjXqyJwK1GRq3p95RAs4aKy29)
 
 
 # [swift libraries ✨](https://my.mindnode.com/JbqzJycnfpFsi3iAXHNDzSuJEEpgcYxK9nnW8Smo)
@@ -1718,6 +1766,8 @@
 
 - [10: apprenticeship patterns](https://my.mindnode.com/aKDoUJ6xZcLhqLxQPD2KhMQzLyaSQVuAQccycj71)
 
+- 1971: the psychology of computer programming
+
 ### go
 
 - 15: go in action
@@ -1772,6 +1822,12 @@
 
 - 13: confident ruby
 
+- 11: eloquent ruby
+
+- 09: the well grounded rubyist
+
+- 12: practical object oriented design in ruby
+
 ### smalltalk
 
 - 1997: smalltalk best practice patterns
@@ -1788,6 +1844,10 @@
 
 - 14: git in practice
 
+## physics
+
+### university physics with modern physics ✨
+
 ## algorithms
 
 ### 1990: introduction to algorithms
@@ -1798,17 +1858,25 @@
 
 ## mindset
 
-### 1936: how to win friends and influence people
+### 1936: how to win friends and influence people ✨
 
 ### 1937: think and grow rich
 
-### 2014: a mind for numbers: how to excel at math and science ✨✔
+### 14: a mind for numbers: how to excel at math and science ✨✔
 
-### 2011: models ✨✔
+### 11: models ✨✔
+
+### 1990: peace is every step
+
+### 1946: man’s search for meaning
+
+### 1942: the stranger
+
+### 09: eating animals
 
 ## finance
 
-### [1997: rich dad poor dad ✨](https://my.mindnode.com/Qv9ZXvz3yLTDzCLEEgzsTMy1pMesidPSRzWUhNzA)
+### [1997: rich dad poor dad](https://my.mindnode.com/Qv9ZXvz3yLTDzCLEEgzsTMy1pMesidPSRzWUhNzA)
 
 ### 1926: the richest man in babylon
 
@@ -1820,9 +1888,9 @@
 
 ### 1953: the worldly philosophers
 
-## physics
+### 11: debt: first 5000 years
 
-### university physics with modern physics ✨
+### 13: how asia works: success and failure in the world’s most dynamic region
 
 ## ai
 
@@ -1914,6 +1982,54 @@
 
 ### 1981: the soul of new machine
 
+### 1880: the brothers karamazov
+
+### 1978: hitchhikers guide to the galaxy
+
+### 1996: the story of b: an adventure of the mind and spirit
+
+### 1965: dune
+
+### 1985: blood meridian
+
+### 1953: fahrenheit 451
+
+### 1914: the ragged trousered philanthropists
+
+### 1969: slaughterhouse five
+
+### 1908: the iron heel
+
+### 06: the road
+
+### 10: the passage
+
+### 1962: we have always lived in the castle
+
+### 1955: lolita
+
+### 00: house of leaves
+
+## scifi
+
+### culture series
+
+- excession
+
+### blindsight
+
+### 11: the martian
+
+### the dispossessed
+
+### 1963: cat’s cradle
+
+### 14: red rising
+
+## adventure
+
+### 1844: the count of monte cristo
+
 ## short stories
 
 ### [1956: the last question ✨✔](https://my.mindnode.com/qrGA3PyEVxWZDisJ8dxpz9J7eJTbdqYLLXPnBND4)
@@ -1926,9 +2042,33 @@
 
 ### 1998: story of your life
 
+## thriller
+
+### 1939: and then there were none 
+
+## non fiction
+
+### 1997: into thin air
+
 ## history
 
 ### 1986: the making of atomic bomb
+
+### 1980: a people’s history of the united states
+
+### 11: sapiens: a brief history of humankind
+
+### 1973: gravity’s rainbow
+
+### 12: the idea factory: bell labs and the great age of american innovation
+
+## alt history
+
+### 1962: the man in the high castle
+
+## evolution
+
+### [the selfish gene](https://my.mindnode.com/APDG3wu3couR4ZV6StdxWPaRYCi1qHTiqb6pDpFm)
 
 ## philosophy
 
@@ -1943,4 +2083,16 @@
 ## neuroscience
 
 ### [01: molecular basis of neuropharmacology: a foundation for clinical neuroscience](https://my.mindnode.com/ryVUUpnoDx9mYcpXqJVkzdMH9MeyESsy5fWuSnN1)
+
+### thinking, fast and slow
+
+## design
+
+### the design of everyday things
+
+## politics
+
+### 1974: the anatomy of the state
+
+### 1944: the road to serfdom
 
