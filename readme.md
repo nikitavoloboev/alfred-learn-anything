@@ -9,7 +9,7 @@ Search through  over 2500 + curated Mind Maps from [Knowledge Map](https://githu
 - Just start the search and open the mind map that you were looking for fast, wherever you are
 - I try to keep them constantly updated
 
-There are two unique searches available. You can either bind a hotkey to each one or [create a keyword trigger](https://www.alfredapp.com/help/workflows/triggers/) to access these searches. Here are the searches : 
+There are three unique searches available. You can either bind a hotkey to each one or use the keyword trigger to access these searches. Here are the searches : 
 
 ## 1. [Open any of the 43 Study Guides 📚](https://github.com/nikitavoloboev/knowledge-map/tree/master/study-plans)
 
@@ -26,7 +26,13 @@ There are two unique searches available. You can either bind a hotkey to each on
 - open any imgur album from [images](https://my.mindnode.com/mTasm9Ay8VtFs7fHRPDUSdEMqHExtjpcgwjBeUTC#108.8,-1795.2,-2)
 - open any mind map from [more](https://my.mindnode.com/YyJtZap3S6BLzLq8FvBqcDM1fpzom5JfeXripa9w#198.0,-369.8,1)
 
-![](http://i.imgur.com/tiKOvyI.png)
+![](http://i.imgur.com/9s7iteA.png)
+
+## 3. Search through my personal research
+
+It mostly contains notes and various links related to the topic. Essentially it allows you to open any mind map from [here](https://my.mindnode.com/P2WTfATNrnsxm23L7jQMotnJhzeh41sWWH2jgZzU#-36.3,-44.2,0) in seconds.
+
+![](http://i.imgur.com/SyxdZYW.png)
 
 
 # The mind maps can only get better 🚀
