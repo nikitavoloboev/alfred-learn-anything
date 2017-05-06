@@ -1,0 +1,1 @@
+# [brain computer interface 🗺️](https://my.mindnode.com/z8HaiMkaqK9Ri8tJYgKGAv7x2TPiwkRNnKa73ZzC)
