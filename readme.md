@@ -47,4 +47,4 @@ Essentially you have to parse [these markdown files](https://github.com/nikitavo
 
 # Thank you 💙
 
-Big thank you to [Vitor](https://github.com/vitorgalvao) who kindly shared the script to parse the markdown files
+Big thank you to [Vitor](https://github.com/vitorgalvao) who kindly shared the script to parse the markdown files and [Dean](https://github.com/deanishe) who sorted out the mess I was doing with trying to set this workflow up.
