@@ -6,9 +6,6 @@
 
 Search through  over 2500 + curated Mind Maps from [Knowledge Map](https://github.com/nikitavoloboev/knowledge-map) with Alfred
 
-- Just start the search and open the mind map that you were looking for fast, wherever you are
-- I try to keep them constantly updated
-
 There are four unique searches available. You can either bind a hotkey to each one or use the keyword trigger to access these searches. Here are the searches : 
 
 ## 1. [Open any of the 43 Study Guides 📚](https://github.com/nikitavoloboev/knowledge-map/tree/master/study-plans)
