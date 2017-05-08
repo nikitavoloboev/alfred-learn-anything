@@ -125,11 +125,37 @@
 				<false/>
 			</dict>
 		</array>
+		<key>20364A41-A7E6-403C-84D8-8C6C83ED45FA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7645D656-99A6-4980-8569-C240785BA691</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>22070B83-2A12-45AA-ABB2-1C0FBAF046F1</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>7DDE8978-046C-4D95-90A9-52F6E4DA7920</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>228AEAD3-48F1-458F-A2EF-06E95C889EAC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BD01A696-CB5E-4531-AEBE-F71D32C8F227</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -177,11 +203,37 @@
 				<false/>
 			</dict>
 		</array>
+		<key>2FEA59EA-58B9-4661-BF6F-BC936F7AB067</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>438B20A1-0BC2-4DFB-B85A-7DD182148A4F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>3BDAD5E7-B7A8-4630-AC21-1D28BB32BF69</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>63978882-3BE9-40CC-98F4-3B001536AEB3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3D316814-E741-4937-B2AC-DD0A640EF23C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>20364A41-A7E6-403C-84D8-8C6C83ED45FA</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -242,6 +294,79 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>EBEE111F-0B5F-4786-BFD8-E6438F3B2FAA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>228AEAD3-48F1-458F-A2EF-06E95C889EAC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>94C7853F-6160-4B04-9E8C-928E5D2EDCBA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>A8EEC5DB-161D-4455-AE4D-316A5DB7E906</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>438B20A1-0BC2-4DFB-B85A-7DD182148A4F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A2CFA41B-9469-4CFD-8245-95503BD255A2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>3D316814-E741-4937-B2AC-DD0A640EF23C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>7D2EEA8D-753F-46A3-AF52-635878D0C7C8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 		<key>47FE80C6-2C39-4780-B5D0-CEA099637916</key>
 		<array>
@@ -282,11 +407,37 @@
 				<false/>
 			</dict>
 		</array>
+		<key>5103B15A-F4E9-4264-9809-8B8BF823CD15</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>721C1EAF-FA1E-4FE5-99BC-4EFE12694B37</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>5D35CA47-C4DE-454E-8447-FB37BA5EBF2D</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>91594F31-BC4A-49EF-9BD8-14AF7051CE62</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7645D656-99A6-4980-8569-C240785BA691</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4DB688AA-EDF7-471A-9A04-68AB13862040</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -308,6 +459,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>7D2EEA8D-753F-46A3-AF52-635878D0C7C8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D9C4B582-B0B9-4E77-BCEF-AC185BE26A4F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>87F3E01F-D27D-4391-8B75-7DBB4C8DDF08</key>
 		<array>
 			<dict>
@@ -321,11 +485,50 @@
 				<false/>
 			</dict>
 		</array>
+		<key>88873FCE-3C68-47FE-9B2C-6A47FFA62A16</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>95CB1F91-248E-4D6B-BC63-D11419E49D76</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>94C7853F-6160-4B04-9E8C-928E5D2EDCBA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>88873FCE-3C68-47FE-9B2C-6A47FFA62A16</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>95BC25A3-60AA-43F4-BCBC-92DA381141CA</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>E76009AF-67C6-457C-960F-BDEA95BF8242</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>95CB1F91-248E-4D6B-BC63-D11419E49D76</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>721C1EAF-FA1E-4FE5-99BC-4EFE12694B37</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -352,6 +555,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>721C1EAF-FA1E-4FE5-99BC-4EFE12694B37</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A8EEC5DB-161D-4455-AE4D-316A5DB7E906</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C29B23F5-86FC-40FE-B607-61D50DC96C86</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -391,6 +607,45 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>5D35CA47-C4DE-454E-8447-FB37BA5EBF2D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BD01A696-CB5E-4531-AEBE-F71D32C8F227</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5103B15A-F4E9-4264-9809-8B8BF823CD15</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C29B23F5-86FC-40FE-B607-61D50DC96C86</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C2F0037C-F2F2-412B-95BA-C25FC99A3A9C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C2F0037C-F2F2-412B-95BA-C25FC99A3A9C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>721C1EAF-FA1E-4FE5-99BC-4EFE12694B37</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -474,6 +729,45 @@
 				<false/>
 			</dict>
 		</array>
+		<key>D9C4B582-B0B9-4E77-BCEF-AC185BE26A4F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D9E074D6-B07B-48AC-9513-007E072D0F0B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D9E074D6-B07B-48AC-9513-007E072D0F0B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>005E94D2-695E-4ECF-92C0-702A037E35A3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>EBEE111F-0B5F-4786-BFD8-E6438F3B2FAA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2FEA59EA-58B9-4661-BF6F-BC936F7AB067</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>ED5F4D19-B3DC-4B54-A90E-AF82E49B34A1</key>
 		<array>
 			<dict>
@@ -498,6 +792,19 @@
 	<string>knowledge map</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>searchAll</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>028790C6-E340-43F0-AC6E-A558F0023785</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -528,13 +835,19 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>triggerid</key>
-				<string>searchAll</string>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
+			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>028790C6-E340-43F0-AC6E-A558F0023785</string>
+			<string>238CAD6B-EF29-4AF9-8A6D-A45407BBC0CE</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -607,68 +920,6 @@ echo "&lt;/items&gt;"</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>variables</key>
-				<dict>
-					<key>mdfile</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>24B93F63-9718-48DD-9E5A-082FDD27A563</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>0</integer>
-				<key>hotmod</key>
-				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>2EFB822D-9BFC-44B8-BE11-8320A2A14AB8</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>triggerid</key>
-				<string>learnAnything</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>05C2CDF4-B8F6-48B5-9DCC-75AC001E1500</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
 				<key>argumenttype</key>
@@ -718,61 +969,64 @@ echo "&lt;/items&gt;"</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>238CAD6B-EF29-4AF9-8A6D-A45407BBC0CE</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>triggerid</key>
-				<string>personalResearch</string>
+				<string>learnAnything</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
 			<key>uid</key>
-			<string>4EEFE3AA-91DF-4D0B-B61E-E3CC4CDDB1BA</string>
+			<string>05C2CDF4-B8F6-48B5-9DCC-75AC001E1500</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>fixedorder</key>
-				<false/>
-				<key>items</key>
-				<string>[{"title":"algorithms","arg":"research\/algos.md","subtitle":""},{"title":"computer science","arg":"research\/cs.md","subtitle":""},{"title":"computer graphics","arg":"research\/graphics.md","subtitle":""},{"title":"history","arg":"research\/history.md","subtitle":""},{"title":"js libraries","arg":"research\/jslib.md","subtitle":""},{"title":"math","arg":"research\/math.md","subtitle":""},{"title":"machine learning","arg":"research\/ml.md","subtitle":""},{"title":"physics","arg":"research\/physics.md","subtitle":""},{"title":"programming languages","arg":"research\/prog-languages.md","subtitle":""},{"title":"protocols","arg":"research\/protocols.md","subtitle":""},{"title":"web","arg":"research\/web.md","subtitle":""},{"title":"operating systems","arg":"research\/os.md"},{"title":"game development","arg":"research\/gamedev.md"},{"title":"quantum mechanics","arg":"research\/quantum.md"},{"title":"programs","arg":"research\/programs.md"},{"title":"health","arg":"research\/health.md"},{"title":"databases","arg":"research\/databases.md"},{"title":"networking","arg":"research\/networking.md"},{"title":"chemistry","arg":"research\/chemistry.md"},{"title":"music","arg":"research\/music.md"},{"title":"programming","arg":"research\/programming.md"},{"title":"compilers","arg":"research\/compilers.md"},{"title":"unix","arg":"research\/unix.md"},{"title":"education","arg":"research\/education.md"},{"title":"data science","arg":"research\/datascience.md"},{"title":"problem solving","arg":"research\/problems.md"},{"title":"cloud computing","arg":"research\/cloud.md"},{"title":"creativity","arg":"research\/creativity.md"},{"title":"design","arg":"research\/design.md"},{"title":"economics","arg":"research\/economics.md"},{"title":"package managers","arg":"research\/package-manage.md"},{"title":"security","arg":"research\/security.md"},{"title":"business","arg":"research\/business.md"},{"title":"games","arg":"research\/games.md"},{"title":"space","arg":"research\/space.md"},{"title":"neuroscience","arg":"research\/neuroscience.md"},{"title":"natural language processing","arg":"research\/naturallang.md"},{"title":"biology","arg":"research\/biology.md"},{"title":"engineering","arg":"research\/engineering.md"},{"title":"human computer interaction","arg":"research\/hci.md"},{"title":"psychology","arg":"research\/psychology.md"},{"title":"countries","arg":"research\/countries.md"},{"title":"law","arg":"research\/law.md"},{"title":"tools","arg":"research\/tools.md"},{"title":"animals","arg":"research\/animals.md"},{"title":"swift libraries","arg":"research\/swift-libs.md"},{"title":"hardware","arg":"research\/hardware.md"},{"title":"data","arg":"research\/data.md"},{"title":"api","arg":"research\/api.md"},{"title":"cocoa","arg":"research\/cocoa.md"}]</string>
-				<key>keyword</key>
-				<string>research</string>
-				<key>runningsubtext</key>
+				<key>argument</key>
 				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>personal research mind maps</string>
-				<key>withspace</key>
-				<true/>
+				<key>variables</key>
+				<dict>
+					<key>mdfile</key>
+					<string>{query}</string>
+				</dict>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.listfilter</string>
+			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>47FE80C6-2C39-4780-B5D0-CEA099637916</string>
+			<string>24B93F63-9718-48DD-9E5A-082FDD27A563</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>2EFB822D-9BFC-44B8-BE11-8320A2A14AB8</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -804,6 +1058,46 @@ echo "&lt;/items&gt;"</string>
 			<string>142ADED3-CBA3-4CBC-BC93-177187930792</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"algorithms","arg":"research\/algos.md","subtitle":""},{"title":"computer science","arg":"research\/cs.md","subtitle":""},{"title":"computer graphics","arg":"research\/graphics.md","subtitle":""},{"title":"history","arg":"research\/history.md","subtitle":""},{"title":"js libraries","arg":"research\/jslib.md","subtitle":""},{"title":"math","arg":"research\/math.md","subtitle":""},{"title":"machine learning","arg":"research\/ml.md","subtitle":""},{"title":"physics","arg":"research\/physics.md","subtitle":""},{"title":"programming languages","arg":"research\/prog-languages.md","subtitle":""},{"title":"protocols","arg":"research\/protocols.md","subtitle":""},{"title":"web","arg":"research\/web.md","subtitle":""},{"title":"operating systems","arg":"research\/os.md"},{"title":"game development","arg":"research\/gamedev.md"},{"title":"quantum mechanics","arg":"research\/quantum.md"},{"title":"programs","arg":"research\/programs.md"},{"title":"health","arg":"research\/health.md"},{"title":"databases","arg":"research\/databases.md"},{"title":"networking","arg":"research\/networking.md"},{"title":"chemistry","arg":"research\/chemistry.md"},{"title":"music","arg":"research\/music.md"},{"title":"programming","arg":"research\/programming.md"},{"title":"compilers","arg":"research\/compilers.md"},{"title":"unix","arg":"research\/unix.md"},{"title":"education","arg":"research\/education.md"},{"title":"data science","arg":"research\/datascience.md"},{"title":"problem solving","arg":"research\/problems.md"},{"title":"cloud computing","arg":"research\/cloud.md"},{"title":"creativity","arg":"research\/creativity.md"},{"title":"design","arg":"research\/design.md"},{"title":"economics","arg":"research\/economics.md"},{"title":"package managers","arg":"research\/package-manage.md"},{"title":"security","arg":"research\/security.md"},{"title":"business","arg":"research\/business.md"},{"title":"games","arg":"research\/games.md"},{"title":"space","arg":"research\/space.md"},{"title":"neuroscience","arg":"research\/neuroscience.md"},{"title":"natural language processing","arg":"research\/naturallang.md"},{"title":"biology","arg":"research\/biology.md"},{"title":"engineering","arg":"research\/engineering.md"},{"title":"human computer interaction","arg":"research\/hci.md"},{"title":"psychology","arg":"research\/psychology.md"},{"title":"countries","arg":"research\/countries.md"},{"title":"law","arg":"research\/law.md"},{"title":"tools","arg":"research\/tools.md"},{"title":"animals","arg":"research\/animals.md"},{"title":"swift libraries","arg":"research\/swift-libs.md"},{"title":"hardware","arg":"research\/hardware.md"},{"title":"data","arg":"research\/data.md"},{"title":"api","arg":"research\/api.md"},{"title":"cocoa","arg":"research\/cocoa.md"}]</string>
+				<key>keyword</key>
+				<string>research</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>personal research mind maps</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>47FE80C6-2C39-4780-B5D0-CEA099637916</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>personalResearch</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>4EEFE3AA-91DF-4D0B-B61E-E3CC4CDDB1BA</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -943,33 +1237,6 @@ echo "&lt;/items&gt;"</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>fixedorder</key>
-				<false/>
-				<key>items</key>
-				<string>[{"title":"mathematics","arg":"explore\/math\/math.md"},{"title":"machine learning","arg":"explore\/ml\/ml.md"},{"title":"tooling","arg":"explore\/tooling\/tooling.md"},{"title":"programming","arg":"explore\/programming\/programming.md"},{"title":"os","arg":"explore\/os\/os.md"},{"title":"linux","arg":"explore\/linux\/linux.md"},{"title":"databases","arg":"explore\/databases\/databases.md"},{"title":"computer graphics","arg":"explore\/graphics\/graphics.md"},{"title":"web development","arg":"explore\/web\/web.md"},{"title":"computer hardware","arg":"explore\/hardware\/hardware.md"},{"title":"compilers","arg":"explore\/compilers\/compilers.md"},{"title":"linguistics","arg":"explore\/linguistics\/linguistics.md"},{"title":"natural language processing","arg":"explore\/nlp\/nlp.md"},{"title":"security","arg":"explore\/security\/security.md"},{"title":"cryptography","arg":"explore\/cryptography\/crypto.md"},{"title":"economics","arg":"explore\/economics\/economics.md"},{"title":"entrepreneurship","arg":"explore\/entrepreneurship\/entrepreneurship.md"},{"title":"chemistry","arg":"explore\/chemistry\/chemistry.md"},{"title":"physics","arg":"explore\/physics\/physics.md"},{"title":"virtual reality","arg":"explore\/vr\/vr.md"},{"title":"game development","arg":"explore\/gamedev\/gamedev.md"},{"title":"computer vision","arg":"explore\/vision\/vision.md"},{"title":"distributed computing","arg":"explore\/distributed\/distributed.md"},{"title":"ai","arg":"explore\/ai\/ai.md"},{"title":"cryptocurrency","arg":"explore\/cryptocurrency\/cryptocurrency.md"},{"title":"networking","arg":"explore\/networking\/networking.md"},{"title":"cs","arg":"explore\/cs\/cs.md"},{"title":"engineering","arg":"explore\/engineering\/engineering.md"},{"title":"architecture","arg":"explore\/architecture\/architecture.md"},{"title":"design","arg":"explore\/design\/design.md"},{"title":"renewable energy","arg":"explore\/renewable\/renewable.md"},{"title":"medicine","arg":"explore\/medicine\/medicine.md"},{"title":"health","arg":"explore\/health\/health.md"},{"title":"biology","arg":"explore\/biology\/biology.md"},{"title":"neuroscience","arg":"explore\/neuroscience\/neuro.md"},{"title":"philosophy","arg":"explore\/philosophy\/philo.md"},{"title":"art","arg":"explore\/art\/art.md"},{"title":"law","arg":"explore\/law\/law.md"},{"title":"history","arg":"explore\/history\/history.md"},{"title":"management","arg":"explore\/management\/management.md"},{"title":"anthropology","arg":"explore\/anthropology\/anthro.md"},{"title":"psychology","arg":"explore\/psychology\/psychology.md"},{"title":"marketing","arg":"explore\/marketing\/marketing.md"}]</string>
-				<key>keyword</key>
-				<string>explore</string>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>explore knowledge map</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.listfilter</string>
-			<key>uid</key>
-			<string>CF83447E-546B-4E6B-91F5-365E21B1D3DD</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
 				<key>argumenttype</key>
@@ -1013,6 +1280,33 @@ echo "&lt;/items&gt;"</string>
 			<string>3E49E228-8968-49F9-A639-5D722D68989D</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"math","arg":"explore\/math\/math.md"},{"title":"machine learning","arg":"explore\/ml\/ml.md"},{"title":"tooling","arg":"explore\/tooling\/tooling.md"},{"title":"programming","arg":"explore\/programming\/programming.md"},{"title":"os","arg":"explore\/os\/os.md"},{"title":"linux","arg":"explore\/linux\/linux.md"},{"title":"databases","arg":"explore\/databases\/databases.md"},{"title":"computer graphics","arg":"explore\/graphics\/graphics.md"},{"title":"web development","arg":"explore\/web\/web.md"},{"title":"computer hardware","arg":"explore\/hardware\/hardware.md"},{"title":"compilers","arg":"explore\/compilers\/compilers.md"},{"title":"linguistics","arg":"explore\/linguistics\/linguistics.md"},{"title":"natural language processing","arg":"explore\/nlp\/nlp.md"},{"title":"security","arg":"explore\/security\/security.md"},{"title":"cryptography","arg":"explore\/cryptography\/crypto.md"},{"title":"economics","arg":"explore\/economics\/economics.md"},{"title":"entrepreneurship","arg":"explore\/entrepreneurship\/entrepreneurship.md"},{"title":"chemistry","arg":"explore\/chemistry\/chemistry.md"},{"title":"physics","arg":"explore\/physics\/physics.md"},{"title":"virtual reality","arg":"explore\/vr\/vr.md"},{"title":"game development","arg":"explore\/gamedev\/gamedev.md"},{"title":"computer vision","arg":"explore\/vision\/vision.md"},{"title":"distributed computing","arg":"explore\/distributed\/distributed.md"},{"title":"ai","arg":"explore\/ai\/ai.md"},{"title":"cryptocurrency","arg":"explore\/cryptocurrency\/cryptocurrency.md"},{"title":"networking","arg":"explore\/networking\/networking.md"},{"title":"cs","arg":"explore\/cs\/cs.md"},{"title":"engineering","arg":"explore\/engineering\/engineering.md"},{"title":"architecture","arg":"explore\/architecture\/architecture.md"},{"title":"design","arg":"explore\/design\/design.md"},{"title":"renewable energy","arg":"explore\/renewable\/renewable.md"},{"title":"medicine","arg":"explore\/medicine\/medicine.md"},{"title":"health","arg":"explore\/health\/health.md"},{"title":"biology","arg":"explore\/biology\/biology.md"},{"title":"neuroscience","arg":"explore\/neuroscience\/neuro.md"},{"title":"philosophy","arg":"explore\/philosophy\/philo.md"},{"title":"art","arg":"explore\/art\/art.md"},{"title":"law","arg":"explore\/law\/law.md"},{"title":"history","arg":"explore\/history\/history.md"},{"title":"management","arg":"explore\/management\/management.md"},{"title":"anthropology","arg":"explore\/anthropology\/anthro.md"},{"title":"psychology","arg":"explore\/psychology\/psychology.md"},{"title":"marketing","arg":"explore\/marketing\/marketing.md"}]</string>
+				<key>keyword</key>
+				<string>explore</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>explore knowledge map</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>CF83447E-546B-4E6B-91F5-365E21B1D3DD</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1398,25 +1692,6 @@ echo "&lt;/items&gt;"</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>inputstring</key>
-				<string>{query}</string>
-				<key>matchcasesensitive</key>
-				<false/>
-				<key>matchmode</key>
-				<integer>0</integer>
-				<key>matchstring</key>
-				<string>https://my.mindnode.com/XDwNnPAjYJuoRikfV2g5qQYJBcnpFwv3XC6uLd5P</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.filter</string>
-			<key>uid</key>
-			<string>ED5F4D19-B3DC-4B54-A90E-AF82E49B34A1</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argument</key>
 				<string></string>
 				<key>variables</key>
@@ -1432,19 +1707,19 @@ echo "&lt;/items&gt;"</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
+				<key>inputstring</key>
 				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>https://my.mindnode.com/XDwNnPAjYJuoRikfV2g5qQYJBcnpFwv3XC6uLd5P</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
+			<string>alfred.workflow.utility.filter</string>
 			<key>uid</key>
-			<string>63978882-3BE9-40CC-98F4-3B001536AEB3</string>
+			<string>ED5F4D19-B3DC-4B54-A90E-AF82E49B34A1</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1498,15 +1773,19 @@ echo "&lt;/items&gt;"</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
+				<key>browser</key>
 				<string></string>
-				<key>variables</key>
-				<dict/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
+			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>87F3E01F-D27D-4391-8B75-7DBB4C8DDF08</string>
+			<string>63978882-3BE9-40CC-98F4-3B001536AEB3</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1529,6 +1808,545 @@ echo "&lt;/items&gt;"</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>87F3E01F-D27D-4391-8B75-7DBB4C8DDF08</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>IFS=$'\n'
+
+echo "&lt;?xml version='1.0'?&gt;&lt;items&gt;"
+for line in $(grep --extended-regexp '\[.+\]\(.+\)' &lt; "explore/programming/languages.md"); do
+  sed -E "s|.*\[(.+)\]\((.+)\).*|&lt;item arg='\2' valid='yes'&gt;&lt;title&gt;\1&lt;/title&gt;&lt;/item&gt;|" &lt;&lt;&lt; "${line}"
+done
+echo "&lt;/items&gt;"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>438B20A1-0BC2-4DFB-B85A-7DD182148A4F</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>2FEA59EA-58B9-4661-BF6F-BC936F7AB067</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>https://my.mindnode.com/deC8Q7qpC5GxM41ysqHhMHzN832JMUAL1Fc351Td#-95.6,-555.3,1</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>EBEE111F-0B5F-4786-BFD8-E6438F3B2FAA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>IFS=$'\n'
+
+echo "&lt;?xml version='1.0'?&gt;&lt;items&gt;"
+for line in $(grep --extended-regexp '\[.+\]\(.+\)' &lt; "explore/programming/go.md"); do
+  sed -E "s|.*\[(.+)\]\((.+)\).*|&lt;item arg='\2' valid='yes'&gt;&lt;title&gt;\1&lt;/title&gt;&lt;/item&gt;|" &lt;&lt;&lt; "${line}"
+done
+echo "&lt;/items&gt;"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>7645D656-99A6-4980-8569-C240785BA691</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>4DB688AA-EDF7-471A-9A04-68AB13862040</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>20364A41-A7E6-403C-84D8-8C6C83ED45FA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>https://my.mindnode.com/qpLq1TfqPWmu9sszrCxEM4QsWUH547TLNQkyfTyQ#-0.2,-110.4,2</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>3D316814-E741-4937-B2AC-DD0A640EF23C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>IFS=$'\n'
+
+echo "&lt;?xml version='1.0'?&gt;&lt;items&gt;"
+for line in $(grep --extended-regexp '\[.+\]\(.+\)' &lt; "explore/web/frontend.md"); do
+  sed -E "s|.*\[(.+)\]\((.+)\).*|&lt;item arg='\2' valid='yes'&gt;&lt;title&gt;\1&lt;/title&gt;&lt;/item&gt;|" &lt;&lt;&lt; "${line}"
+done
+echo "&lt;/items&gt;"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>5103B15A-F4E9-4264-9809-8B8BF823CD15</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>BD01A696-CB5E-4531-AEBE-F71D32C8F227</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>https://my.mindnode.com/zRGj6Bjd1T31sVhsJz4HcNbCCz7ZMgKNqJSWSjyt#392.4,-184.2,2</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>228AEAD3-48F1-458F-A2EF-06E95C889EAC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>IFS=$'\n'
+
+echo "&lt;?xml version='1.0'?&gt;&lt;items&gt;"
+for line in $(grep --extended-regexp '\[.+\]\(.+\)' &lt; "explore/programming/python.md"); do
+  sed -E "s|.*\[(.+)\]\((.+)\).*|&lt;item arg='\2' valid='yes'&gt;&lt;title&gt;\1&lt;/title&gt;&lt;/item&gt;|" &lt;&lt;&lt; "${line}"
+done
+echo "&lt;/items&gt;"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>D9E074D6-B07B-48AC-9513-007E072D0F0B</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>005E94D2-695E-4ECF-92C0-702A037E35A3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>https://my.mindnode.com/cmzq9sEGAyyNyeZrNA7UyQa8JpsqHf9QzStwFqGT</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>7D2EEA8D-753F-46A3-AF52-635878D0C7C8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>IFS=$'\n'
+
+echo "&lt;?xml version='1.0'?&gt;&lt;items&gt;"
+for line in $(grep --extended-regexp '\[.+\]\(.+\)' &lt; "explore/web/backend.md"); do
+  sed -E "s|.*\[(.+)\]\((.+)\).*|&lt;item arg='\2' valid='yes'&gt;&lt;title&gt;\1&lt;/title&gt;&lt;/item&gt;|" &lt;&lt;&lt; "${line}"
+done
+echo "&lt;/items&gt;"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>95CB1F91-248E-4D6B-BC63-D11419E49D76</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>D9C4B582-B0B9-4E77-BCEF-AC185BE26A4F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>88873FCE-3C68-47FE-9B2C-6A47FFA62A16</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>https://my.mindnode.com/uR5wuu9guh97btPqQaRND2QPu4sxenfzMRNNPsyB</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>94C7853F-6160-4B04-9E8C-928E5D2EDCBA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>IFS=$'\n'
+
+echo "&lt;?xml version='1.0'?&gt;&lt;items&gt;"
+for line in $(grep --extended-regexp '\[.+\]\(.+\)' &lt; "explore/cs/algos.md"); do
+  sed -E "s|.*\[(.+)\]\((.+)\).*|&lt;item arg='\2' valid='yes'&gt;&lt;title&gt;\1&lt;/title&gt;&lt;/item&gt;|" &lt;&lt;&lt; "${line}"
+done
+echo "&lt;/items&gt;"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>C2F0037C-F2F2-412B-95BA-C25FC99A3A9C</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>https://my.mindnode.com/M9oKwx4cd9kzJqTpJsoUaqpGo2X2bvfwdp6ekodK#-61.3,248.6,1</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>A8EEC5DB-161D-4455-AE4D-316A5DB7E906</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>C29B23F5-86FC-40FE-B607-61D50DC96C86</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>Quick extension to Knowledge Map.
@@ -1542,6 +2360,15 @@ Ability to search through :
 Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 	<key>uidata</key>
 	<dict>
+		<key>005E94D2-695E-4ECF-92C0-702A037E35A3</key>
+		<dict>
+			<key>note</key>
+			<string>there has to be a better way :(</string>
+			<key>xpos</key>
+			<integer>1480</integer>
+			<key>ypos</key>
+			<integer>1360</integer>
+		</dict>
 		<key>028790C6-E340-43F0-AC6E-A558F0023785</key>
 		<dict>
 			<key>xpos</key>
@@ -1559,9 +2386,9 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 		<key>05C2CDF4-B8F6-48B5-9DCC-75AC001E1500</key>
 		<dict>
 			<key>xpos</key>
-			<integer>460</integer>
+			<integer>820</integer>
 			<key>ypos</key>
-			<integer>180</integer>
+			<integer>20</integer>
 		</dict>
 		<key>08B465A6-C51D-41F6-A876-28B296A42F8A</key>
 		<dict>
@@ -1591,9 +2418,9 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 		<key>142ADED3-CBA3-4CBC-BC93-177187930792</key>
 		<dict>
 			<key>xpos</key>
-			<integer>460</integer>
+			<integer>820</integer>
 			<key>ypos</key>
-			<integer>310</integer>
+			<integer>150</integer>
 		</dict>
 		<key>1594BD23-4D5A-489F-8DAE-CB5E52427502</key>
 		<dict>
@@ -1609,9 +2436,18 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 			<key>note</key>
 			<string>open main study plans</string>
 			<key>xpos</key>
-			<integer>640</integer>
+			<integer>1000</integer>
 			<key>ypos</key>
-			<integer>180</integer>
+			<integer>20</integer>
+		</dict>
+		<key>20364A41-A7E6-403C-84D8-8C6C83ED45FA</key>
+		<dict>
+			<key>note</key>
+			<string>clean</string>
+			<key>xpos</key>
+			<integer>1220</integer>
+			<key>ypos</key>
+			<integer>1250</integer>
 		</dict>
 		<key>22070B83-2A12-45AA-ABB2-1C0FBAF046F1</key>
 		<dict>
@@ -1622,12 +2458,21 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 			<key>ypos</key>
 			<integer>450</integer>
 		</dict>
+		<key>228AEAD3-48F1-458F-A2EF-06E95C889EAC</key>
+		<dict>
+			<key>note</key>
+			<string>check</string>
+			<key>xpos</key>
+			<integer>750</integer>
+			<key>ypos</key>
+			<integer>1290</integer>
+		</dict>
 		<key>238CAD6B-EF29-4AF9-8A6D-A45407BBC0CE</key>
 		<dict>
 			<key>xpos</key>
-			<integer>800</integer>
+			<integer>1160</integer>
 			<key>ypos</key>
-			<integer>180</integer>
+			<integer>20</integer>
 		</dict>
 		<key>243F7AFF-5BBD-40FE-84A6-1EC28F9802D7</key>
 		<dict>
@@ -1657,6 +2502,15 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 			<key>ypos</key>
 			<integer>150</integer>
 		</dict>
+		<key>2FEA59EA-58B9-4661-BF6F-BC936F7AB067</key>
+		<dict>
+			<key>note</key>
+			<string>clean</string>
+			<key>xpos</key>
+			<integer>850</integer>
+			<key>ypos</key>
+			<integer>1150</integer>
+		</dict>
 		<key>3BDAD5E7-B7A8-4630-AC21-1D28BB32BF69</key>
 		<dict>
 			<key>note</key>
@@ -1666,12 +2520,30 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 			<key>ypos</key>
 			<integer>1080</integer>
 		</dict>
+		<key>3D316814-E741-4937-B2AC-DD0A640EF23C</key>
+		<dict>
+			<key>note</key>
+			<string>check</string>
+			<key>xpos</key>
+			<integer>1120</integer>
+			<key>ypos</key>
+			<integer>1250</integer>
+		</dict>
 		<key>3E49E228-8968-49F9-A639-5D722D68989D</key>
 		<dict>
 			<key>xpos</key>
 			<integer>480</integer>
 			<key>ypos</key>
 			<integer>560</integer>
+		</dict>
+		<key>438B20A1-0BC2-4DFB-B85A-7DD182148A4F</key>
+		<dict>
+			<key>note</key>
+			<string>programming languages</string>
+			<key>xpos</key>
+			<integer>930</integer>
+			<key>ypos</key>
+			<integer>1120</integer>
 		</dict>
 		<key>47FE80C6-2C39-4780-B5D0-CEA099637916</key>
 		<dict>
@@ -1698,12 +2570,28 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 			<key>ypos</key>
 			<integer>20</integer>
 		</dict>
+		<key>4DB688AA-EDF7-471A-9A04-68AB13862040</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1470</integer>
+			<key>ypos</key>
+			<integer>1220</integer>
+		</dict>
 		<key>4EEFE3AA-91DF-4D0B-B61E-E3CC4CDDB1BA</key>
 		<dict>
 			<key>xpos</key>
 			<integer>40</integer>
 			<key>ypos</key>
 			<integer>270</integer>
+		</dict>
+		<key>5103B15A-F4E9-4264-9809-8B8BF823CD15</key>
+		<dict>
+			<key>note</key>
+			<string>front end</string>
+			<key>xpos</key>
+			<integer>930</integer>
+			<key>ypos</key>
+			<integer>1260</integer>
 		</dict>
 		<key>5D35CA47-C4DE-454E-8447-FB37BA5EBF2D</key>
 		<dict>
@@ -1728,12 +2616,30 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 			<key>ypos</key>
 			<integer>930</integer>
 		</dict>
+		<key>7645D656-99A6-4980-8569-C240785BA691</key>
+		<dict>
+			<key>note</key>
+			<string>go</string>
+			<key>xpos</key>
+			<integer>1320</integer>
+			<key>ypos</key>
+			<integer>1220</integer>
+		</dict>
 		<key>7933F48E-ADF4-4CE3-870F-28B8474D6A9C</key>
 		<dict>
 			<key>xpos</key>
 			<integer>40</integer>
 			<key>ypos</key>
 			<integer>690</integer>
+		</dict>
+		<key>7D2EEA8D-753F-46A3-AF52-635878D0C7C8</key>
+		<dict>
+			<key>note</key>
+			<string>check</string>
+			<key>xpos</key>
+			<integer>1130</integer>
+			<key>ypos</key>
+			<integer>1390</integer>
 		</dict>
 		<key>7DDE8978-046C-4D95-90A9-52F6E4DA7920</key>
 		<dict>
@@ -1751,12 +2657,30 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 			<key>ypos</key>
 			<integer>1110</integer>
 		</dict>
+		<key>88873FCE-3C68-47FE-9B2C-6A47FFA62A16</key>
+		<dict>
+			<key>note</key>
+			<string>clean</string>
+			<key>xpos</key>
+			<integer>860</integer>
+			<key>ypos</key>
+			<integer>1420</integer>
+		</dict>
 		<key>91594F31-BC4A-49EF-9BD8-14AF7051CE62</key>
 		<dict>
 			<key>xpos</key>
 			<integer>1070</integer>
 			<key>ypos</key>
 			<integer>540</integer>
+		</dict>
+		<key>94C7853F-6160-4B04-9E8C-928E5D2EDCBA</key>
+		<dict>
+			<key>note</key>
+			<string>check</string>
+			<key>xpos</key>
+			<integer>760</integer>
+			<key>ypos</key>
+			<integer>1420</integer>
 		</dict>
 		<key>95BC25A3-60AA-43F4-BCBC-92DA381141CA</key>
 		<dict>
@@ -1766,6 +2690,15 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 			<integer>920</integer>
 			<key>ypos</key>
 			<integer>810</integer>
+		</dict>
+		<key>95CB1F91-248E-4D6B-BC63-D11419E49D76</key>
+		<dict>
+			<key>note</key>
+			<string>backend</string>
+			<key>xpos</key>
+			<integer>940</integer>
+			<key>ypos</key>
+			<integer>1390</integer>
 		</dict>
 		<key>9CA6F58B-E75F-4797-856B-071DBEBC2FC2</key>
 		<dict>
@@ -1784,6 +2717,15 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 			<integer>1140</integer>
 			<key>ypos</key>
 			<integer>960</integer>
+		</dict>
+		<key>A8EEC5DB-161D-4455-AE4D-316A5DB7E906</key>
+		<dict>
+			<key>note</key>
+			<string>check</string>
+			<key>xpos</key>
+			<integer>760</integer>
+			<key>ypos</key>
+			<integer>1560</integer>
 		</dict>
 		<key>B20AD270-9FE6-4BA5-AFA7-2CB1C4548D93</key>
 		<dict>
@@ -1811,6 +2753,33 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 			<integer>840</integer>
 			<key>ypos</key>
 			<integer>580</integer>
+		</dict>
+		<key>BD01A696-CB5E-4531-AEBE-F71D32C8F227</key>
+		<dict>
+			<key>note</key>
+			<string>clean</string>
+			<key>xpos</key>
+			<integer>850</integer>
+			<key>ypos</key>
+			<integer>1290</integer>
+		</dict>
+		<key>C29B23F5-86FC-40FE-B607-61D50DC96C86</key>
+		<dict>
+			<key>note</key>
+			<string>clean</string>
+			<key>xpos</key>
+			<integer>860</integer>
+			<key>ypos</key>
+			<integer>1560</integer>
+		</dict>
+		<key>C2F0037C-F2F2-412B-95BA-C25FC99A3A9C</key>
+		<dict>
+			<key>note</key>
+			<string>algorithms</string>
+			<key>xpos</key>
+			<integer>940</integer>
+			<key>ypos</key>
+			<integer>1530</integer>
 		</dict>
 		<key>C3007CD6-DE9B-4D11-BFE0-0DB3911FB270</key>
 		<dict>
@@ -1840,7 +2809,7 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 		<key>CF83447E-546B-4E6B-91F5-365E21B1D3DD</key>
 		<dict>
 			<key>note</key>
-			<string>explore knowledge map from Alfred</string>
+			<string>explore knowledge map interactively</string>
 			<key>xpos</key>
 			<integer>210</integer>
 			<key>ypos</key>
@@ -1855,12 +2824,39 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 			<key>ypos</key>
 			<integer>950</integer>
 		</dict>
+		<key>D9C4B582-B0B9-4E77-BCEF-AC185BE26A4F</key>
+		<dict>
+			<key>note</key>
+			<string>clean</string>
+			<key>xpos</key>
+			<integer>1230</integer>
+			<key>ypos</key>
+			<integer>1390</integer>
+		</dict>
+		<key>D9E074D6-B07B-48AC-9513-007E072D0F0B</key>
+		<dict>
+			<key>note</key>
+			<string>python</string>
+			<key>xpos</key>
+			<integer>1330</integer>
+			<key>ypos</key>
+			<integer>1360</integer>
+		</dict>
 		<key>E76009AF-67C6-457C-960F-BDEA95BF8242</key>
 		<dict>
 			<key>xpos</key>
 			<integer>1080</integer>
 			<key>ypos</key>
 			<integer>810</integer>
+		</dict>
+		<key>EBEE111F-0B5F-4786-BFD8-E6438F3B2FAA</key>
+		<dict>
+			<key>note</key>
+			<string>check</string>
+			<key>xpos</key>
+			<integer>750</integer>
+			<key>ypos</key>
+			<integer>1150</integer>
 		</dict>
 		<key>ED5F4D19-B3DC-4B54-A90E-AF82E49B34A1</key>
 		<dict>
