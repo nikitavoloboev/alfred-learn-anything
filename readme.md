@@ -9,7 +9,7 @@ Search through  over 2500 + curated Mind Maps from [Knowledge Map](https://githu
 - Just start the search and open the mind map that you were looking for fast, wherever you are
 - I try to keep them constantly updated
 
-There are three unique searches available. You can either bind a hotkey to each one or use the keyword trigger to access these searches. Here are the searches : 
+There are four unique searches available. You can either bind a hotkey to each one or use the keyword trigger to access these searches. Here are the searches : 
 
 ## 1. [Open any of the 43 Study Guides 📚](https://github.com/nikitavoloboev/knowledge-map/tree/master/study-plans)
 
@@ -28,7 +28,20 @@ There are three unique searches available. You can either bind a hotkey to each 
 
 ![](http://i.imgur.com/9s7iteA.png)
 
-## 3. Search through my personal research
+## 3. Explore Knowledge Map Interactively
+
+Start off with 43 results from the main nodes of the Knowledge Map : 
+
+![](http://i.imgur.com/NsFmKNV.png)
+
+Clicking on any of them will open the contents of the mind map with all the links and inside mind maps : 
+
+![](http://i.imgur.com/I8h0tTd.png)
+
+Clicking on mind maps inside (results with 🗺) will let you see the contents of that mind map in Alfred.
+
+
+## 4. Search through my personal research
 
 It mostly contains notes and various links related to the topic. Essentially it allows you to open any mind map from [here](https://my.mindnode.com/P2WTfATNrnsxm23L7jQMotnJhzeh41sWWH2jgZzU#-36.3,-44.2,0) in seconds.
 

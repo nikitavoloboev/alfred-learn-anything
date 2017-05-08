@@ -1662,9 +1662,9 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 			<key>note</key>
 			<string>alfred</string>
 			<key>xpos</key>
-			<integer>1300</integer>
+			<integer>1320</integer>
 			<key>ypos</key>
-			<integer>1090</integer>
+			<integer>1080</integer>
 		</dict>
 		<key>3E49E228-8968-49F9-A639-5D722D68989D</key>
 		<dict>
@@ -1717,16 +1717,16 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 		<key>63978882-3BE9-40CC-98F4-3B001536AEB3</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1450</integer>
+			<integer>1470</integer>
 			<key>ypos</key>
-			<integer>1090</integer>
+			<integer>1080</integer>
 		</dict>
 		<key>721C1EAF-FA1E-4FE5-99BC-4EFE12694B37</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1200</integer>
+			<integer>1220</integer>
 			<key>ypos</key>
-			<integer>940</integer>
+			<integer>930</integer>
 		</dict>
 		<key>7933F48E-ADF4-4CE3-870F-28B8474D6A9C</key>
 		<dict>
@@ -1747,9 +1747,9 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 			<key>note</key>
 			<string>clean</string>
 			<key>xpos</key>
-			<integer>1200</integer>
+			<integer>1220</integer>
 			<key>ypos</key>
-			<integer>1120</integer>
+			<integer>1110</integer>
 		</dict>
 		<key>91594F31-BC4A-49EF-9BD8-14AF7051CE62</key>
 		<dict>
@@ -1781,9 +1781,9 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 			<key>note</key>
 			<string>if not 'mindnode'</string>
 			<key>xpos</key>
-			<integer>1120</integer>
+			<integer>1140</integer>
 			<key>ypos</key>
-			<integer>970</integer>
+			<integer>960</integer>
 		</dict>
 		<key>B20AD270-9FE6-4BA5-AFA7-2CB1C4548D93</key>
 		<dict>
@@ -1824,9 +1824,9 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 			<key>note</key>
 			<string>check</string>
 			<key>xpos</key>
-			<integer>1100</integer>
-			<key>ypos</key>
 			<integer>1120</integer>
+			<key>ypos</key>
+			<integer>1110</integer>
 		</dict>
 		<key>CC2520DF-C262-4C7B-B00D-7FCB8E78E7D8</key>
 		<dict>
@@ -1840,7 +1840,7 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 		<key>CF83447E-546B-4E6B-91F5-365E21B1D3DD</key>
 		<dict>
 			<key>note</key>
-			<string>explore mind map from Alfred</string>
+			<string>explore knowledge map from Alfred</string>
 			<key>xpos</key>
 			<integer>210</integer>
 			<key>ypos</key>
