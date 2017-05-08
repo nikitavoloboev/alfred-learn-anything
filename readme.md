@@ -4,7 +4,7 @@
 
 # Description
 
-Search through  over 2500 + curated Mind Maps from [Knowledge Map](https://github.com/nikitavoloboev/knowledge-map) with Alfred
+Search through  over 2500 + curated Mind Maps from [Knowledge Map](https://github.com/nikitavoloboev/knowledge-map) with Alfred.
 
 There are four unique searches available. You can either bind a hotkey to each one or use the keyword trigger to access these searches. Here are the searches : 
 
@@ -35,7 +35,7 @@ Clicking on any of them will open the contents of the mind map with all the link
 
 ![](http://i.imgur.com/I8h0tTd.png)
 
-Clicking on mind maps inside (results with 🗺) will let you see the contents of that mind map in Alfred.
+Clicking on results with 🗺 will let you see the contents of that mind map in Alfred.
 
 
 ## 4. Search through my personal research
