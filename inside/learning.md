@@ -109,8 +109,6 @@
 
 - [programming](https://my.mindnode.com/XK73eU8WNHy5qHEnsKTKqSdsVkXzs2iMtvTmgYpc#354.6,-28.1,-1)
 
-- [compilers](https://my.mindnode.com/ujjScfajTU5tJyay6b938zsPFR7z8RkVudiyYDhv)
-
 
 - [more](https://my.mindnode.com/YyJtZap3S6BLzLq8FvBqcDM1fpzom5JfeXripa9w#154.8,-441.2,2)
 

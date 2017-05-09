@@ -813,7 +813,7 @@
 				<key>fixedorder</key>
 				<false/>
 				<key>items</key>
-				<string>[{"title":"blogs","arg":"inside\/blogs.md","subtitle":""},{"title":"books","arg":"inside\/books.md","subtitle":""},{"title":"courses","arg":"inside\/courses.md","subtitle":""},{"title":"github","arg":"inside\/github.md","subtitle":""},{"title":"images","arg":"inside\/images.md","subtitle":""},{"title":"more","arg":"inside\/more.md","subtitle":""},{"title":"personal","arg":"inside\/personal.md","subtitle":""},{"title":"research papers","arg":"inside\/research-papers.md","subtitle":""},{"title":"websites","arg":"inside\/websites.md","subtitle":""},{"title":"art","arg":"learn\/learn-art.md","subtitle":""},{"title":"biology","arg":"learn\/learn-biology.md","subtitle":""},{"title":"chemistry","arg":"learn\/learn-chemistry.md","subtitle":""},{"title":"computer science","arg":"learn\/learn-cs.md","subtitle":""},{"title":"databases","arg":"learn\/learn-databases.md","subtitle":""},{"title":"design","arg":"learn\/learn-design.md","subtitle":""},{"title":"computer graphics","arg":"learn\/learn-graphics.md","subtitle":""},{"title":"health","arg":"learn\/learn-health.md","subtitle":""},{"title":"math","arg":"learn\/learn-math.md","subtitle":""},{"title":"machine learning","arg":"learn\/learn-ml.md","subtitle":""},{"title":"computer networking","arg":"learn\/learn-networking.md","subtitle":""},{"title":"operating systems","arg":"learn\/learn-os.md","subtitle":""},{"title":"physics","arg":"learn\/learn-physics.md","subtitle":""},{"title":"programming","arg":"learn\/learn-programming.md","subtitle":""},{"title":"psychology","arg":"learn\/learn-psychology.md","subtitle":""},{"title":"security","arg":"learn\/learn-security.md","subtitle":""},{"title":"tooling","arg":"learn\/learn-tooling.md","subtitle":""},{"title":"web development","arg":"learn\/learn-web-dev.md","subtitle":""},{"title":"neuroscience","arg":"learn\/learn-neuroscience.md"},{"title":"renewable energy","arg":"learn\/learn-renewable-energy.md"},{"title":"economics","arg":"learn\/learn-economics.md"},{"title":"game development","arg":"learn\/learn-game-dev.md"},{"title":"computer hardware","arg":"learn\/learn-hardware.md"}]</string>
+				<string>[{"title":"blogs","arg":"inside\/blogs.md","subtitle":""},{"title":"books","arg":"inside\/books.md","subtitle":""},{"title":"courses","arg":"inside\/courses.md","subtitle":""},{"title":"github","arg":"inside\/github.md","subtitle":""},{"title":"images","arg":"inside\/images.md","subtitle":""},{"title":"more","arg":"inside\/more.md","subtitle":""},{"title":"personal","arg":"inside\/personal.md","subtitle":""},{"title":"research papers","arg":"inside\/research-papers.md","subtitle":""},{"title":"websites","arg":"inside\/websites.md","subtitle":""},{"title":"art","arg":"learn\/learn-art.md","subtitle":""},{"title":"biology","arg":"learn\/learn-biology.md","subtitle":""},{"title":"chemistry","arg":"learn\/learn-chemistry.md","subtitle":""},{"title":"computer science","arg":"learn\/learn-cs.md","subtitle":""},{"title":"databases","arg":"learn\/learn-databases.md","subtitle":""},{"title":"design","arg":"learn\/learn-design.md","subtitle":""},{"title":"computer graphics","arg":"learn\/learn-graphics.md","subtitle":""},{"title":"health","arg":"learn\/learn-health.md","subtitle":""},{"title":"math","arg":"learn\/learn-math.md","subtitle":""},{"title":"machine learning","arg":"learn\/learn-ml.md","subtitle":""},{"title":"computer networking","arg":"learn\/learn-networking.md","subtitle":""},{"title":"operating systems","arg":"learn\/learn-os.md","subtitle":""},{"title":"physics","arg":"learn\/learn-physics.md","subtitle":""},{"title":"programming","arg":"learn\/learn-programming.md","subtitle":""},{"title":"psychology","arg":"learn\/learn-psychology.md","subtitle":""},{"title":"security","arg":"learn\/learn-security.md","subtitle":""},{"title":"tooling","arg":"learn\/learn-tooling.md","subtitle":""},{"title":"web development","arg":"learn\/learn-web-dev.md","subtitle":""},{"title":"neuroscience","arg":"learn\/learn-neuroscience.md"},{"title":"renewable energy","arg":"learn\/learn-renewable-energy.md"},{"title":"economics","arg":"learn\/learn-economics.md"},{"title":"game development","arg":"learn\/learn-game-dev.md"},{"title":"computer hardware","arg":"learn\/learn-hardware.md"},{"title":"reddit","arg":"inside\/reddit.md"}]</string>
 				<key>keyword</key>
 				<string>inside</string>
 				<key>runningsubtext</key>
@@ -1062,6 +1062,86 @@ echo "&lt;/items&gt;"</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>readonly remote_info_plist="https://raw.githubusercontent.com/vitorgalvao/alfred-workflows/master/${alfred_workflow_name}/source/info.plist"
+readonly workflow_url="https://raw.githubusercontent.com/vitorgalvao/alfred-workflows/master/${alfred_workflow_name}/${alfred_workflow_name}.alfredworkflow"
+readonly workflow_type='workflow'
+readonly frequency_check='15'
+
+# FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED UNLESS YOU KNOW WHAT YOU ARE DOING
+function abort {
+  echo "${1}" &gt;&amp;2
+  exit 1
+}
+
+function url_exists {
+  curl --silent --location --output /dev/null --fail --range 0-0 "${1}"
+}
+
+function notification {
+  local readonly terminal_notifier="$(find . -name terminal-notifier.app)"
+
+  if [[ -n "${terminal_notifier}" ]]; then
+    "${terminal_notifier}"/Contents/MacOS/terminal-notifier -title "${alfred_workflow_name}" -subtitle 'A new version is available' -message "${1}"
+  else
+    osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
+  fi
+}
+
+# Local sanity checks
+readonly local_info_plist='info.plist'
+readonly local_version="$(/usr/libexec/PlistBuddy -c 'print version' "${local_info_plist}")"
+
+[[ -n "${local_version}" ]] || abort 'You need to set a workflow version in the configuration sheet.'
+[[ "${workflow_type}" =~ ^(workflow|page)$ ]] || abort "'workflow_type' (${workflow_type}) needs to be one of 'workflow' or 'page'."
+[[ "${frequency_check}" =~ ^[0-9]+$ ]] || abort "'frequency_check' (${frequency_check}) needs to be a number."
+
+# Check for updates
+if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
+  if ! url_exists "${remote_info_plist}"; then abort "'remote_info_plist' (${remote_info_plist}) appears to not be reachable."; fi # Remote sanity check
+
+  readonly tmp_file="$(mktemp)"
+  curl --silent --location --output "${tmp_file}" "${remote_info_plist}"
+  readonly remote_version="$(/usr/libexec/PlistBuddy -c 'print version' "${tmp_file}")"
+
+  if [[ "${local_version}" != "${remote_version}" ]]; then
+    if [[ "${workflow_type}" == 'page' ]]; then
+      notification 'Opening download page…'
+      open "${workflow_url}"
+    else
+      if url_exists "${workflow_url}"; then
+        notification 'Downloading and installing…'
+        curl --silent --location --output "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow" "${workflow_url}"
+        open "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow"
+      else
+        abort "'workflow_url' (${workflow_url}) appears to not be reachable."
+      fi # url_exists
+    fi # workflow_type
+  else
+    touch "${local_info_plist}" # Reset timer by touching local file
+  fi # diff
+fi #find</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>B7CC43F1-E2A2-4671-8685-94C988D2BB46</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>fixedorder</key>
@@ -1102,6 +1182,25 @@ echo "&lt;/items&gt;"</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>7DDE8978-046C-4D95-90A9-52F6E4DA7920</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -1133,25 +1232,6 @@ echo "&lt;/items&gt;"</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>7DDE8978-046C-4D95-90A9-52F6E4DA7920</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>inputstring</key>
 				<string>{query}</string>
 				<key>matchcasesensitive</key>
@@ -1165,25 +1245,6 @@ echo "&lt;/items&gt;"</string>
 			<string>alfred.workflow.utility.filter</string>
 			<key>uid</key>
 			<string>22070B83-2A12-45AA-ABB2-1C0FBAF046F1</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>91594F31-BC4A-49EF-9BD8-14AF7051CE62</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1233,6 +1294,25 @@ echo "&lt;/items&gt;"</string>
 			<string>5D35CA47-C4DE-454E-8447-FB37BA5EBF2D</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>91594F31-BC4A-49EF-9BD8-14AF7051CE62</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1626,6 +1706,25 @@ echo "&lt;/items&gt;"</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>2</integer>
+				<key>matchstring</key>
+				<string>^(?!https:\/\/my\.mindnode\.com)</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>A2CFA41B-9469-4CFD-8245-95503BD255A2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
 				<key>argumenttype</key>
@@ -1669,25 +1768,6 @@ echo "&lt;/items&gt;"</string>
 			<string>CF8A73B1-A0D4-4C58-8BD8-799E7208C0D5</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>inputstring</key>
-				<string>{query}</string>
-				<key>matchcasesensitive</key>
-				<false/>
-				<key>matchmode</key>
-				<integer>2</integer>
-				<key>matchstring</key>
-				<string>^(?!https:\/\/my\.mindnode\.com)</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.filter</string>
-			<key>uid</key>
-			<string>A2CFA41B-9469-4CFD-8245-95503BD255A2</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2427,9 +2507,9 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 			<key>note</key>
 			<string>check</string>
 			<key>xpos</key>
-			<integer>740</integer>
+			<integer>750</integer>
 			<key>ypos</key>
-			<integer>580</integer>
+			<integer>570</integer>
 		</dict>
 		<key>1ABE37F4-6620-45CE-A8A9-A2CD1DEE933F</key>
 		<dict>
@@ -2454,9 +2534,9 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 			<key>note</key>
 			<string>if not 'mindnode'</string>
 			<key>xpos</key>
-			<integer>760</integer>
+			<integer>700</integer>
 			<key>ypos</key>
-			<integer>450</integer>
+			<integer>410</integer>
 		</dict>
 		<key>228AEAD3-48F1-458F-A2EF-06E95C889EAC</key>
 		<dict>
@@ -2598,9 +2678,9 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 			<key>note</key>
 			<string>stats</string>
 			<key>xpos</key>
-			<integer>920</integer>
+			<integer>930</integer>
 			<key>ypos</key>
-			<integer>550</integer>
+			<integer>540</integer>
 		</dict>
 		<key>63978882-3BE9-40CC-98F4-3B001536AEB3</key>
 		<dict>
@@ -2644,9 +2724,9 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 		<key>7DDE8978-046C-4D95-90A9-52F6E4DA7920</key>
 		<dict>
 			<key>xpos</key>
-			<integer>840</integer>
+			<integer>780</integer>
 			<key>ypos</key>
-			<integer>420</integer>
+			<integer>380</integer>
 		</dict>
 		<key>87F3E01F-D27D-4391-8B75-7DBB4C8DDF08</key>
 		<dict>
@@ -2714,9 +2794,9 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 			<key>note</key>
 			<string>if not 'mindnode'</string>
 			<key>xpos</key>
-			<integer>1140</integer>
+			<integer>1110</integer>
 			<key>ypos</key>
-			<integer>960</integer>
+			<integer>950</integer>
 		</dict>
 		<key>A8EEC5DB-161D-4455-AE4D-316A5DB7E906</key>
 		<dict>
@@ -2750,9 +2830,20 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 			<key>note</key>
 			<string>clean</string>
 			<key>xpos</key>
-			<integer>840</integer>
+			<integer>850</integer>
 			<key>ypos</key>
-			<integer>580</integer>
+			<integer>570</integer>
+		</dict>
+		<key>B7CC43F1-E2A2-4671-8685-94C988D2BB46</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>note</key>
+			<string>OneUpdater</string>
+			<key>xpos</key>
+			<integer>450</integer>
+			<key>ypos</key>
+			<integer>200</integer>
 		</dict>
 		<key>BD01A696-CB5E-4531-AEBE-F71D32C8F227</key>
 		<dict>
