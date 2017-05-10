@@ -1,5 +1,3 @@
-# Search through [2500 + mind maps](https://github.com/nikitavoloboev/knowledge-map) with [Alfred](https://www.alfredapp.com/)
-
 # [Download](https://www.dropbox.com/s/z5xijk1rcbuwljf/knowledge%20map.alfredworkflow?dl=1)
 
 # [Demonstration](http://quick.as/b1gwsneao) 🚀
