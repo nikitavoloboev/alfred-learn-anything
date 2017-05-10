@@ -124,6 +124,16 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>B7CC43F1-E2A2-4671-8685-94C988D2BB46</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 		<key>20364A41-A7E6-403C-84D8-8C6C83ED45FA</key>
 		<array>
@@ -380,12 +390,32 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>B7CC43F1-E2A2-4671-8685-94C988D2BB46</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 		<key>495F8EF3-0DB6-4D8F-893F-AAB1CBAE475B</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>24B93F63-9718-48DD-9E5A-082FDD27A563</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>B7CC43F1-E2A2-4671-8685-94C988D2BB46</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -695,6 +725,16 @@
 		</array>
 		<key>CF83447E-546B-4E6B-91F5-365E21B1D3DD</key>
 		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B7CC43F1-E2A2-4671-8685-94C988D2BB46</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 			<dict>
 				<key>destinationuid</key>
 				<string>243F7AFF-5BBD-40FE-84A6-1EC28F9802D7</string>
@@ -1067,8 +1107,8 @@ echo "&lt;/items&gt;"</string>
 				<key>escaping</key>
 				<integer>0</integer>
 				<key>script</key>
-				<string>readonly remote_info_plist="https://raw.githubusercontent.com/vitorgalvao/alfred-workflows/master/${alfred_workflow_name}/source/info.plist"
-readonly workflow_url="https://raw.githubusercontent.com/vitorgalvao/alfred-workflows/master/${alfred_workflow_name}/${alfred_workflow_name}.alfredworkflow"
+				<string>readonly remote_info_plist="https://github.com/nikitavoloboev/alfred-knowledge-map/blob/master/knowledge%20map.alfredworkflow?raw=true"
+readonly workflow_url="https://github.com/nikitavoloboev/alfred-knowledge-map/blob/master/knowledge%20map.alfredworkflow"
 readonly workflow_type='workflow'
 readonly frequency_check='15'
 
@@ -1182,25 +1222,6 @@ fi #find</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>7DDE8978-046C-4D95-90A9-52F6E4DA7920</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -1228,6 +1249,25 @@ fi #find</string>
 			<string>05329CDB-15EE-4CE1-8F45-86BE105D287F</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>7DDE8978-046C-4D95-90A9-52F6E4DA7920</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2534,9 +2574,9 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 			<key>note</key>
 			<string>if not 'mindnode'</string>
 			<key>xpos</key>
-			<integer>700</integer>
+			<integer>800</integer>
 			<key>ypos</key>
-			<integer>410</integer>
+			<integer>440</integer>
 		</dict>
 		<key>228AEAD3-48F1-458F-A2EF-06E95C889EAC</key>
 		<dict>
@@ -2724,9 +2764,9 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 		<key>7DDE8978-046C-4D95-90A9-52F6E4DA7920</key>
 		<dict>
 			<key>xpos</key>
-			<integer>780</integer>
+			<integer>880</integer>
 			<key>ypos</key>
-			<integer>380</integer>
+			<integer>410</integer>
 		</dict>
 		<key>87F3E01F-D27D-4391-8B75-7DBB4C8DDF08</key>
 		<dict>
@@ -2841,9 +2881,9 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>450</integer>
+			<integer>980</integer>
 			<key>ypos</key>
-			<integer>200</integer>
+			<integer>260</integer>
 		</dict>
 		<key>BD01A696-CB5E-4531-AEBE-F71D32C8F227</key>
 		<dict>
