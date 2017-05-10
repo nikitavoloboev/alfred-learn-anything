@@ -1,8 +1,5 @@
 # Search through [2500 + mind maps](https://github.com/nikitavoloboev/knowledge-map) with [Alfred](https://www.alfredapp.com/)
 
-[![Slack](https://img.shields.io/badge/Slack-channel-green.svg)](https://knowledge-map.slack.com/)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/nikitavoloboev/knowledge-map/blob/master/LICENSE)
-
 # [Download](https://www.dropbox.com/s/z5xijk1rcbuwljf/knowledge%20map.alfredworkflow?dl=1)
 
 # [Demonstration](http://quick.as/b1gwsneao) 🚀
