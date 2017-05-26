@@ -25,7 +25,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>1ABE37F4-6620-45CE-A8A9-A2CD1DEE933F</string>
+				<string>F93F8B4B-CC97-4AB8-83B3-E44C3F88BE3B</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -38,30 +38,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>1ABE37F4-6620-45CE-A8A9-A2CD1DEE933F</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>1ABE37F4-6620-45CE-A8A9-A2CD1DEE933F</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>B7CC43F1-E2A2-4671-8685-94C988D2BB46</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>238CAD6B-EF29-4AF9-8A6D-A45407BBC0CE</string>
+				<string>F93F8B4B-CC97-4AB8-83B3-E44C3F88BE3B</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -132,6 +109,29 @@
 				<false/>
 			</dict>
 		</array>
+		<key>F93F8B4B-CC97-4AB8-83B3-E44C3F88BE3B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B7CC43F1-E2A2-4671-8685-94C988D2BB46</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>238CAD6B-EF29-4AF9-8A6D-A45407BBC0CE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>nikivi</string>
@@ -143,6 +143,19 @@
 	<string>learn anything</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>inside</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>028790C6-E340-43F0-AC6E-A558F0023785</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -159,19 +172,6 @@
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>4B8F6CB3-6CE5-4E39-B754-078544362F3D</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>triggerid</key>
-				<string>inside</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>028790C6-E340-43F0-AC6E-A558F0023785</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -381,55 +381,6 @@ fi #find</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>alfredfiltersresults</key>
-				<true/>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>keyword</key>
-				<string>learn</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>script</key>
-				<string>IFS=$'\n'
-
-echo "&lt;?xml version='1.0'?&gt;&lt;items&gt;"
-for line in $(grep --extended-regexp '\[.+\]\(.+\)' &lt; "inside/learning.md"); do
-  sed -E "s|.*\[(.+)\]\((.+)\).*|&lt;item arg='\2' valid='yes'&gt;&lt;title&gt;\1&lt;/title&gt;&lt;/item&gt;|" &lt;&lt;&lt; "${line}"
-done
-echo "&lt;/items&gt;"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>learn anything</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>1ABE37F4-6620-45CE-A8A9-A2CD1DEE933F</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>triggerid</key>
 				<string>learn</string>
 			</dict>
@@ -437,6 +388,33 @@ echo "&lt;/items&gt;"</string>
 			<string>alfred.workflow.trigger.external</string>
 			<key>uid</key>
 			<string>05C2CDF4-B8F6-48B5-9DCC-75AC001E1500</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"3d printing","arg":"https:\/\/my.mindnode.com\/1qepKVwZ5z6HqpoBUr2ipQPbivrJjir3y3UPAGvP","subtitle":""},{"title":"a-frame virtual reality framework","arg":"https:\/\/my.mindnode.com\/CWsQJ418QKxqEztQEYyozPWHiqxEK9JnZBgdSbpz","subtitle":""},{"title":"abiogenesis","arg":"https:\/\/my.mindnode.com\/SLXSGkt642jAz54xrVGEFLVtZmrrB7gzGPohtngF","subtitle":""},{"title":"acting","arg":"https:\/\/my.mindnode.com\/5YecPzsqehbb4o4tvaXc6uykmqhzar3AykvRqpE5","subtitle":""},{"title":"alfred macOS launcher","arg":"https:\/\/my.mindnode.com\/tetuczqhA9mYrxXDx4zVWVmEFBgixkRe6SzjsFcq","subtitle":""},{"title":"algebra","arg":"https:\/\/my.mindnode.com\/AVUfxKqZjL329qksB8jFMpx6zDA2tpQDKGC9v1RW","subtitle":""},{"title":"algorithms","arg":"https:\/\/my.mindnode.com\/M9oKwx4cd9kzJqTpJsoUaqpGo2X2bvfwdp6ekodK","subtitle":""},{"title":"analysis","arg":"https:\/\/my.mindnode.com\/mpCNfLpJ5cAtJbUG9twTjqQoaSozpJHzXSyDMr3U","subtitle":""},{"title":"android","arg":"https:\/\/my.mindnode.com\/9GNqw9qRvvg1A8Jeo9EW7fm8bcyWWtjKD6i6pa6w","subtitle":""},{"title":"animals","arg":"https:\/\/my.mindnode.com\/uD7brAJerhs2xfCrCjsto7fXj4HzkUBrvQUfEyZ3","subtitle":""},{"title":"animation","arg":"https:\/\/my.mindnode.com\/JzrhswUBxsHBaPtQNHoxPvWApsUEenW4EpeDbsHi","subtitle":""},{"title":"anthropology","arg":"https:\/\/my.mindnode.com\/nu6BzRKfbifbP1pF9SxusxeRK4SqMBD4fPAjbxNi","subtitle":""},{"title":"anything","arg":"https:\/\/my.mindnode.com\/KdeMPbxs8KPixsa5YUq5cphqJnQg81vpHaXcDX2i","subtitle":""},{"title":"architecture","arg":"https:\/\/my.mindnode.com\/Q6r66iur4UDMMzdTtbCJgnsYaZbDnAygh8tbBMd3","subtitle":""},{"title":"art","arg":"https:\/\/my.mindnode.com\/LqjxehvfzXszoTjqzLTdcrfwD6c4mSFck9PDgxD8","subtitle":""},{"title":"artificial intelligence","arg":"https:\/\/my.mindnode.com\/wzysPxEVDVNYXebyN8Sp9qAg4mQ56btHbicx99ac","subtitle":""},{"title":"backend development","arg":"https:\/\/my.mindnode.com\/uR5wuu9guh97btPqQaRND2QPu4sxenfzMRNNPsyB","subtitle":""},{"title":"bash shell","arg":"https:\/\/my.mindnode.com\/JdxG6pPiqvhyyzW6oARy3dr4q5NTFx7oBZCMoodd","subtitle":""},{"title":"bezier curves","arg":"https:\/\/my.mindnode.com\/xFxmSxUn5zw5FF4ZoNqZsCGjvszFZSEHhy5PuHfE","subtitle":""},{"title":"biochemistry","arg":"https:\/\/my.mindnode.com\/zi4L6xyTss5zyiBkw6RqAqUhzaBZgpXNQk2UNA8D","subtitle":""},{"title":"bioinformatics","arg":"https:\/\/my.mindnode.com\/syiq5vpE5n7gWTqmvja6v6ivhY7EY1AP61qpz2PE","subtitle":""},{"title":"biology","arg":"https:\/\/my.mindnode.com\/VbTJQGhPcBZ7kWwXri8sUd1kTSQuAeZH8xkCtTgp","subtitle":""},{"title":"brain computer interface","arg":"https:\/\/my.mindnode.com\/z8HaiMkaqK9Ri8tJYgKGAv7x2TPiwkRNnKa73ZzC","subtitle":""},{"title":"browsers","arg":"https:\/\/my.mindnode.com\/YopAYPxSrgy7Pqvs6ztsEgqyHeXrCd5uRQY1zzUs","subtitle":""},{"title":"c programming language","arg":"https:\/\/my.mindnode.com\/Cy6YFfoRFvBbgMMWgyN2zaqhj9KPjB23fwxvN2GB","subtitle":""},{"title":"c++ programming language","arg":"https:\/\/my.mindnode.com\/NRbzKJDrEKKWK7pvqSdpBCy2cscxZ1ZMizkxzQik","subtitle":""},{"title":"calculus","arg":"https:\/\/my.mindnode.com\/rzNXGzaSkyjn634xxnSb2jwzC7wddoxxxrB91PwA","subtitle":""},{"title":"category theory","arg":"https:\/\/my.mindnode.com\/cgWrEEoW3HSA2iysGp2swqphQXSpqVvM5TaismpM","subtitle":""},{"title":"chaos theory","arg":"https:\/\/my.mindnode.com\/Ay3xy8VuNPMZyDMqzDwVQ9ijtJQBjpm82QWzinA2","subtitle":""},{"title":"chemistry","arg":"https:\/\/my.mindnode.com\/VdpXxxyVpJm7NedoNqt6YnSAsN7RWyR7mzLh3xs6","subtitle":""},{"title":"classical mechanics","arg":"https:\/\/my.mindnode.com\/Xs5qLyzR293qpAZLJWY39SuvK2xkW2YxWm61wT2M","subtitle":""},{"title":"clojure programming language","arg":"https:\/\/my.mindnode.com\/q3CqTsNEX43ovcxU9qoYU3wn23Fro7qbWaqxFULX","subtitle":""},{"title":"cognition","arg":"https:\/\/my.mindnode.com\/QPRgXSbRCgrkyBSD1xsSH3NPzptQxzwg2XUm34cG","subtitle":""},{"title":"combinatorics","arg":"https:\/\/my.mindnode.com\/MxmPsgBTgB8vwS7wcHpZgvTx5fWrdozgZngVpbrp","subtitle":""},{"title":"command line tools","arg":"https:\/\/my.mindnode.com\/XcsEDRdzwdo86zsfaQVmFR2pmXCXhkSvyqpynY97","subtitle":""},{"title":"competitive programming","arg":"https:\/\/my.mindnode.com\/S76EQdSTiDz1hMJqAtz1Mp3zqeSJy8bytwteqbrg","subtitle":""},{"title":"compilers","arg":"https:\/\/my.mindnode.com\/8zoz2iumK52ZVSsuEr2bqY2cyzpx7icMS1nMsNH1","subtitle":""},{"title":"computability theory","arg":"https:\/\/my.mindnode.com\/SnqXfwJjzbc3Vs5F1tUayBG5RhDxxwTadc3Y6At5","subtitle":""},{"title":"computer graphics","arg":"https:\/\/my.mindnode.com\/p7RzoL1gYA4Y4tzxrGVtRC5Tc1RLB6UtMnws5ugv","subtitle":""},{"title":"computer hardware","arg":"https:\/\/my.mindnode.com\/Lf272jyyVyWWmRPpxs8z4GvsxQqGPLfpZrVhYnMn","subtitle":""},{"title":"computer networking","arg":"https:\/\/my.mindnode.com\/NMjhSs88CAGYpxwsd4CP8mkzMRj5o42CMtDVJhtN","subtitle":""},{"title":"computer science","arg":"https:\/\/my.mindnode.com\/QKWtVCHyuwbZnuxdtzZhXxs4wp8St7GeiLbKMzQU","subtitle":""},{"title":"computer vision","arg":"https:\/\/my.mindnode.com\/mCmNsBxeiGdRqYefxaq2HXYMKxf8sFWq92qYtMyU","subtitle":""},{"title":"consciousness","arg":"https:\/\/my.mindnode.com\/hSNyGspZ2ZBNebvrRvgmrg62Nk963kgwjAvNAFuq","subtitle":""},{"title":"cosmology","arg":"https:\/\/my.mindnode.com\/WL8T66hAmVGunSeX6LoZi9ohx2RRKk1riegeG3kr","subtitle":""},{"title":"creative coding","arg":"https:\/\/my.mindnode.com\/FPn7sjCxzFEd6mqaBEwCCexNnwoPyFGzu5ySkMRk","subtitle":""},{"title":"cryptocurrency","arg":"https:\/\/my.mindnode.com\/7TUvLNzE4aUwzNqXurPdcyenQR5sYx9XsJjYcQcZ","subtitle":""},{"title":"cryptography","arg":"https:\/\/my.mindnode.com\/cHUd9sSPJHjKf81sczwqxPgS7KyJJqzXz1kp3shm","subtitle":""},{"title":"css","arg":"https:\/\/my.mindnode.com\/RotqNyXWxoT5pBazqnehMuKLkgHiM32WYqjazgpY","subtitle":""},{"title":"data structures","arg":"https:\/\/my.mindnode.com\/2qFq7j3eSx2Szz3PcKGTbsSbM6psoYYGTErdyYXd","subtitle":""},{"title":"databases","arg":"https:\/\/my.mindnode.com\/VsuqhhyBK8PAfvzuHqE1DBmyB9xV8fSePsX92ssB","subtitle":""},{"title":"deep learning","arg":"https:\/\/my.mindnode.com\/wqhKt6rDSZrJR5pVV2TpCv4xnHUsYJf3vZ9SbX7D","subtitle":""},{"title":"design languages","arg":"https:\/\/my.mindnode.com\/grUmLWNxBRYqRUbRVXqWc8uygE3SLPy7V9tp63nq","subtitle":""},{"title":"design","arg":"https:\/\/my.mindnode.com\/UfyzJtYHJtarpQg5YVXVz7vwYjQvn5FQt4g3pq4C","subtitle":""},{"title":"discrete math","arg":"https:\/\/my.mindnode.com\/ha8hqZuHbb5Py7LzxWoCatscK9AZsR93vJbyfqiq","subtitle":""},{"title":"diseases","arg":"https:\/\/my.mindnode.com\/qSpAkmpgvtHK27TFhysj9svBh7fBaZKjuFztc1ms","subtitle":""},{"title":"distributed computing","arg":"https:\/\/my.mindnode.com\/2ZYrG1D2SizuM5YzrnCNQdNqzZXC1N5nH2aTMbVd","subtitle":""},{"title":"drawing","arg":"https:\/\/my.mindnode.com\/z4ZojQ2ngJ83LWaew44kstV9f2YX3Huj1pmFUbTc","subtitle":""},{"title":"drugs","arg":"https:\/\/my.mindnode.com\/5HyyfoE5sufZR5RvN9isTCdaYByzxFVhLqpk2MXg","subtitle":""},{"title":"economics","arg":"https:\/\/my.mindnode.com\/FHh7spgcDGWdg72U6L4u34VRCrW9kLswUHQoXBMs","subtitle":""},{"title":"electrical engineering","arg":"https:\/\/my.mindnode.com\/QgyDiwvEke8bbXKGFQoh8zC4JUkpEW7THSpjPuDW","subtitle":""},{"title":"electron","arg":"https:\/\/my.mindnode.com\/1Gr5QZ6ycqVbhVNahBk6qjdSjsttzxuCz3UVDge1","subtitle":""},{"title":"elixir programming language","arg":"https:\/\/my.mindnode.com\/zW4mZpEwWk59LkRXCFQCxLCNGp52Uzt9yHFyk7A3","subtitle":""},{"title":"elm programming language","arg":"https:\/\/my.mindnode.com\/YcsPzMswwUu2QqRzQYytG3ztDyzfEaMdg2oshuki","subtitle":""},{"title":"emacs text editor","arg":"https:\/\/my.mindnode.com\/GQPbqm3QBqQrp8Pzz1kcYFQsDqMppMHkdH84y3bR","subtitle":""},{"title":"engineering","arg":"https:\/\/my.mindnode.com\/6SJjDrFxzofoZjxfpgH5qVryLSYjppJsg28NapzF","subtitle":""},{"title":"english language","arg":"https:\/\/my.mindnode.com\/oTrSaQmHmUvsfe1y2CpKU4xxnXueJKpKGoyWLZ68","subtitle":""},{"title":"entrepreneurship","arg":"https:\/\/my.mindnode.com\/7wRp4x4AGyQt7oxU2PzZpSEGudSns76n1f9WXD6Y","subtitle":""},{"title":"environmental science","arg":"https:\/\/my.mindnode.com\/2qWdikpzGwN6GkfyyevpW85tXxACgjqWGfxyJ7Ph","subtitle":""},{"title":"ergodic theory","arg":"https:\/\/my.mindnode.com\/YpcjTrk8y4e46T7kqFBnTmsEexqtCasGsrbHYTFL","subtitle":""},{"title":"erlang programming language","arg":"https:\/\/my.mindnode.com\/qNHHXzr4uwFXSHsHsznLkWvXXVskz6hFtjiRKcai","subtitle":""},{"title":"ethereum","arg":"https:\/\/my.mindnode.com\/Qzw4xRpZJLXCBG357zegCse43zFFzkBmssmg78Bo","subtitle":""},{"title":"evolution","arg":"https:\/\/my.mindnode.com\/vRcTBWAWQsQwUHvqMV9bNZbLDmXGxadnyobphBd9","subtitle":""},{"title":"filmmaking","arg":"https:\/\/my.mindnode.com\/zwrY9ZyZy5sHmRg8HizhVnJMDpxQnxahdkqA3i3G","subtitle":""},{"title":"financial independence","arg":"https:\/\/my.mindnode.com\/bFq9JuRH7YWRZpAqwPiUocWsssov8PPqdUGXhVpt","subtitle":""},{"title":"fish shell","arg":"https:\/\/my.mindnode.com\/S2WsuUtQp9KBSCz9TqzCpKx3tkxTTB3rmr8yPGyJ","subtitle":""},{"title":"fitness","arg":"https:\/\/my.mindnode.com\/Qruad21hxq43Qw4xHN4gyPZmeKc33cx3BDHq1o47","subtitle":""},{"title":"front end development","arg":"https:\/\/my.mindnode.com\/zRGj6Bjd1T31sVhsJz4HcNbCCz7ZMgKNqJSWSjyt","subtitle":""},{"title":"full stack web development","arg":"https:\/\/my.mindnode.com\/YfXtXRQ4Vys8SZaxwKETATNSWX4rbhHeq6xPxLjm","subtitle":""},{"title":"functional programming","arg":"https:\/\/my.mindnode.com\/yyhkEqtncydaTup1Bfz3Du7juXt5o5Urpp9pnWQv","subtitle":""},{"title":"game development","arg":"https:\/\/my.mindnode.com\/rMqH25BBnT8N9Frhv3L6YCk8NozigyGWgjrgPmjE","subtitle":""},{"title":"generative art","arg":"https:\/\/my.mindnode.com\/poAjesfjxdw5oHhJJT1LbPi4pabM6gBh1kKzrS3E","subtitle":""},{"title":"genetics","arg":"https:\/\/my.mindnode.com\/YsbzN9qSqh19C8xSu48PVMsDYik1obzQLb4qUNTN","subtitle":""},{"title":"geometry","arg":"https:\/\/my.mindnode.com\/sCYVzti3VNqepg8uKQxpGQoHnDFy3pyuBiabecPn","subtitle":""},{"title":"git version control","arg":"https:\/\/my.mindnode.com\/dzhbs3FRB4z143969SjnPEDspe1Gp3SEppissAqy","subtitle":""},{"title":"go programming language","arg":"https:\/\/my.mindnode.com\/qpLq1TfqPWmu9sszrCxEM4QsWUH547TLNQkyfTyQ","subtitle":""},{"title":"godot game engine","arg":"https:\/\/my.mindnode.com\/9J1fJTLMtBohP398Zs1axCyQf7v4nFyoMTWuG9P5","subtitle":""},{"title":"graph theory","arg":"https:\/\/my.mindnode.com\/dXTCUUkXaSp99j3nbD2Gzxn5NMBn8dyuU4atT51n","subtitle":""},{"title":"graphic design","arg":"https:\/\/my.mindnode.com\/3LqqYjEYQWQsrSk3Ypvy193fTspqZuiCy4emM7Bz","subtitle":""},{"title":"group theory","arg":"https:\/\/my.mindnode.com\/CBJmkdWELRW4PYpUDj5ypLeydiAn1io41CrpHpF2","subtitle":""},{"title":"haskell programming language","arg":"https:\/\/my.mindnode.com\/2t2hzaNKKxQ5L6zaAEgpguLbJYL24gX8hi8hgrFM","subtitle":""},{"title":"health","arg":"https:\/\/my.mindnode.com\/4LknBLWzBESbxERfpYQZsa2Fv1k3Lne1FjVsD4ys","subtitle":""},{"title":"history","arg":"https:\/\/my.mindnode.com\/viRDhbpcrjLW2MSyzGJyhzgSqryics23wcLfJTxR","subtitle":""},{"title":"html","arg":"https:\/\/my.mindnode.com\/9XKbbxW8Ft3fzP43bPwtqU3PRhDzp3VjKsqLntQJ","subtitle":""},{"title":"http","arg":"https:\/\/my.mindnode.com\/t1dtQBegP9uwBMKgxszHeHhYRT8EzDvbxy9Zbstw","subtitle":""},{"title":"idris programming language","arg":"https:\/\/my.mindnode.com\/FALM4KzKneJrqTQpd9fc8ZQyneE228tWpAVcB5f1","subtitle":""},{"title":"industrial design","arg":"https:\/\/my.mindnode.com\/sG3PrxZ5rtpFSBEWewrbfGkSiaXduHMZxEWRRewi","subtitle":""},{"title":"infrastructure","arg":"https:\/\/my.mindnode.com\/VBPfyy3FxxfSpCB6xzjQUxbKbmvPf6w9W7snssVb","subtitle":""},{"title":"internet of things","arg":"https:\/\/my.mindnode.com\/paZEegpBdjystmyVhqfqX7PoPquz1AEWY4JvQkSk","subtitle":""},{"title":"investing","arg":"https:\/\/my.mindnode.com\/GLyTce5yc3y6fxsHJqZSoP3UnR5pSx2My8cudp7o","subtitle":""},{"title":"iOS","arg":"https:\/\/my.mindnode.com\/m32Zo1SzPiqfWqJvpUwBMuTMCNVXejfyWfZyeSFz","subtitle":""},{"title":"IPFS","arg":"https:\/\/my.mindnode.com\/Hsex87wcsZbzbwMNzbaJFsBPFJycLymJqA7sotvg","subtitle":""},{"title":"java programming language","arg":"https:\/\/my.mindnode.com\/XcFAZAvk82ipqdis1UW5wznzxBxuVbx5iHLwgLHP","subtitle":""},{"title":"javascript libraries","arg":"https:\/\/my.mindnode.com\/5PazdXmKxEq1mDpksAfWUZFdJTpvAHpti6Cir1S2","subtitle":""},{"title":"javascript programming language","arg":"https:\/\/my.mindnode.com\/QQzCynmUtZpAuyGipqxsvRJ6NPn477o9cSjCGqqR","subtitle":""},{"title":"jQuery","arg":"https:\/\/my.mindnode.com\/Gr8yvuKJCWgjaeJXoiUudYqoid8oeky6b81Cwunf","subtitle":""},{"title":"julia programming language","arg":"https:\/\/my.mindnode.com\/o5MkZSpM5SvDhrBTz7mvrm7qLFSFXXAgV5xzKWQx","subtitle":""},{"title":"keras library","arg":"https:\/\/my.mindnode.com\/rApczcRbzmMrgkZtP6QmEyTRGUvgiyThASZrPP5C","subtitle":""},{"title":"kotlin programming language","arg":"https:\/\/my.mindnode.com\/5LipbLiRfryhTsqRL6za1x5qzpQBh3mmD997Kwvb","subtitle":""},{"title":"lambda calculus","arg":"https:\/\/my.mindnode.com\/P1fXveGBaQQQF9u1ZjGzqJzT9vnUppxPgyrnYFzM","subtitle":""},{"title":"languages","arg":"https:\/\/my.mindnode.com\/stsEoNGkUKFSyU9tsZ79xwDwQqQWSufCXafvSdPx","subtitle":""},{"title":"LaTeX","arg":"https:\/\/my.mindnode.com\/4bwpnfgzEsxWdzsbgDzUJdK8qxmvEKEK8tdWPmD5","subtitle":""},{"title":"law","arg":"https:\/\/my.mindnode.com\/xGXnpQKEqRv7eHeqTwgz8CsdknxhnWZj68baiyCd","subtitle":""},{"title":"learning","arg":"https:\/\/my.mindnode.com\/xmrq1nh3m3aseeRxiK7hexvqqKktdaLRSTGSq2pA","subtitle":""},{"title":"linear algebra","arg":"https:\/\/my.mindnode.com\/9GQnwWMBYXMe1XjUD8G21qpxiyz5B4MraPtL8xyy","subtitle":""},{"title":"linguistics","arg":"https:\/\/my.mindnode.com\/RzvJjKnkfVYcSZxfU8vozrx94yqAemYs6s5SRnoz","subtitle":""},{"title":"linux distributions","arg":"https:\/\/my.mindnode.com\/HpUzZFCiRpvNq4ahQ7kZzzMHtP5Mpsxw9aysneyX","subtitle":""},{"title":"linux","arg":"https:\/\/my.mindnode.com\/jm89qy7HU6d8WuxRKdxrAicNnEgSPaeSJ7poN6VC","subtitle":""},{"title":"lisp programming language","arg":"https:\/\/my.mindnode.com\/U8N8tR2D1Ek1SUaLoNEDwcmoeeBRMkEUnd1XxfH6","subtitle":""},{"title":"logic","arg":"https:\/\/my.mindnode.com\/1GGWUw7yg9oqPVsqx83FwnMa41ecAcYXYJp5GRRR","subtitle":""},{"title":"LOVE game engine","arg":"https:\/\/my.mindnode.com\/gKQdRD1VLLAi1etGdsKnhtXsW4WX8y6HQUQBx6eN","subtitle":""},{"title":"machine learning libraries","arg":"https:\/\/my.mindnode.com\/PVcz8iqUfa941KTpBqXgpiP7Asst1yGcqVa8Kmit","subtitle":""},{"title":"machine learning","arg":"https:\/\/my.mindnode.com\/k954FWFNztnkphWmNqqHz2dqQW41LeP1SLqkqqjs","subtitle":""},{"title":"macOS","arg":"https:\/\/my.mindnode.com\/Q8Rh6YMpzZrg6z2axSfSeU6vUxgNrbDaosMzuAAn","subtitle":""},{"title":"macroeconomics","arg":"https:\/\/my.mindnode.com\/7yruRs7n4ySrpYqFppAaRJrdcf8MKpAfpyjnqV1z","subtitle":""},{"title":"management","arg":"https:\/\/my.mindnode.com\/YstbvV9fn1zzpkXxCsSAnzheSysDKn5Q3B8koMuf","subtitle":""},{"title":"marketing","arg":"https:\/\/my.mindnode.com\/Wm2fSqKWEJyyZ3LYZsgy2x6Yb8te49t968qqypUs","subtitle":""},{"title":"mathematics","arg":"https:\/\/my.mindnode.com\/JD2DJUeZSAwQzyb5KceAZ6bfuYaLGqsDkpfZg1R2","subtitle":""},{"title":"matlab programming language","arg":"https:\/\/my.mindnode.com\/5Sx8gmcsXTxznCp11pAggrxCzWkA4VLLNFx2RNEH","subtitle":""},{"title":"medical specialties","arg":"https:\/\/my.mindnode.com\/zv6SgpSpxyG8ZzXs7TpqV3Lzzms5yqa3pzC9CTnn","subtitle":""},{"title":"medicine","arg":"https:\/\/my.mindnode.com\/CbZkPeEWbQxNRtoCAzdy3Wx1Bz3BLzC3PsK9yF5q","subtitle":""},{"title":"microeconomics","arg":"https:\/\/my.mindnode.com\/4vwsEGr7GgX2F6iTU1gzu4wCByWxGi9HCTqW7ABp","subtitle":""},{"title":"mindfulness","arg":"https:\/\/my.mindnode.com\/X1xhDwGWzsx5JAYpitKYQmX9YtMgR3CBpujMkhj8","subtitle":""},{"title":"music","arg":"https:\/\/my.mindnode.com\/s7pJzgtWzzkz8ubfSzWxWyvuReC7eLVSHZqc4aRV","subtitle":""},{"title":"natural language processing","arg":"https:\/\/my.mindnode.com\/nFFywmhppMRxw1Z6n7QNxikisQo9q9egH5jL8PfD","subtitle":""},{"title":"networking protocols","arg":"https:\/\/my.mindnode.com\/6fjPX63yK7dpB6Vs2uxjzqvZ8xBw2ymoDuq48wPC","subtitle":""},{"title":"neural networks","arg":"https:\/\/my.mindnode.com\/VznvpXy4JfeyVL4toshCQE3pdyHvLzx1bTGUpze2","subtitle":""},{"title":"neuroscience","arg":"https:\/\/my.mindnode.com\/qn6XqfNxftWrVm4n2Xs5BsPJok4KEFTJGpNixELq","subtitle":""},{"title":"nim programming language","arg":"https:\/\/my.mindnode.com\/h8VJGBSS26e4bB4WdUx3myyoUczihJtvzGGj8whg","subtitle":""},{"title":"node.js","arg":"https:\/\/my.mindnode.com\/66sFsUMNvxTztuXk4hHSKRByUXqnASaLTXMNrNkv","subtitle":""},{"title":"noSQL databases","arg":"https:\/\/my.mindnode.com\/mLEApxUMnfyeMpB7WzzkUdUNAweVk9WWJZpXgsh6","subtitle":""},{"title":"nuclear physics","arg":"https:\/\/my.mindnode.com\/HbfUFjzkF9Dc1GnzXqs2rUpVy9dEsWBL61wKvsx7","subtitle":""},{"title":"nuclear power","arg":"https:\/\/my.mindnode.com\/VsJNqTHszge5FaDgKQXk94U6mzvFT5dSHd5cRu1p","subtitle":""},{"title":"number theory","arg":"https:\/\/my.mindnode.com\/XtFzGZzt2WmZXRs6R2yecX5yqPXn2rGvdTXhbtJ9","subtitle":""},{"title":"nutrition","arg":"https:\/\/my.mindnode.com\/zUyb7rGF3UvomE9YgA4tJ8vhfrGxZ9dvPNy2EL1r","subtitle":""},{"title":"objective c programming language","arg":"https:\/\/my.mindnode.com\/zpRZZGyaquCMMatMhbHqoyNDum3Nh6VTgyRwyDuY","subtitle":""},{"title":"openGL","arg":"https:\/\/my.mindnode.com\/zPHWFpAprmq1Tt3YGm3ZBE1pysmVUYSgDhsfMVfZ","subtitle":""},{"title":"operating systems","arg":"https:\/\/my.mindnode.com\/KAxvkPhxHhf6v2xxJ58HXhduppxpTz8xznmcuvBZ","subtitle":""},{"title":"organic chemistry","arg":"https:\/\/my.mindnode.com\/dhjpxEvxsiojxW3zpYLauuaPtunmybtWNfUjmy4b","subtitle":""},{"title":"penetration testing","arg":"https:\/\/my.mindnode.com\/4ihKdHT7ZKc1a6hp7MiFFYGpzA4Dm6Qu6sr5LdMT","subtitle":""},{"title":"perl programming language","arg":"https:\/\/my.mindnode.com\/4XCVExihWLgHvFxnJZyxLMYWWt8rfsgi4Hrqykya","subtitle":""},{"title":"philosophy of mind","arg":"https:\/\/my.mindnode.com\/UMM4zxspXCaoU2PXsuxQdj8ERppHZEpkv9oQAiuB","subtitle":""},{"title":"philosophy","arg":"https:\/\/my.mindnode.com\/DaLRfu3ipMHEkhxuzqKTgbZPLmVGTmN7khBS3xqZ","subtitle":""},{"title":"photography","arg":"https:\/\/my.mindnode.com\/ARzVgj42iJRgaDwqcHqpy6bVBskmZxbbzGsUyaYn","subtitle":""},{"title":"physics","arg":"https:\/\/my.mindnode.com\/RfCpjqozA6Aq3j38RvzUnZrhFGMnpCsbRrpAsUWj","subtitle":""},{"title":"postgreSQL","arg":"https:\/\/my.mindnode.com\/y48JgLrYtbyNrsKyRze4WHzhYVrGZks9N9pvsekp","subtitle":""},{"title":"privacy","arg":"https:\/\/my.mindnode.com\/uFiw9mUYxyQjTnTcHqpX8VGsH5sSVSWztpY5AyWJ","subtitle":""},{"title":"processing programming language","arg":"https:\/\/my.mindnode.com\/zR23tD5fCFaQox7mHfYkLUgiQCDvMcz8Ragd98QR","subtitle":""},{"title":"programming interviews","arg":"https:\/\/my.mindnode.com\/XSoat9hfA9vpEu9LsEStbuAzNWhPHZqDyh24sRzv","subtitle":""},{"title":"programming language design","arg":"https:\/\/my.mindnode.com\/DGpMF54UqFrrurzbs77HTzyq8HswHBEwq8xdg8hB","subtitle":""},{"title":"programming language theory","arg":"https:\/\/my.mindnode.com\/6GZfjhTKw6cscXsr3MqFCLAfPnCs9dEEWSAuptrR","subtitle":""},{"title":"programming languages","arg":"https:\/\/my.mindnode.com\/deC8Q7qpC5GxM41ysqHhMHzN832JMUAL1Fc351Td","subtitle":""},{"title":"programming mastery","arg":"https:\/\/my.mindnode.com\/RHEKsTCqdDLjzVaZ8DzEXkeEezxpmyLsqf5BV1Mt","subtitle":""},{"title":"programming paradigms","arg":"https:\/\/my.mindnode.com\/WoxCvQtJKD7iFsABg3sRjfAfQ2g5ZQjmTt6Vd25i","subtitle":""},{"title":"programming","arg":"https:\/\/my.mindnode.com\/XK73eU8WNHy5qHEnsKTKqSdsVkXzs2iMtvTmgYpc","subtitle":""},{"title":"psychology","arg":"https:\/\/my.mindnode.com\/cmk4fh551FmyBm5Eg3vAbj9zruxk3W41XNreG4vy","subtitle":""},{"title":"public speaking","arg":"https:\/\/my.mindnode.com\/FfGBsH3yoyhMqibLaNW8hf3ZKGe59Yx7yiNDBxc3","subtitle":""},{"title":"python programming language","arg":"https:\/\/my.mindnode.com\/cmzq9sEGAyyNyeZrNA7UyQa8JpsqHf9QzStwFqGT","subtitle":""},{"title":"pytorch library","arg":"https:\/\/my.mindnode.com\/9ABQqxkZGqGtY2QKRkwyt7q3pfzMkoSQTgJ5anZn","subtitle":""},{"title":"quantum computing","arg":"https:\/\/my.mindnode.com\/F8ubCrxApr7pFiW8TxvNyyzD51WqHkzVDFMN4cyp","subtitle":""},{"title":"quantum mechanics","arg":"https:\/\/my.mindnode.com\/qJ23VQZs8r5YToae7Ch6Tein6h7U5yhAiw8enxsH","subtitle":""},{"title":"r programming language","arg":"https:\/\/my.mindnode.com\/mUPs3DfcabhJX4AWRPWVdbYRkqqad3ZL2SjVFoPL","subtitle":""},{"title":"rationality","arg":"https:\/\/my.mindnode.com\/ZLb6tystjm7WXtPgscpXpxKiDktvqcqvvUbptrER","subtitle":""},{"title":"ray tracing","arg":"https:\/\/my.mindnode.com\/https:\/\/my.mindnode.com\/xXFt6yDav79DvBBUnPbsqtVzQH1fXBqZGRaYRk9D","subtitle":""},{"title":"react native","arg":"https:\/\/my.mindnode.com\/MiLsnxiprq4jpBMTBiHT48Kt1sZqfF23hEuyGLKE","subtitle":""},{"title":"react library","arg":"https:\/\/my.mindnode.com\/ifaZsjVmDsFxTdqDDix8s3GyXibGvCArpc86ViZM","subtitle":""},{"title":"redis","arg":"https:\/\/my.mindnode.com\/Fb7dmtCvahWRF1LWybq5JqtPjHwBeF4mxoV7zLB5","subtitle":""},{"title":"regular expressions","arg":"https:\/\/my.mindnode.com\/reBzaM1mn6WWuTM5iRAtrC1o7LzWBNwspT9pxNT3","subtitle":""},{"title":"reinforcement learning","arg":"https:\/\/my.mindnode.com\/eKswyDv4KNY9fePuF3DcWvYZjtTaBzxk581Mw7Ru","subtitle":""},{"title":"relational databases","arg":"https:\/\/my.mindnode.com\/y48JgLrYtbyNrsKyRze4WHzhYVrGZks9N9pvsekp","subtitle":""},{"title":"reverse engineering","arg":"https:\/\/my.mindnode.com\/dtFqPNRpHxvWsy1ySv4oA48sDxPa87SpfFq5Zzqz","subtitle":""},{"title":"robotics","arg":"https:\/\/my.mindnode.com\/wh2SoPR7RC3QvWxkk8Gw3S4Ev8AsqCrnozKk8Hv2","subtitle":""},{"title":"ruby programming language","arg":"https:\/\/my.mindnode.com\/tjqqGCFLZbqp4sEDZqv7H6DB5Xwx7FUjhDdpBnit","subtitle":""},{"title":"russian language","arg":"https:\/\/my.mindnode.com\/4eQcjH3g5sypLz42tryUQ49NZzfhE3Crb4m9tq1v","subtitle":""},{"title":"rust programming language","arg":"https:\/\/my.mindnode.com\/7Q14XaYLnco9X1oqfouxpibjMz3Asy6PVDjf8C3Y","subtitle":""},{"title":"scala programming language","arg":"https:\/\/my.mindnode.com\/z5jpzSuE3Tdyy4TFpxz3vbZMAKyS6B4cDPNQKmS2","subtitle":""},{"title":"search engines","arg":"https:\/\/my.mindnode.com\/7YbqKxSpWxkBT4s4p8N5HghpCy6n8XNHwSHAppzn","subtitle":""},{"title":"security","arg":"https:\/\/my.mindnode.com\/38DGvay2sqnzEMAZ4GnPNKzVxDic1gStaQq6dn46","subtitle":""},{"title":"sentiment analysis","arg":"https:\/\/my.mindnode.com\/BTNhqptfyxynrT4NFoaLAysgHnkKgpC98YGuKqRA","subtitle":""},{"title":"set theory","arg":"https:\/\/my.mindnode.com\/nczskizQHzyMnnpAxxg5D2hWuMshy2AF13pkGNdk","subtitle":""},{"title":"singing","arg":"https:\/\/my.mindnode.com\/LzEyZ1zXzYtx17vmqsn1ddeVAzRNPZscLvdgNkmc","subtitle":""},{"title":"smalltalk programming language","arg":"https:\/\/my.mindnode.com\/rv35EzC72HtQBmAse2k9WgxyssY4qTbs2u3FU9ux","subtitle":""},{"title":"sociology","arg":"https:\/\/my.mindnode.com\/syqmsqY4ZxxGLHMJFc1s84WXdU4eC3MxdZPa9eSd","subtitle":""},{"title":"software architecture","arg":"https:\/\/my.mindnode.com\/eGwQJjrztCQoaUZwUdAeq2o4C1s9mdHKRKjX6iRD","subtitle":""},{"title":"software defined networking","arg":"https:\/\/my.mindnode.com\/7zQmJgzwiJusj356NbqrERGDJkX3bRSLJH65tp35","subtitle":""},{"title":"special relativity","arg":"https:\/\/my.mindnode.com\/gLpu3axPp2y3uXJoq4G5F2bCzbLNDn9Vi1rnaZLH","subtitle":""},{"title":"ssh","arg":"https:\/\/my.mindnode.com\/4TdQ9XwhpRja4c9Nz7XvCSL1k3UsHFs8U2fxjfwd","subtitle":""},{"title":"statistics","arg":"https:\/\/my.mindnode.com\/7cSLjj5rauAnjWT1zHqEmqGkixvoVWaMz8C7Q2aW","subtitle":""},{"title":"sublime text editor","arg":"https:\/\/my.mindnode.com\/ndgjqFv81GzHxJR19VmpzcZHdE9yM6yFDNoiqZZu","subtitle":""},{"title":"swift programming language","arg":"https:\/\/my.mindnode.com\/vAJcWyzzTubpywgp8o367gPWvRUxi2y5r2sZMryb","subtitle":""},{"title":"tcp\/ip","arg":"https:\/\/my.mindnode.com\/zZbLxuhSrDnUaU3aP21wpUwt62zmVpkct13QhJjU","subtitle":""},{"title":"tensorflow library","arg":"https:\/\/my.mindnode.com\/qA5158JZkdJzGWzr54AswZkmxPnwBJVTc89mytzy","subtitle":""},{"title":"text editors","arg":"https:\/\/my.mindnode.com\/GQPbqm3QBqQrp8Pzz1kcYFQsDqMppMHkdH84y3bR","subtitle":""},{"title":"theory of computation","arg":"https:\/\/my.mindnode.com\/nv2bgFsqXvmrTByTt5W1Q7GtXqu8skYRTyac1pDU","subtitle":""},{"title":"software","arg":"https:\/\/my.mindnode.com\/Y9HmMRYdZycykNjqHMtyQ2G7aSVJXbRFcsxT7prQ","subtitle":""},{"title":"torch library","arg":"https:\/\/my.mindnode.com\/zqcBKdtGqSVwEik7gqrYrynGeyfSXYLVyqxE72Q2","subtitle":""},{"title":"type theory","arg":"https:\/\/my.mindnode.com\/eytyqpDLBmrC4xVnHCDqRVBZi39xhXBWnBRSTVoM","subtitle":""},{"title":"typescript programming language","arg":"https:\/\/my.mindnode.com\/5LipbLiRfryhTsqRL6za1x5qzpQBh3mmD997Kwvb","subtitle":""},{"title":"typography","arg":"https:\/\/my.mindnode.com\/Dpe6usjyhYStxvMwwrGB2oste4DsnbGdQxL8h1eU","subtitle":""},{"title":"unity game engine","arg":"https:\/\/my.mindnode.com\/e6eGCsYMysgfLWp32sC94KKjriUy5UNmBJXJGoox","subtitle":""},{"title":"unix shells","arg":"https:\/\/my.mindnode.com\/vYosAZHZypgizmPLqEDEhcvoGNTAUPHz7eBVyf9R","subtitle":""},{"title":"user experience","arg":"https:\/\/my.mindnode.com\/HxHcbJzNjqT4s8esfDyUQYEACFDysxTx43FUGdYx","subtitle":""},{"title":"user interfaces","arg":"https:\/\/my.mindnode.com\/HxHcbJzNjqT4s8esfDyUQYEACFDysxTx43FUGdYx","subtitle":""},{"title":"vim text editor","arg":"https:\/\/my.mindnode.com\/onsumXxs7xywXeQxDHEJxfM8pQ5YNxmfzfxQc74T","subtitle":""},{"title":"virtual reality","arg":"https:\/\/my.mindnode.com\/mKhEXHiMUXpGgfJxDkqbgyxN3MRp3bwug96a9zo2","subtitle":""},{"title":"vs code text editor","arg":"https:\/\/my.mindnode.com\/ZkkpJ1Q28hj2Lx4xoU2eWqHWojC4RDjCsYYUTQPK","subtitle":""},{"title":"vue.js","arg":"https:\/\/my.mindnode.com\/nGBJtTf4DYUj4sxXXZRBn7YkRnxb1LtqLmzhonLn","subtitle":""},{"title":"web crawlers","arg":"https:\/\/my.mindnode.com\/tfSGpEVZd5EqPFzEzetA532qCfhgUDfbVp6gU7zv","subtitle":""},{"title":"web design","arg":"https:\/\/my.mindnode.com\/3irQvGhTDXsWX7yHqzQkR9JWhq9kyaJZ4otN7qiR","subtitle":""},{"title":"web development","arg":"https:\/\/my.mindnode.com\/85uh2iN4GPhBJpuyyuWks5a6niyypQA5TPBCGnAN","subtitle":""},{"title":"web performance","arg":"https:\/\/my.mindnode.com\/TTiDHqPUigF91yBHAFSgbhNckeUAGZhNtxiavEPB","subtitle":""},{"title":"webpack","arg":"https:\/\/my.mindnode.com\/s6pamFzVLsjqEmECkedvcFuH8pdM47NuojDs8epy","subtitle":""},{"title":"WebRTC","arg":"https:\/\/my.mindnode.com\/Z23exvKV95hC8L5i5kcyenuTr1XykRqXWweZAqfi","subtitle":""},{"title":"WebSockets","arg":"https:\/\/my.mindnode.com\/MCHX7afgsj6V5qXGDEpoqs4uJhG9yDPsTaz4WyP4","subtitle":""},{"title":"windows","arg":"https:\/\/my.mindnode.com\/yxcnFoyVpJecxFRoqfQ8orzsu3zesCAcS9jjMPZM","subtitle":""},{"title":"writing","arg":"https:\/\/my.mindnode.com\/syW5tDqyLdEPRQYt2d8bhbt79hqPxreaaKo3BqMG","subtitle":""},{"title":"quantum field theory","arg":"https:\/\/my.mindnode.com\/gDAemvFSLEMi7g9ozVTKp7yW2onyv76X5cspxeVQ","subtitle":""},{"title":"guitar","arg":"https:\/\/my.mindnode.com\/xPUGxGodprtehL3P5zd7dyzmTeaDYiCQxkVp8nrF","subtitle":""},{"title":"model theory","arg":"https:\/\/my.mindnode.com\/M66CXTQkXDysSKDp3a3Mq3Dbwzy5x398Ayvzc1Ey","subtitle":""},{"title":"topology","arg":"https:\/\/my.mindnode.com\/9Vyqzw7KposgvsspFnRr96nFCyNcKKUVG4hpuNYw","subtitle":""},{"title":"knot theory","arg":"https:\/\/my.mindnode.com\/Gq7pA3rtpYhZP2K1MhMFwmy3YaEpvdG13M5wjRBi","subtitle":""},{"title":"php programming language","arg":"https:\/\/my.mindnode.com\/PRPMKGkoCxUbGwDxRxfWCPspQppWEL4wcrf3LteY","subtitle":""},{"title":"meteor library","arg":"https:\/\/my.mindnode.com\/HbPdBs4yqvN1FdoScE3PVNZwnXcqdddWqXkGqssc","subtitle":""},{"title":"scikit-learn library","arg":"https:\/\/my.mindnode.com\/35hVLCpp3wbpsx4YqVD9XxpczbpPpyWJjwWfsfAq","subtitle":""},{"title":"redux","arg":"https:\/\/my.mindnode.com\/eD7tx71JUqC6R4iqaPGxzvdR2ocpqGq5TVsxp2yk","subtitle":""},{"title":"django library","arg":"https:\/\/my.mindnode.com\/K5WJhHspfaaezNNbNRZYxWGEoofFqnQVTa3ZcxEz","subtitle":""},{"title":"german language","arg":"https:\/\/my.mindnode.com\/pT3imu8pRh4xtPpe45UYAEGz7ehkMqWna1sPgWbL","subtitle":""},{"title":"chinese language","arg":"https:\/\/my.mindnode.com\/amC8qjhodpnZHjXHDxxyeSpKSMU65DUb1yyirRMk","subtitle":""},{"title":"query languages","arg":"https:\/\/my.mindnode.com\/26VQE2ahqWLR5jRQCdsChym1EUP2Ls8AmQ64aj2y","subtitle":""},{"title":"graphQL","arg":"https:\/\/my.mindnode.com\/QBvN8M3BBDqL2TKXpGzyycUxTMYcRzXpQoJKDcdq","subtitle":""},{"title":"photoshop","arg":"https:\/\/my.mindnode.com\/Bq15VPP9eVsmunFsM9RAFjpawSsgpuCBSi9ou3ye","subtitle":""},{"title":"docker","arg":"https:\/\/my.mindnode.com\/mckfV3fnWaJJirpCTcieUhRdyMT3TuLHq6RY54Gs","subtitle":""},{"title":"kubernetes","arg":"https:\/\/my.mindnode.com\/qD6Dva6VnUKLM1xg3tisnTznnXkBgpYd8nfyjGkn","subtitle":""},{"title":"aws","arg":"https:\/\/my.mindnode.com\/TCxkEPQuB1ApGPDJT4RcsusD7JFkgNq4HjwAqbLj","subtitle":""},{"title":"c# programming language","arg":"https:\/\/my.mindnode.com\/6WmDpnHqF93PcBqtajq5Y2kFTy3HqyadWjazqqAU","subtitle":""},{"title":"blockchain","arg":"https:\/\/my.mindnode.com\/Cqy6H5RRvkwBTFEsTFH1eW8zQFA5Gzvoq6ssjFxc","subtitle":""},{"title":"data science","arg":"https:\/\/my.mindnode.com\/zxRG1oYfCw5DU8ExnRnyJt6qAWz9MM41sqhniGyv","subtitle":""},{"title":"apache spark","arg":"https:\/\/my.mindnode.com\/odBHYpJQbM7LnyCw69K3KHCrKBBzeAUUQXktaKdf","subtitle":""},{"title":"software design patterns","arg":"https:\/\/my.mindnode.com\/yyJxSXTCh9xqmnCSbfoD5Ms7Nry1jxcymUDfMNqB","subtitle":""},{"title":"japanese language","arg":"https:\/\/my.mindnode.com\/F7y3iSAwZdzGnRRWLur3RpXiJviy1YF7QxZwDLxv","subtitle":""},{"title":"d3.js library","arg":"https:\/\/my.mindnode.com\/oABafsSirqHz4o8Nh4pLqwCjbqnkFE4YturNm3CS","subtitle":""},{"title":"graph databases","arg":"https:\/\/my.mindnode.com\/kAMXBibSaps4PdfxkB4jBoYBxWBfMbk1eYEzo6Cz","subtitle":""},{"title":"angularJS framework","arg":"https:\/\/my.mindnode.com\/QYBozsiUWZjbqguqyKSUV3psfhganW7PB1Wapxax","subtitle":""},{"title":"webGL","arg":"https:\/\/my.mindnode.com\/pRs2UppBdxxyS7YxD3KuqyMsFz5BNsNAyyAzzTfq","subtitle":""},{"title":"software development","arg":"https:\/\/my.mindnode.com\/C6qyyeVEzfVCyvpxD7digZzzGxV8hvcwdzAkkpjF","subtitle":""},{"title":"DevOps","arg":"https:\/\/my.mindnode.com\/4pT3AeEEywqSgdxTFBRgq3bmFpLs6s9YSaNMrxZY","subtitle":""},{"title":"laravel web framework","arg":"https:\/\/my.mindnode.com\/MbpPqGzHzySQesda9G5umY28S3spWRbzgCrGb4Uv","subtitle":""},{"title":"computers","arg":"https:\/\/my.mindnode.com\/pB9HWsxJd9fybGJtXLbiXnrMdzPhtF47yKTq3QMF","subtitle":""},{"title":"arduino","arg":"https:\/\/my.mindnode.com\/KRHuHfpmq5DzmpfFEgyvSyzQtk9t6oy7faNKbtiL","subtitle":""},{"title":"raspberry pi","arg":"https:\/\/my.mindnode.com\/TWYxfqzhfcp2sZJUGpHnZqz4fY8YFAjiuv6JBhDQ","subtitle":""},{"title":"convolutional neural networks","arg":"https:\/\/my.mindnode.com\/88ngrfYXYvJvtjsrUk6yEB1wwkKHexABji2z6sjn","subtitle":""},{"title":"bootstrap library","arg":"https:\/\/my.mindnode.com\/gkqG8tMFYa6K3qpgvqpgnz85TsJ3UpwCuiQpQPjK","subtitle":""},{"title":"spanish language","arg":"https:\/\/my.mindnode.com\/xb6QwzqtZ2sZ2ryvTeXhA8PnUdzFTWZocEoCxeZp","subtitle":""},{"title":"french language","arg":"https:\/\/my.mindnode.com\/44Pdg9ZnUsddwk5iWYwH2q2a5xHspBesoDQ2HY31","subtitle":""},{"title":"dancing","arg":"https:\/\/my.mindnode.com\/Tdvsb72Fqon42xkZGHsQx1xfKk6F6eGsgPAjCFpq","subtitle":""},{"title":"software testing","arg":"https:\/\/my.mindnode.com\/ELcJKvcycS3o6xNu8a6pgF88wCyq5wUkZRWvsfnu","subtitle":""},{"title":"everything","arg":"https:\/\/my.mindnode.com\/KdeMPbxs8KPixsa5YUq5cphqJnQg81vpHaXcDX2i","subtitle":""},{"title":"assembly programming","arg":"https:\/\/my.mindnode.com\/hKbd75qAYjBQtWMN4pzVcVnujGPppqWUKvFyYA2B","subtitle":""},{"title":"WebAssembly","arg":"https:\/\/my.mindnode.com\/hGPfuwm3pbzHXVVmB3kGRJKcPGPgeZAVFQGztxHW","subtitle":""},{"title":"open source development","arg":"https:\/\/my.mindnode.com\/i2KJsa46DzxEMaziscL7xMzJMxqAtnNFNAXaJ6d1","subtitle":""},{"title":"information retrieval","arg":"https:\/\/my.mindnode.com\/3WHuPMbUhikHhUQyKxZZ1yapNe4yp9jQcz4u55my","subtitle":""},{"title":".NET framework","arg":"https:\/\/my.mindnode.com\/p6P2zXxZjuHy2pwzzy6yi14hPD8Nd4BQj6vraSAi","subtitle":""},{"title":"nginx server","arg":"https:\/\/my.mindnode.com\/vgUdobqCgPAzpNFwxi779aqRiqcHTXcgmrskyQqd","subtitle":""},{"title":"ruby on rails","arg":"https:\/\/my.mindnode.com\/Cyv3UUXjxZst5FjBnpkSdqn7XtqWmiZsJL3Hqqec","subtitle":""},{"title":"ansible automation","arg":"https:\/\/my.mindnode.com\/qxB5SQXpxFML8WSYfgpgs9c1zvyyu1JXGbGzSZGf","subtitle":""},{"title":"babel library","arg":"https:\/\/my.mindnode.com\/8MxSwVTHS8KP3pptyt26TxDj2urxLsTxoaquJGiE","subtitle":""},{"title":"games","arg":"https:\/\/my.mindnode.com\/xoSN9tB2yvSa2q9kboV32BC789FasA1HNxMfy536","subtitle":""},{"title":"chess","arg":"https:\/\/my.mindnode.com\/PbBNcxWhy1BNfFyCcDGutjyYwBBquHpTsDPDasTq","subtitle":""},{"title":"go game","arg":"https:\/\/my.mindnode.com\/AAT9ANXEqcbXVcypJUmtpuAEVFSxpWPsDgpRDqts","subtitle":""},{"title":"test driven development","arg":"https:\/\/my.mindnode.com\/pehL4xybBLbCbwWMjtREazVNSXVhSfxKYAe9EYAd","subtitle":""},{"title":"mongoDB","arg":"https:\/\/my.mindnode.com\/q2xktwYoqXPzUGxvqg6QQqk5MyATv8oy8nkCEsrh","subtitle":""},{"title":"unreal game engine","arg":"https:\/\/my.mindnode.com\/yRZNc3qGqiHGa4j1PQFP2MbwukvassARw1xfWyXx","subtitle":""},{"title":"blender 3d graphics","arg":"https:\/\/my.mindnode.com\/zr3hcyysGypEUsWfPBqat9kSpTpkQzjb6NG7K5EL","subtitle":""},{"title":"3d modelling","arg":"https:\/\/my.mindnode.com\/KwqKLxpHNEMg45pZ6PpMQmgWimEdYxWa7JzTeGTi","subtitle":""},{"title":"piano","arg":"https:\/\/my.mindnode.com\/pvMP2qSLMX41bu73x5sazays2sYQXnMqkWz3wSEc","subtitle":""},{"title":"lua programming language","arg":"https:\/\/my.mindnode.com\/shBhz6QyUcsxTG4D63sou6E6ydvR4A4dX6KvJ2D4","subtitle":""},{"title":"dart programming language","arg":"https:\/\/my.mindnode.com\/ZC6FptzepkYtF6P6fcyGTdKLkGRPrUvcJZFNpGTK","subtitle":""},{"title":"OCaml programming language","arg":"https:\/\/my.mindnode.com\/xnifgKpgF18BD4GzLJY4zKfLKeV7rBXRVGqnVrL3","subtitle":""},{"title":"linux containers","arg":"https:\/\/my.mindnode.com\/sebTbnwH1piLBvz7DxUFx3SKKyVmsbc4RsFEfJVj","subtitle":""},{"title":"java virtual machine","arg":"https:\/\/my.mindnode.com\/XyNZszb6ME9zL5EwesBPTCypXWAJjKfu8g3FxtfQ","subtitle":""},{"title":"virtual machines","arg":"https:\/\/my.mindnode.com\/Y9qqxCqNzSV8GqxCg9yJvJGsvTJUSb3a9DzvvJGJ","subtitle":""},{"title":"Neo4j database","arg":"https:\/\/my.mindnode.com\/bx426tJLzof9vjdkMH2zxKAZXABLsWd2CXHaaVV3","subtitle":""},{"title":"bots","arg":"https:\/\/my.mindnode.com\/cEiDW9MbfjEwzmmE637yBJE7WgHSNtx7zSMsTmVv","subtitle":""},{"title":"software tooling","arg":"https:\/\/my.mindnode.com\/6B77dXUMkyNUm2KxBT6qypwqcXz23vXvkqz9Ezdr","subtitle":""},{"title":"productivity software","arg":"https:\/\/my.mindnode.com\/M6LrzfnwSvKBWGhNgJhzwnc7mkKPTq17VqPBAqb2","subtitle":""},{"title":"karabiner macOS app","arg":"https:\/\/my.mindnode.com\/hqzoDQSdDSLHK8yssrbbiC6SdhapeRg9SGNeznPk","subtitle":""},{"title":"hammerspoon macOS automation","arg":"https:\/\/my.mindnode.com\/gTuyPVTtpQyUuH7HZhd1jeBpio2q7p2zFxLN2Zzy","subtitle":""},{"title":"markov chains","arg":"https:\/\/my.mindnode.com\/1NpiefgrirDdunaD1stiWpyX3bcQbGMKP79hosmN","subtitle":""},{"title":"probabiliy theory","arg":"https:\/\/my.mindnode.com\/https:\/\/github.com\/nikitavoloboev\/learn-anything\/issues\/733","subtitle":""},{"title":"LLVM compiler infrastructure","arg":"https:\/\/my.mindnode.com\/sQuPeeiDsBpGJDCz4mFg25iP2zBzo2GxhzjkCTBJ","subtitle":""},{"title":"computation","arg":"https:\/\/my.mindnode.com\/QWix8KpcBYXDpa7zVmVyiRbdv5KmAszxZqfyCP7s","subtitle":""},{"title":"computational complexity theory","arg":"https:\/\/my.mindnode.com\/HhbXPapV6af2Kb8dB5xDLJoLahCpKsuCWzucVrk7","subtitle":""},{"title":"concurrency","arg":"https:\/\/my.mindnode.com\/mb8GSLMzQTjoqN1AnmMbE8Uv91pyKfbA7NdAvvyk","subtitle":""},{"title":"control systems","arg":"https:\/\/my.mindnode.com\/r17byHmpCEnHyTYCity7LXPGxD94d1aybnv1xzVW","subtitle":""},{"title":"spirituality","arg":"https:\/\/my.mindnode.com\/SmSpRm4TvWTpqxxXLPtyyqDhytKfLG9oxRrW8ujj","subtitle":""},{"title":"buddhism","arg":"https:\/\/my.mindnode.com\/d3Fxm8vfSbYWpbZtmwWjxxwPUfxEsPs45iPGydYp","subtitle":""},{"title":"watchOS","arg":"https:\/\/my.mindnode.com\/JVr5HFsfah63syE1PsYsczMxc1ZhVQVZcQNxonDa","subtitle":""},{"title":"tvOS","arg":"https:\/\/my.mindnode.com\/eqCzKZyfzu1zsoiGnVqehJbXDqRo3HYm6Ww1Ssdq","subtitle":""},{"title":"virtual private networks","arg":"https:\/\/my.mindnode.com\/CzViS3qsYSPreTTjveyGSmfFJQ4Vy9GJMjJdXn5x","subtitle":""},{"title":"hacking","arg":"https:\/\/my.mindnode.com\/7dWQHvRBshf6cmgczxFGLTq9Lqg5DpiYqxs8UG3K","subtitle":""},{"title":"information security","arg":"https:\/\/my.mindnode.com\/JnJxmfMwcigFArLsxvGTi1VwpK42vxbZzfBDSaEr","subtitle":""},{"title":"ethics","arg":"https:\/\/my.mindnode.com\/mAqtpK7sLQd15ytMqPAL8qvfqbRKgAmsyxkyWtnc","subtitle":""},{"title":"startups","arg":"https:\/\/my.mindnode.com\/https:\/\/my.mindnode.com\/3qMybqBsd4E8yeiP48HYyT6s6aSGx17EMaKffkyk","subtitle":""},{"title":"vulkan graphics api","arg":"https:\/\/my.mindnode.com\/https:\/\/my.mindnode.com\/ej8XKCb4Gopu2Uxz5Cc6qRJyraETKeGXdABzYNYr","subtitle":""},{"title":"metal graphics API","arg":"https:\/\/my.mindnode.com\/https:\/\/my.mindnode.com\/ssctrumvnugypufquw6ihpnyzdwkvysz4gpxshoy","subtitle":""},{"title":"scalable vector graphics","arg":"https:\/\/my.mindnode.com\/https:\/\/my.mindnode.com\/8pnx8PXUk23xQbo8W3vBEKVsqqzgnAQrbFpyCgu1","subtitle":""},{"title":"vector graphics","arg":"https:\/\/my.mindnode.com\/https:\/\/my.mindnode.com\/o9uU98MTo7erfjPjsz7iuktX8CHBW77aZZ297CpG","subtitle":""},{"title":"character encoding","arg":"https:\/\/my.mindnode.com\/https:\/\/my.mindnode.com\/P1er9W1opUoRpZx5dhz9XtSr9Ff8Cx6ksgZLs6h8","subtitle":""},{"title":"game consoles","arg":"https:\/\/my.mindnode.com\/https:\/\/my.mindnode.com\/NN7AnVMbqvozzjkJaZVUsSUz867pNyt6hAKsxa2w","subtitle":""},{"title":"sonic pi","arg":"https:\/\/my.mindnode.com\/https:\/\/my.mindnode.com\/fah1U7bBiNFbxtVCwPT9MpCT4mbovqxvqTkUqpn5","subtitle":""},{"title":"atom text editor","arg":"https:\/\/my.mindnode.com\/https:\/\/my.mindnode.com\/sjyyVYFviACirWkDBZuW2CbvwyGbaAAy8aYYnoc2","subtitle":""}]</string>
+				<key>keyword</key>
+				<string>learn</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>learn</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>F93F8B4B-CC97-4AB8-83B3-E44C3F88BE3B</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -524,15 +502,6 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 			<key>ypos</key>
 			<integer>550</integer>
 		</dict>
-		<key>1ABE37F4-6620-45CE-A8A9-A2CD1DEE933F</key>
-		<dict>
-			<key>note</key>
-			<string>open any mind map from learn anything</string>
-			<key>xpos</key>
-			<integer>220</integer>
-			<key>ypos</key>
-			<integer>420</integer>
-		</dict>
 		<key>238CAD6B-EF29-4AF9-8A6D-A45407BBC0CE</key>
 		<dict>
 			<key>xpos</key>
@@ -587,6 +556,15 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 			<integer>490</integer>
 			<key>ypos</key>
 			<integer>170</integer>
+		</dict>
+		<key>F93F8B4B-CC97-4AB8-83B3-E44C3F88BE3B</key>
+		<dict>
+			<key>note</key>
+			<string>open any mind map from learn anything</string>
+			<key>xpos</key>
+			<integer>240</integer>
+			<key>ypos</key>
+			<integer>460</integer>
 		</dict>
 	</dict>
 	<key>version</key>
