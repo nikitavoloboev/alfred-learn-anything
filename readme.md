@@ -6,7 +6,7 @@
 
 Search through  over 2000 + curated Mind Maps from [Learn anything](https://github.com/nikitavoloboev/learn-anything) with Alfred.
 
-There are three unique searches available. You can either bind a hotkey to each one or use the keyword trigger to access these searches. Here are the searches : 
+There are two unique searches available. You can either bind a hotkey to each one or use the keyword trigger to access these searches. Here are the searches : 
 
 ## 1. [Open any mind map from learn-anything 📚](learn-anything.xyz)
 
@@ -24,18 +24,6 @@ There are three unique searches available. You can either bind a hotkey to each 
 - and more 
 
 ![](http://i.imgur.com/9s7iteA.png)
-
-## 3. Explore Knowledge Map Interactively (not implemented yet)
-
-Start off with 43 results from the main nodes of the Knowledge Map : 
-
-![](http://i.imgur.com/NsFmKNV.png)
-
-Clicking on any of them will open the contents of the mind map with all the links and inside mind maps : 
-
-![](http://i.imgur.com/I8h0tTd.png)
-
-Clicking on results with 🗺 will let you see the contents of that mind map in Alfred.
 
 
 # The mind maps can only get better 🚀
