@@ -133,17 +133,11 @@
 
 ### INTERESTING: 
 
+## [sourabh bajaj](http://sourabhbajaj.com/)
 
-# resources
-
-
-## [engineering blogs](https://github.com/kilimchoi/engineering-blogs)
-
-### RESEARCH: 
+### READ: 
 
 ### INTERESTING: 
-
-## [data science blogs ✨](https://github.com/rushter/data-science-blogs)
 
 
 # code
@@ -407,6 +401,8 @@ amazing
 
 ### READ: 
 
+## [brett terpstra](http://brettterpstra.com/)
+
 ## [mike bostock](https://bost.ocks.org/mike/)
 
 ### READ: 
@@ -465,6 +461,64 @@ amazing
 
 ### FOCUS: 
 
+## [brian lee](http://moderndescartes.com/)
+
+### READ: 
+
+### INTERESTING: 
+
+## [stevey’s rants](http://steve-yegge.blogspot.nl/)
+
+### READ: 
+
+## [dustin curtis](https://dcurt.is/)
+
+## [mike buss](http://mikebuss.com/)
+
+## [command-z](http://zaidsyed.com/)
+
+## [justin kan](https://justinkan.com/)
+
+## [steve losh](http://stevelosh.com/blog/)
+
+## [msol](https://msol.io/blog/)
+
+## [programming in twenty-first century](http://prog21.dadgum.com/)
+
+## [zachary voase](http://zacharyvoase.com/)
+
+## [aerotwist](https://aerotwist.com/)
+
+## [romain](http://romain.goyet.com/)
+
+## [andrew ray](http://blog.andrewray.me/)
+
+## [candler blog](http://candlerblog.com/blog/archives/)
+
+## [cdixon](http://cdixon.org/)
+
+## [umputun](http://p.umputun.com/)
+
+## [aria](https://ariya.io/)
+
+## [bez hermoso](http://bezhermoso.github.io/)
+
+## [xero](http://blog.xero.nu/)
+
+## [made mistakes](https://mademistakes.com/articles/)
+
+## [mitchell hashimoto](http://mitchellh.com/)
+
+## [irace](http://irace.me/writing/)
+
+## [aidanf](http://www.aidanf.net/)
+
+## [monochromatic](http://blog.z3bra.org/)
+
+## [hackthology](http://hackthology.com/index.html)
+
+## [anish athalye](http://www.anishathalye.com/)
+
 
 # go
 
@@ -478,10 +532,6 @@ amazing
 ### FOCUS: 
 
 ## [nsf](https://nsfdev.wordpress.com/)
-
-### not very active
-
-### but he made a lot of amazing projects
 
 ## [scott mansfield ✨](http://blog.sgmansfield.com/)
 
@@ -502,6 +552,14 @@ amazing
 ## [dassur](https://dassur.ma/)
 
 ### READ: 
+
+## [npf ✨](https://npf.io/blog/)
+
+## [rvolosatovs](https://rvolosatovs.github.io/)
+
+## [william kennedy](https://www.goinggo.net/)
+
+## [gopher academy](https://blog.gopheracademy.com/)
 
 
 # math
@@ -567,6 +625,10 @@ amazing
 
 ### INTERESTING: 
 
+## [perfection kills](http://perfectionkills.com/)
+
+## [feross](https://feross.org/)
+
 
 # security
 
@@ -584,6 +646,10 @@ works at Apple now
 ### READ: 
 
 ## [Krebs on Security](https://krebsonsecurity.com/)
+
+### READ: 
+
+## [Simone Margaritelli](https://www.evilsocket.net/)
 
 ### READ: 
 
@@ -610,6 +676,12 @@ works at Apple now
 ## [high scalability](http://highscalability.com/)
 
 ### READ: 
+
+## [growing with the web](http://www.growingwiththeweb.com/p/explore.html?t=Computer%20science)
+
+### READ: 
+
+### FOCUS: 
 
 
 # ai
@@ -871,6 +943,8 @@ does amazing research on ML
 
 ### READ: 
 
+## [willis wilkinson](http://williamwilkinson.com/)
+
 
 # reverse engineering
 
@@ -927,7 +1001,7 @@ does amazing research on ML
 # startups
 
 
-## [Paul Graham](http://www.paulgraham.com/articles.html)
+## [paul graham](http://www.paulgraham.com/articles.html)
 
 ### READ: 
 
@@ -1008,6 +1082,34 @@ does amazing research on ML
 
 
 ## [And now it’s all this](http://leancrew.com/all-this/)
+
+## [coding bull junky](https://codingbulljunky.wordpress.com/)
+
+## [macdrifter](http://macdrifter.com/)
+
+## [michael tsai](https://mjtsai.com/blog/)
+
+## defaults write
+
+
+# other
+
+
+## [pavel miroshenko](https://pavel.miroshnichen.co/)
+
+## [dean sherwood](http://deansherwood.com/deansblog)
+
+## [work smarter and be remarkable](https://www.worksmartandberemarkable.com/)
+
+## [dave lee](http://heydave.org/)
+
+## [today I learned](https://til.hashrocket.com/)
+
+## [daring fireball](https://til.hashrocket.com/)
+
+## [brad conte](http://bradconte.com/)
+
+## [disregard everything I say](http://disregardeverythingisay.com/)
 
 
 # natural language processing

@@ -146,19 +146,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>triggerid</key>
-				<string>inside</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>028790C6-E340-43F0-AC6E-A558F0023785</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>browser</key>
 				<string></string>
 				<key>spaces</key>
@@ -172,6 +159,19 @@
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>4B8F6CB3-6CE5-4E39-B754-078544362F3D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>inside</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>028790C6-E340-43F0-AC6E-A558F0023785</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -470,13 +470,17 @@ fi #find</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Quick extension to Knowledge Map.
+	<string>Learn Anything Alfred Extension
 
-Ability to search through :
+You can :
 
-- all main nodes from Knowledge Map
-- all nodes from 'more' node from Knowledge Map (books, courses ..)
-- all imgur albums from 'images' mind map from Knoledge Map
+- open any mind map from Learn Anything
+- search insides of mind maps 
+	- research papers
+	- books
+	- courses
+	- reddit subreddit
+	- interesting websites
 
 Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 	<key>uidata</key>
