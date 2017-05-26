@@ -20,11 +20,10 @@ There are two unique searches available. You can either bind a hotkey to each on
 - open any website mind map from [websites](http://nikitavoloboev.xyz/knowledge-map/research/websites/)
 - open any blog from [blogs](https://my.mindnode.com/Lr33AxQg1yTrPzYJrAbFD7E6Wr7cM6YyoUfXaEzp#-1373.6,-2223.5,2)
 - open any imgur album from [images](https://my.mindnode.com/mTasm9Ay8VtFs7fHRPDUSdEMqHExtjpcgwjBeUTC#108.8,-1795.2,-2)
-- open any mind map from [more](https://my.mindnode.com/YyJtZap3S6BLzLq8FvBqcDM1fpzom5JfeXripa9w#198.0,-369.8,1)
 - open any website from my [personal bookmarks](https://my.mindnode.com/kL6z7YcRCypY231XFThBsoYMKyxbUA3yyzQcgVg7)
-- and more 
+- open any mind map from [more](https://my.mindnode.com/YyJtZap3S6BLzLq8FvBqcDM1fpzom5JfeXripa9w#198.0,-369.8,1)
 
-![](http://i.imgur.com/9s7iteA.png)
+![](http://i.imgur.com/4wvJNy6.png)
 
 
 # The mind maps can only get better 🚀
