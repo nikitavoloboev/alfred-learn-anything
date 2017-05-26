@@ -4,7 +4,7 @@
 
 # Description
 
-Search through  over 2000 + curated Mind Maps from [Learn anything](https://github.com/nikitavoloboev/learn-anything) with Alfred.
+Search through  over 300 + curated Mind Maps from [Learn anything](https://github.com/nikitavoloboev/learn-anything) with Alfred.
 
 There are two unique searches available. You can either bind a hotkey to each one or use the keyword trigger to access these searches. Here are the searches : 
 
@@ -21,6 +21,7 @@ There are two unique searches available. You can either bind a hotkey to each on
 - open any blog from [blogs](https://my.mindnode.com/Lr33AxQg1yTrPzYJrAbFD7E6Wr7cM6YyoUfXaEzp#-1373.6,-2223.5,2)
 - open any imgur album from [images](https://my.mindnode.com/mTasm9Ay8VtFs7fHRPDUSdEMqHExtjpcgwjBeUTC#108.8,-1795.2,-2)
 - open any mind map from [more](https://my.mindnode.com/YyJtZap3S6BLzLq8FvBqcDM1fpzom5JfeXripa9w#198.0,-369.8,1)
+- open any website from my [personal bookmarks](https://my.mindnode.com/kL6z7YcRCypY231XFThBsoYMKyxbUA3yyzQcgVg7)
 - and more 
 
 ![](http://i.imgur.com/9s7iteA.png)
