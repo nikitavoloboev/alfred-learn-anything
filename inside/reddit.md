@@ -77,6 +77,8 @@
 
 - [react js](https://www.reddit.com/r/reactjs)
 
+- [internet is beautiful](http://www.reddit.com/r/InternetIsBeautiful/)
+
 
 # [quantum computing](https://www.reddit.com/r/QuantumComputing/)
 
@@ -84,15 +86,15 @@
 # music
 
 
-- listen to this
+- [listen to this](https://www.reddit.com/r/listentothis/)
 
-- future beats
+- [future beats](https://www.reddit.com/r/futurebeats/)
 
-- experimental music
+- [experimental music](https://www.reddit.com/r/experimentalmusic/)
 
-- future pop music
+- [future pop music](https://www.reddit.com/r/futurepopmusic/)
 
-- listen to us
+- [listen to us](https://www.reddit.com/r/listentous/)
 
 - [future synth](https://www.reddit.com/r/futuresynth/)
 
@@ -103,8 +105,7 @@
 
 # [explorables ✨](https://www.reddit.com/r/explorables/)
 
-
-- interactive explanations, thinking tools, concept visualizations, and other media for communicating and generating ideas
+interactive explanations, thinking tools, concept visualizations, and other media for communicating and generating ideas
 
 
 # consciousness
@@ -117,6 +118,20 @@
 - [meditation ✨](https://www.reddit.com/r/Meditation/)
 
 - [neuro ✨](http://www.reddit.com/r/neuro/)
+
+
+# programming languages
+
+
+- [golang ✨](https://www.reddit.com/r/golang)
+
+- [swift ✨](http://www.reddit.com/r/swift/)
+
+- [javascript](https://www.reddit.com/r/javascript)
+
+- [python](http://www.reddit.com/r/Python/)
+
+- [java](https://www.reddit.com/r/java)
 
 
 # computer science
@@ -145,14 +160,6 @@
 - [ios programming](http://www.reddit.com/r/iOSProgramming/)
 
 - [mac apps](http://www.reddit.com/r/macapps)
-
-
-# programming languages
-
-
-- [golang ✨](https://www.reddit.com/r/golang)
-
-- [swift ✨](http://www.reddit.com/r/swift/)
 
 
 # linux
@@ -227,7 +234,16 @@
 # [data science](https://www.reddit.com/r/datascience/)
 
 
+# [factorio](https://www.reddit.com/r/factorio/)
+
+
+# [compsci](http://www.reddit.com/r/compsci/)
+
+
 # [drug nerds ✨](https://www.reddit.com/r/DrugNerds/)
+
+
+# [knowledge map✨](https://www.reddit.com/r/knowledgemap/)
 
 
 # [machine learning](https://www.reddit.com/r/MachineLearning/)

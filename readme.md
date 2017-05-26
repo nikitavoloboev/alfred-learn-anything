@@ -4,17 +4,16 @@
 
 # Description
 
-Search through  over 2500 + curated Mind Maps from [Knowledge Map](https://github.com/nikitavoloboev/knowledge-map) with Alfred.
+Search through  over 2000 + curated Mind Maps from [Learn anything](https://github.com/nikitavoloboev/learn-anything) with Alfred.
 
-There are four unique searches available. You can either bind a hotkey to each one or use the keyword trigger to access these searches. Here are the searches : 
+There are three unique searches available. You can either bind a hotkey to each one or use the keyword trigger to access these searches. Here are the searches : 
 
-## 1. [Open any of the 43 Study Guides 📚](https://github.com/nikitavoloboev/knowledge-map/tree/master/study-plans)
+## 1. [Open any mind map from learn-anything 📚](learn-anything.xyz)
 
 ![](http://i.imgur.com/SymyfvG.png)
 
-## 2. Open any mind map from the Knowledge Map
+## 2. Explore insides of mind maps
 
-- open any mind map from inside of any of the 43 Study Guides
 - open any book from [books](http://nikitavoloboev.xyz/knowledge-map/research/books/)
 - open any course from [courses](http://nikitavoloboev.xyz/knowledge-map/research/courses/)
 - open any research paper from [research papers](http://nikitavoloboev.xyz/knowledge-map/research/research-papers/)
@@ -22,10 +21,11 @@ There are four unique searches available. You can either bind a hotkey to each o
 - open any blog from [blogs](https://my.mindnode.com/Lr33AxQg1yTrPzYJrAbFD7E6Wr7cM6YyoUfXaEzp#-1373.6,-2223.5,2)
 - open any imgur album from [images](https://my.mindnode.com/mTasm9Ay8VtFs7fHRPDUSdEMqHExtjpcgwjBeUTC#108.8,-1795.2,-2)
 - open any mind map from [more](https://my.mindnode.com/YyJtZap3S6BLzLq8FvBqcDM1fpzom5JfeXripa9w#198.0,-369.8,1)
+- and more 
 
 ![](http://i.imgur.com/9s7iteA.png)
 
-## 3. Explore Knowledge Map Interactively
+## 3. Explore Knowledge Map Interactively (not implemented yet)
 
 Start off with 43 results from the main nodes of the Knowledge Map : 
 
@@ -38,16 +38,9 @@ Clicking on any of them will open the contents of the mind map with all the link
 Clicking on results with 🗺 will let you see the contents of that mind map in Alfred.
 
 
-## 4. Search through my personal research
-
-It mostly contains notes and various links related to the topic. Essentially it allows you to open any mind map from [here](https://my.mindnode.com/P2WTfATNrnsxm23L7jQMotnJhzeh41sWWH2jgZzU#-36.3,-44.2,0) in seconds.
-
-![](http://i.imgur.com/SyxdZYW.png)
-
-
 # The mind maps can only get better 🚀
 - if you wish that some topic was added or you disagree with something that you see, you can [propose to add any changes](https://github.com/nikitavoloboev/knowledge-map#contributing-)
-	
+- 
 
 # Help extend it to other launchers 🎊
 
