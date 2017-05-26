@@ -28,13 +28,12 @@ There are two unique searches available. You can either bind a hotkey to each on
 
 # The mind maps can only get better 🚀
 - if you wish that some topic was added or you disagree with something that you see, you can [propose to add any changes](https://github.com/nikitavoloboev/knowledge-map#contributing-)
-- 
 
 # Help extend it to other launchers 🎊
 
 If you are interested in indexing these mind maps in this way but are not using macOS or Alfred. I am very interested in extending this implementation to other launchers like [Cerebro](https://cerebroapp.com/) or [Mutate](https://github.com/qdore/Mutate) or any other launcher. 
 
-Essentially you have to parse [these markdown files](https://github.com/nikitavoloboev/alfred-knowledge-map/tree/master/md) with links to mind maps in a format that your launcher supports. If you do have the time or interest for it, I am open to any kind of pull request to add support to more launchers.
+Essentially you have to parse [these markdown files](https://github.com/nikitavoloboev/alfred-learn-anything/tree/master/inside) with links to mind maps in a format that your launcher supports. If you do have the time or interest for it, I am open to any kind of pull request to add support to more launchers.
 
 # Thank you 💙
 
