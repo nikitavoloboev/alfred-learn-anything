@@ -146,46 +146,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>triggerid</key>
-				<string>inside</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>028790C6-E340-43F0-AC6E-A558F0023785</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>fixedorder</key>
-				<false/>
-				<key>items</key>
-				<string>[{"title":"blogs","arg":"inside\/blogs.md","subtitle":""},{"title":"books","arg":"inside\/books.md","subtitle":""},{"title":"courses","arg":"inside\/courses.md","subtitle":""},{"title":"github","arg":"inside\/github.md","subtitle":""},{"title":"images","arg":"inside\/images.md","subtitle":""},{"title":"more","arg":"inside\/more.md","subtitle":""},{"title":"personal","arg":"inside\/personal.md","subtitle":""},{"title":"research papers","arg":"inside\/research-papers.md","subtitle":""},{"title":"websites","arg":"inside\/websites.md","subtitle":""},{"title":"reddit","arg":"inside\/reddit.md"}]</string>
-				<key>keyword</key>
-				<string>inside</string>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>go inside any of the mind maps</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.listfilter</string>
-			<key>uid</key>
-			<string>495F8EF3-0DB6-4D8F-893F-AAB1CBAE475B</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>browser</key>
 				<string></string>
 				<key>spaces</key>
@@ -199,6 +159,19 @@
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>4B8F6CB3-6CE5-4E39-B754-078544362F3D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>inside</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>028790C6-E340-43F0-AC6E-A558F0023785</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -248,6 +221,33 @@ echo "&lt;/items&gt;"</string>
 			<string>C3007CD6-DE9B-4D11-BFE0-0DB3911FB270</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"blogs","arg":"inside\/blogs.md","subtitle":""},{"title":"books","arg":"inside\/books.md","subtitle":""},{"title":"courses","arg":"inside\/courses.md","subtitle":""},{"title":"github","arg":"inside\/github.md","subtitle":""},{"title":"images","arg":"inside\/images.md","subtitle":""},{"title":"more","arg":"inside\/more.md","subtitle":""},{"title":"personal","arg":"inside\/personal.md","subtitle":""},{"title":"research papers","arg":"inside\/research-papers.md","subtitle":""},{"title":"websites","arg":"inside\/websites.md","subtitle":""},{"title":"reddit","arg":"inside\/reddit.md"},{"title":"web","arg":"inside\/bookmarks.md"}]</string>
+				<key>keyword</key>
+				<string>inside</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>go inside any of the mind maps</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>495F8EF3-0DB6-4D8F-893F-AAB1CBAE475B</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -431,7 +431,7 @@ echo "&lt;/items&gt;"</string>
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>learnAnything</string>
+				<string>learn</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>

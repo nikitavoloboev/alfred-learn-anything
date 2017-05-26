@@ -1,4 +1,4 @@
-# [Download](https://www.dropbox.com/s/z5xijk1rcbuwljf/knowledge%20map.alfredworkflow?dl=1)
+# [Download](https://www.dropbox.com/s/bxpht93whzk5di0/learn%20anything.alfredworkflow?dl=1)
 
 # [Demonstration](http://quick.as/b1gwsneao) 🚀
 
@@ -8,7 +8,7 @@ Search through  over 2000 + curated Mind Maps from [Learn anything](https://gith
 
 There are two unique searches available. You can either bind a hotkey to each one or use the keyword trigger to access these searches. Here are the searches : 
 
-## 1. [Open any mind map from learn-anything 📚](learn-anything.xyz)
+## 1. [Open any mind map from learn-anything 📚](https://learn-anything.xyz)
 
 ![](http://i.imgur.com/SymyfvG.png)
 
