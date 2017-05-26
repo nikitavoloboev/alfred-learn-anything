@@ -90,14 +90,13 @@ w = websites
 - [w: youtube](https://www.youtube.com/)
 
 
+
 # w: life
 
 
 - [w: drive](https://drive.google.com/drive/my-drive)
 
 - [w: toggl](https://toggl.com/)
-
-- [w: apple id](https://appleid.apple.com/#!&page=signin)
 
 - [w: dropbox](https://www.dropbox.com/home)
 
@@ -197,8 +196,6 @@ w = websites
 
 - [w: bandcamp](https://bandcamp.com/)
 
-- [w: aws console](https://www.amazon.com/ap/signin?openid.assoc_handle=aws&openid.return_to=https%3A%2F%2Fsignin.aws.amazon.com%2Foauth%3Fresponse_type%3Dcode%26client_id%3Darn%253Aaws%253Aiam%253A%253A015428540659%253Auser%252Fhomepage%26redirect_uri%3Dhttps%253A%252F%252Fus-west-2.console.aws.amazon.com%252Fconsole%252Fhome%253Fregion%253Dus-west-2%2526state%253DhashArgs%252523%2526isauthcode%253Dtrue%26noAuthCookie%3Dtrue&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&action=&disableCorpSignUp=&clientContext=&marketPlaceId=&poolName=&authCookies=&pageId=aws.ssop&siteState=registered%2Cen_US&accountStatusPolicy=P1&sso=&openid.pape.preferred_auth_policies=MultifactorPhysical&openid.pape.max_auth_age=120&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&server=%2Fap%2Fsignin%3Fie%3DUTF8&accountPoolAlias=&forceMobileApp=0&language=en_US&forceMobileLayout=0)
-
 - [w: arbital](https://arbital.com/)
 
 - [w: interview cake](https://www.interviewcake.com/)
@@ -243,7 +240,7 @@ w = websites
 
 - [w: google forms](https://docs.google.com/forms/u/0/)
 
-- [w: booking](https://www.booking.com/index.en-gb.html?label=gen173nr-1BCAEoggJCAlhYSDNiBW5vcmVmaKkBiAEBmAEuuAEHyAEN2AEB6AEBqAID;sid=76720189eb2e31553abce688a0550015;sb_price_type=total&)
+- [w: booking](https://www.booking.com/)
 
 - [w: heroku apps](https://dashboard.heroku.com/apps)
 
@@ -467,7 +464,7 @@ d: = development
 
 - [d: free interactive tutorials](https://github.com/vhf/free-programming-books/blob/master/free-programming-interactive-tutorials-en.md)
 
-- [d: algorithm visualiser](http://algo-visualizer.jasonpark.me/#path=backtracking/knight's_tour/basic)
+- [d: algorithm visualiser](http://algo-visualizer.jasonpark.me)
 
 - [d: hackr](https://hackr.io/)
 
