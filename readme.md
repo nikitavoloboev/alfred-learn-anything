@@ -1,4 +1,4 @@
-# [Download](https://www.dropbox.com/s/bxpht93whzk5di0/learn%20anything.alfredworkflow?dl=1)
+# [Download](https://www.dropbox.com/s/upmuxh6t88h61mb/learn%20anything.alfredworkflow?dl=1)
 
 # [Demonstration](http://quick.as/b1gwsneao) 🚀
 
