@@ -235,3 +235,7 @@
 
 - [writing 🗺️](https://my.mindnode.com/q5RRL5cXGeny9QtLmacTpitSkgvG5sjypiKvtDDp)
 
+- [neuroscience 🗺️](https://my.mindnode.com/axWqhiYa5PpxoiwVNE4KEQrQYAnXG1MCg9v1AMkZ)
+
+- [alfred workflows 🗺️](https://my.mindnode.com/k7uK6FcqVdZCHGuaTsZpWPbcuecL5yBScGY1s2aD)
+

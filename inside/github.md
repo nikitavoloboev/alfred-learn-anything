@@ -1,242 +1,131 @@
-# rust
+# learning
 
 
-## [alex crichton](https://github.com/alexcrichton)
+## [treehouse iOS](https://github.com/nikitavoloboev/treehouse-ios)
 
-- does really great work on rust
+- projects completed by me for courses provided by [TeamTreeHouse](https://teamtreehouse.com/)
 
 
-# javascript
+# meta
 
 
-## [steve lambert](https://github.com/slambert)
+## [ama ✨](https://github.com/nikitavoloboev/ama)
 
-## [evan wallace ✨](https://github.com/evanw)
+ask me anything 💬
 
-- [has a lot of impressive projects](http://madebyevan.com/)
 
-## [mathias buus](https://github.com/mafintosh)
+# config
 
-- [created peerflix](https://github.com/mafintosh/peerflix)
-  torrent client for node.js
 
-## [alexander kuznetsov](https://github.com/alexkuz)
+## [dotfiles ✨](https://github.com/nikitavoloboev/dotfiles)
 
-## [maxogden](https://github.com/maxogden)
+- my configuration files
 
-## [dan abramov](https://github.com/gaearon)
+- zsh, neovim, karabiner, hammerspoon
 
-## [andré staltz ✨](https://github.com/staltz)
 
-user interfaces, reactive programming, JavaScript, and peer-to-peer networks
+# learn anything
 
-- created cycle.js
 
-## [nicolás bevacqua](https://github.com/bevacqua)
+## [learn anything ✨](https://github.com/nikitavoloboev/learn-anything)
 
-## [sebastian mckenzie](https://github.com/kittens)
+## [learn-anything-search engine ✨](https://github.com/learn-anything/search-engine)
 
-- created babel
+## [learn-anything-code](https://github.com/nikitavoloboev/knowledge-map-code)
 
-## [oleg grenrus](https://github.com/phadej)
+- code examples and extensions to visualise knowledge
 
 
-# git
+# code
 
 
-## [junio c hamano](https://github.com/gitster)
+## [solutions ✨](https://github.com/nikitavoloboev/solutions)
 
-- main contributor to git
-
-
-# c
-
-
-## [vincent marti](https://github.com/vmg)
-
-## [rui ueyama](https://github.com/rui314)
-
-## [david du colombier](https://github.com/0intro)
-
-## [drew devault](https://github.com/SirCmpwn)
-
-
-# machine learning
-
-
-## gul varol
-
-- working on deep learning methods for video analysis
-
-## [igor babuschkin ✨](https://github.com/ibab)
-
-- deepmind
-
-## [durk kingma](https://github.com/dpkingma)
-
-- openAI
-
-## [sully chen](https://github.com/SullyChen)
-
-- tensorflow
-
-## [alexandre barachant](https://github.com/alexandrebarachant)
-
-## massimiliano patacchiola
-
-- computer vision
-
-## [stephan hoyer](https://github.com/shoyer)
-
-## [tianqi chen](https://github.com/tqchen)
-
-## [ujjwal karn](https://github.com/ujjwalkarn)
-
-## [andrew tulloch](https://github.com/ajtulloch)
-
-
-# go
-
-
-## [russ cox](https://github.com/rsc)
-
-## [rob pike](https://github.com/robpike)
-
-## [brad fitzpatrick](https://github.com/bradfitz)
-
-## [ian lance taylor](https://github.com/ianlancetaylor)
-
-## [robert griesemer](https://github.com/griesemer)
-
-## [andrew gerrand](https://github.com/adg)
-
-## [moto ishizawa](https://github.com/summerwind)
-
-## [bryan c. mills](https://github.com/bcmills)
-
-## [han-wen nienhuys](https://github.com/hanwen)
-
-## [rémy oudompheng](https://github.com/remyoudompheng)
-
-## [josh bleecher snyder](https://github.com/josharian)
-
-## [adam langley](https://github.com/agl)
-
-## [dave cheney](https://github.com/davecheney)
-
-## [david crawshaw](https://github.com/crawshaw)
-
-
-# security
-
-
-## [filippo valsorda](https://github.com/FiloSottile)
-
-
-# python
-
-
-## [dan mclnerney](https://github.com/DanMcInerney)
+solutions to leetcode, cracking the coding interview
 
 
 # alfred
 
 
-## [vitor galvao ✨](https://github.com/vitorgalvao)
+## [ask create share ✨](https://github.com/nikitavoloboev/alfred-ask-create-share)
 
-- [makes a lot of amazing alfred workflows](https://github.com/vitorgalvao/alfred-workflows)
+alfred interface to web submissions
 
-## [jason cheatham ✨](https://github.com/jason0x43)
+## [imgur album download ✨](https://github.com/nikitavoloboev/alfred-imgur-album-download)
 
-## [dean jackson ✨](https://github.com/deanishe)
+download imgur album from your browser to the desktop
 
-- made [alfred workflow library](https://github.com/deanishe/alfred-workflow) and many workflows
+## [karabiner ✨](https://github.com/nikitavoloboev/alfred-karabiner)
 
+reload Karabiner XML
 
-# vim
+## [alfred-my-mind ✨](https://github.com/nikitavoloboev/alfred-learn-anything)
 
+## [clean folders ✨](https://github.com/nikitavoloboev/alfred-clean-folders)
 
-## [tim pope](https://github.com/tpope)
+clean all items from Desktop  
+  
+remove alfred workflow from ~/Downloads
 
+## [web searches 💡](https://github.com/nikitavoloboev/alfred-web-searches)
 
-# graphics
+fuzzy search through a list of web searches
 
+## [alfred screenshot ocr 💡](https://github.com/nikitavoloboev/alfred-screenshot-ocr)
 
-## [patricio gonzalez vivo](https://github.com/patriciogonzalezvivo)
+## [goodreads 💡](https://github.com/nikitavoloboev/alfred-goodreads)
 
-
-# swift
-
-
-## [max howell](https://github.com/mxcl)
-
-- original creator of homebrew
-
-## [nick o'neill](https://github.com/nickoneill)
-
-## [matt diephouse](https://github.com/mdiep)
-
-- ReactiveCocoa
+search with autosuggestions on Goodreads from Alfred
 
 
-# c++
+# macOS apps
 
 
-## [andrew kelley](https://github.com/andrewrk)
+## [last time 💡](https://github.com/nikitavoloboev/last-time)
 
 
-# osdev
+# curated
 
 
-## [higepon taro minowa](https://github.com/higepon)
+## [my macOS ✨](https://github.com/nikitavoloboev/my-mac-os)
+
+a list of applications and various tools that make my macOS experience even more amazing
+
+## [my iOS ✨](https://github.com/nikitavoloboev/my-ios)
+
+what I use on my phone
+
+## [awesome mindmaps ✨](https://github.com/nikitavoloboev/awesome-mindmaps)
+
+awesome list of all the mind maps made in MindNode, Xmind, iMindMap and others
+
+## [awesome tue software](https://github.com/nikitavoloboev/awesome-tue-software)
+
+my bachelor degree’s awesome list  
+  
+notes, links, summaries
+
+## [awesome reddit ✨](https://github.com/nikitavoloboev/awesome-reddit)
+
+curated list of subreddits I enjoy visiting
 
 
-# networking
+# web
 
 
-## [daniel stenberg](https://github.com/bagder/)
+## [web todo](https://github.com/nikitavoloboev/web-todo)
 
-- created cURL
+is quite bad 
 
-
-# ruby
-
-
-## [corey donohoe](https://github.com/atmos)
-
-## [tom preston-werner](https://github.com/mojombo)
-
-## [zach holman](https://github.com/holman)
-
-- [has a good blog](https://zachholman.com/)
-
-- and [dotfiles](https://github.com/holman/dotfiles)
-
-## [bozhidar batsov](https://github.com/bbatsov?tab=following)
-
-## [dan kubb](https://github.com/dkubb)
-
-## [katrina owen](https://github.com/kytrinyx)
-
-- created exercism
+- simple todo web app I built for uni web course
 
 
-# compilers
+# android
 
 
-## [yin wang](https://github.com/yinwang0)
+## [android thermostat app](REMOVE:)
 
+pretty bad code
 
-# blockchain
-
-
-## [vitalik buterin](https://github.com/vbuterin)
-
-
-# math
-
-
-## [grant sanderson ✨](https://github.com/3b1b)
-
-- [has amazing youtube channel](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw/videos)
+- project I have done for my university
 

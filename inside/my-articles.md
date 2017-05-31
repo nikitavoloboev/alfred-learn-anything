@@ -51,7 +51,7 @@
 # code
 
 
-- [17: Little trick I use to navigate source code better ✨](https://medium.com/@NikitaVoloboev/little-trick-i-use-to-navigate-source-code-better-bc958ccd821#.7y4y3jhqz)
+- [17: Little trick I use to navigate source code better](https://medium.com/@NikitaVoloboev/little-trick-i-use-to-navigate-source-code-better-bc958ccd821#.7y4y3jhqz)
 
 
 # writing
@@ -59,4 +59,16 @@
 
 - [16: why medium?](https://medium.com/@NikitaVoloboev/why-medium-ff9b13fefe61#.guictx69p)
   why host my writing on medium and not on my own site
+
+
+# learn anything
+
+
+- [17: an incredible future ✨](https://medium.com/@NikitaVoloboev/an-incredible-future-9f18bb0f3a7c)
+
+
+# alfred
+
+
+- [17: opening up my mind](https://medium.com/@NikitaVoloboev/opening-up-my-mind-%EF%B8%8F-575c8ece8a24)
 
