@@ -1,246 +1,242 @@
 # rust
 
 
-## [Alex Crichton](https://github.com/alexcrichton)
+## [alex crichton](https://github.com/alexcrichton)
 
-### does really great work on rust
-
-
-# bash
-
-
-# git
-
-
-## [Junio C Hamano](https://github.com/gitster)
-
-### main contributor to git
+- does really great work on rust
 
 
 # javascript
 
 
-## [Steve Lambert](https://github.com/slambert)
+## [steve lambert](https://github.com/slambert)
 
-## [Evan Wallace ✨](https://github.com/evanw)
+## [evan wallace ✨](https://github.com/evanw)
 
-### [has a lot of impressive projects](http://madebyevan.com/)
+- [has a lot of impressive projects](http://madebyevan.com/)
 
-## [Mathias Buus](https://github.com/mafintosh)
+## [mathias buus](https://github.com/mafintosh)
 
-### created peerflix
+- [created peerflix](https://github.com/mafintosh/peerflix)
+  torrent client for node.js
 
-- torrent client for node.js
-
-## [Alexander Kuznetsov](https://github.com/alexkuz)
+## [alexander kuznetsov](https://github.com/alexkuz)
 
 ## [maxogden](https://github.com/maxogden)
 
-## [Dan Abramov](https://github.com/gaearon)
+## [dan abramov](https://github.com/gaearon)
 
-## [André Staltz ✨](https://github.com/staltz)
+## [andré staltz ✨](https://github.com/staltz)
 
-### created cycle.js
+user interfaces, reactive programming, JavaScript, and peer-to-peer networks
 
-### user interfaces, reactive programming, JavaScript, and peer-to-peer networks
+- created cycle.js
 
-## [Nicolás Bevacqua](https://github.com/bevacqua)
+## [nicolás bevacqua](https://github.com/bevacqua)
 
-## [Sebastian McKenzie](https://github.com/kittens)
+## [sebastian mckenzie](https://github.com/kittens)
 
-### created babel
+- created babel
 
-## [Oleg Grenrus](https://github.com/phadej)
+## [oleg grenrus](https://github.com/phadej)
+
+
+# git
+
+
+## [junio c hamano](https://github.com/gitster)
+
+- main contributor to git
 
 
 # c
 
 
-## [Vincent Marti](https://github.com/vmg)
+## [vincent marti](https://github.com/vmg)
 
-## [Rui Ueyama](https://github.com/rui314)
+## [rui ueyama](https://github.com/rui314)
 
-## [David du Colombier](https://github.com/0intro)
+## [david du colombier](https://github.com/0intro)
 
-## [Drew DeVault](https://github.com/SirCmpwn)
+## [drew devault](https://github.com/SirCmpwn)
 
 
 # machine learning
 
 
-## Gul Varol
+## gul varol
 
-### working on deep learning methods for video analysis
+- working on deep learning methods for video analysis
 
-## [Igor Babuschkin ✨](https://github.com/ibab)
+## [igor babuschkin ✨](https://github.com/ibab)
 
-### deepmind
+- deepmind
 
-## [Durk Kingma](https://github.com/dpkingma)
+## [durk kingma](https://github.com/dpkingma)
 
-### openAI
+- openAI
 
-## [Sully Chen](https://github.com/SullyChen)
+## [sully chen](https://github.com/SullyChen)
 
-### tensorflow
+- tensorflow
 
 ## [alexandre barachant](https://github.com/alexandrebarachant)
 
-## Massimiliano Patacchiola
+## massimiliano patacchiola
 
-### computer vision
+- computer vision
 
-## [Stephan Hoyer](https://github.com/shoyer)
+## [stephan hoyer](https://github.com/shoyer)
 
-## [Tianqi Chen](https://github.com/tqchen)
+## [tianqi chen](https://github.com/tqchen)
 
-## [Ujjwal Karn](https://github.com/ujjwalkarn)
+## [ujjwal karn](https://github.com/ujjwalkarn)
 
-## [Andrew Tulloch](https://github.com/ajtulloch)
+## [andrew tulloch](https://github.com/ajtulloch)
 
 
 # go
 
 
-## [Russ Cox](https://github.com/rsc)
+## [russ cox](https://github.com/rsc)
 
-## [Rob Pike](https://github.com/robpike)
+## [rob pike](https://github.com/robpike)
 
-## [Brad Fitzpatrick](https://github.com/bradfitz)
+## [brad fitzpatrick](https://github.com/bradfitz)
 
-## [Ian Lance Taylor](https://github.com/ianlancetaylor)
+## [ian lance taylor](https://github.com/ianlancetaylor)
 
-## [Robert Griesemer](https://github.com/griesemer)
+## [robert griesemer](https://github.com/griesemer)
 
-## [Andrew Gerrand](https://github.com/adg)
+## [andrew gerrand](https://github.com/adg)
 
-## [Moto Ishizawa](https://github.com/summerwind)
+## [moto ishizawa](https://github.com/summerwind)
 
-## [Bryan C. Mills](https://github.com/bcmills)
+## [bryan c. mills](https://github.com/bcmills)
 
-## [Han-Wen Nienhuys](https://github.com/hanwen)
+## [han-wen nienhuys](https://github.com/hanwen)
 
-## [Rémy Oudompheng](https://github.com/remyoudompheng)
+## [rémy oudompheng](https://github.com/remyoudompheng)
 
-## [Josh Bleecher Snyder](https://github.com/josharian)
+## [josh bleecher snyder](https://github.com/josharian)
 
-## [Adam Langley](https://github.com/agl)
+## [adam langley](https://github.com/agl)
 
-## [Dave Cheney](https://github.com/davecheney)
+## [dave cheney](https://github.com/davecheney)
 
-## [David Crawshaw](https://github.com/crawshaw)
+## [david crawshaw](https://github.com/crawshaw)
 
 
 # security
 
 
-## [Filippo Valsorda](https://github.com/FiloSottile)
+## [filippo valsorda](https://github.com/FiloSottile)
 
 
 # python
 
 
-## [Dan Mclnerney](https://github.com/DanMcInerney)
+## [dan mclnerney](https://github.com/DanMcInerney)
 
 
 # alfred
 
 
-## [Vitor Galvao ✨](https://github.com/vitorgalvao)
+## [vitor galvao ✨](https://github.com/vitorgalvao)
 
-### [makes a lot of amazing alfred workflows](https://github.com/vitorgalvao/alfred-workflows)
+- [makes a lot of amazing alfred workflows](https://github.com/vitorgalvao/alfred-workflows)
 
-## [Jason Cheatham ✨](https://github.com/jason0x43)
+## [jason cheatham ✨](https://github.com/jason0x43)
 
-## [Dean Jackson ✨](https://github.com/deanishe)
+## [dean jackson ✨](https://github.com/deanishe)
 
-### made alfred workflow library and many workflows
+- made [alfred workflow library](https://github.com/deanishe/alfred-workflow) and many workflows
 
 
 # vim
 
 
-## [Tim Pope](https://github.com/tpope)
+## [tim pope](https://github.com/tpope)
 
 
 # graphics
 
 
-## [Patricio Gonzalez Vivo](https://github.com/patriciogonzalezvivo)
+## [patricio gonzalez vivo](https://github.com/patriciogonzalezvivo)
 
 
 # swift
 
 
-## [Max Howell](https://github.com/mxcl)
+## [max howell](https://github.com/mxcl)
 
-### original creator of homebrew
+- original creator of homebrew
 
-## [Nick O'Neill](https://github.com/nickoneill)
+## [nick o'neill](https://github.com/nickoneill)
 
-## [Matt Diephouse](https://github.com/mdiep)
+## [matt diephouse](https://github.com/mdiep)
 
-### ReactiveCocoa
+- ReactiveCocoa
 
 
 # c++
 
 
-## Andrew Kelley
+## [andrew kelley](https://github.com/andrewrk)
 
 
 # osdev
 
 
-## [Higepon Taro Minowa](https://github.com/higepon)
+## [higepon taro minowa](https://github.com/higepon)
 
 
 # networking
 
 
-## [Daniel Stenberg](https://github.com/bagder/)
+## [daniel stenberg](https://github.com/bagder/)
 
-### created cURL
+- created cURL
 
 
 # ruby
 
 
-## [Corey Donohoe](https://github.com/atmos)
+## [corey donohoe](https://github.com/atmos)
 
-## Tom Preston-Werner
+## [tom preston-werner](https://github.com/mojombo)
 
-## [Zach Holman](https://github.com/holman)
+## [zach holman](https://github.com/holman)
 
-### [has a good blog](https://zachholman.com/)
+- [has a good blog](https://zachholman.com/)
 
-### and [dotfiles](https://github.com/holman/dotfiles)
+- and [dotfiles](https://github.com/holman/dotfiles)
 
-## [Bozhidar Batsov](https://github.com/bbatsov?tab=following)
+## [bozhidar batsov](https://github.com/bbatsov?tab=following)
 
-## [Dan Kubb](https://github.com/dkubb)
+## [dan kubb](https://github.com/dkubb)
 
-## [Katrina Owen](https://github.com/kytrinyx)
+## [katrina owen](https://github.com/kytrinyx)
 
-### exercism
+- created exercism
 
 
 # compilers
 
 
-## [Yin Wang](https://github.com/yinwang0)
+## [yin wang](https://github.com/yinwang0)
 
 
 # blockchain
 
 
-## [Vitalik Buterin](https://github.com/vbuterin)
+## [vitalik buterin](https://github.com/vbuterin)
 
 
 # math
 
 
-## [Grant Sanderson ✨](https://github.com/3b1b)
+## [grant sanderson ✨](https://github.com/3b1b)
 
-### [has amazing youtube channel](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw/videos)
+- [has amazing youtube channel](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw/videos)
 
