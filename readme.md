@@ -4,7 +4,7 @@
 
 # Description
 
-I wrote about why this workflow exists in an article. You can read it [here](https://medium.com/@NikitaVoloboev/opening-up-my-mind-%EF%B8%8F-575c8ece8a24). ✍🏻
+I wrote about why this workflow exists in an article. You can [read it here](https://medium.com/@NikitaVoloboev/opening-up-my-mind-%EF%B8%8F-575c8ece8a24). ✍🏻
 
 
 You can search through  over 400 + curated Mind Maps from [Learn anything](https://github.com/nikitavoloboev/learn-anything) with Alfred as well as search through the entirety of my notes and bookmarks and personal mind maps.
