@@ -23,116 +23,15 @@ a: = apps
 
 - [a: jumpshare](https://jumpshare.com/)
 
+- [a. 2Do](https://www.2doapp.com/)
 
-# g: games
-
-g: = games
-
-
-- [g: online go](https://online-go.com/play)
-
-- [g: thinking chess](http://www.bewitched.com/chess/)
-
-- [g: human benchmark](https://www.humanbenchmark.com/tests/memory)
-
-- [g: the ai games](http://theaigames.com/)
+- [a: mindnode](https://mindnode.com/)
 
 
-# on hotkey
-
-bookmarks I have binded to keystrokes
+# i: images
 
 
-- [pinboard popular](https://pinboard.in/popular/)
-
-- [lobsters](https://lobste.rs/)
-
-- [facebook](https://www.facebook.com/)
-
-
-# w: top
-
-w = websites
-
-
-- [w: quizlet](https://quizlet.com/latest)
-
-- [w: dribble](https://dribbble.com/shots)
-
-- [w: slashdot](https://slashdot.org/)
-
-- [w: ph today](http://ph.needles.me/)
-
-- [w: no excuse](http://ph.needles.me/)
-
-- [w: favourite and forget](http://usefulinterweb.com/)
-
-- [w: stack overflow](https://stackoverflow.com/)
-
-- [w: freecodecamp](https://www.freecodecamp.com/)
-
-- [w: product hunt](https://www.producthunt.com/)
-
-- [w: medium](https://medium.com/)
-
-- [w: devpost](https://devpost.com/)
-
-- [w: habrahabr](https://habrahabr.ru/top/)
-
-- [w: zen habits](https://zenhabits.net/archives/)
-
-- [w: eventbrite](https://www.eventbrite.com/)
-
-- [w: hackerrank](https://www.hackerrank.com/)
-
-- [w: interviewbit](https://www.interviewbit.com/)
-
-- [w: youtube](https://www.youtube.com/)
-
-
-
-# w: life
-
-
-- [w: drive](https://drive.google.com/drive/my-drive)
-
-- [w: toggl](https://toggl.com/)
-
-- [w: dropbox](https://www.dropbox.com/home)
-
-
-# f: forums
-
-
-- [f: keyboard maestro](https://forum.keyboardmaestro.com/latest)
-
-- [f: longecity](http://www.longecity.org/forum/)
-
-- [f: affinity](https://affinity.serif.com/forum/)
-
-- [f: alfred](https://www.alfredforum.com/)
-
-- [f: hack forums](https://hackforums.net/index.php)
-
-- [f: nixers](https://nixers.net/)
-
-- [f: hazel](https://www.noodlesoft.com/forums/)
-
-- [f: script debugger](http://forum.latenightsw.com/)
-
-- [f: taskpaper](http://support.hogbaysoftware.com/c/taskpaper)
-
-- [f: things network](https://www.thethingsnetwork.org/forum/top/all?order=activity)
-
-- [f: discourse](https://meta.discourse.org/)
-
-- [f: go](https://forum.golangbridge.org/)
-
-- [f: sublime](https://forum.sublimetext.com/)
-
-- [f: discourse](https://try.discourse.org/)
-
-- [f: shroomery](https://www.shroomery.org/)
+- [i: reaction gif albums](http://reactiongifsarchive.imgur.com/)
 
 
 # w: other
@@ -284,7 +183,7 @@ w = websites
 
 - [w: letters of note](http://www.lettersofnote.com/)
 
-- w: packal
+- [w: packal](http://www.packal.org/)
 
 - [w: the sweet setup](http://thesweetsetup.com/)
 
@@ -330,11 +229,143 @@ w = websites
 
 - [w: khan academy](http://www.openculture.com/)
 
+- [w: world statistics updated real time](http://www.worldometers.info/)
+
+- [w: coderpad](https://coderpad.io/)
+
+- [w: skytorrents](https://www.skytorrents.in/)
+
+- [w: angellist](https://angel.co)
+
+- [w: silicon valley dictionary](http://svdictionary.com/)
+
+- [w: music player for reddit](https://reddit.musicplayer.io/)
+
+- [w: gnoosic](http://www.gnoosic.com/)
+
+- [w: unsplash](https://unsplash.com/)
+
+- [w: twitch](https://www.twitch.tv/)
+
+- [w: snoopsnoo](https://snoopsnoo.com/)
+
+- [w: numbeo](https://www.numbeo.com/common/)
+
+
+# g: games
+
+g: = games
+
+
+- [g: online go](https://online-go.com/play)
+
+- [g: thinking chess](http://www.bewitched.com/chess/)
+
+- [g: human benchmark](https://www.humanbenchmark.com/tests/memory)
+
+- [g: the ai games](http://theaigames.com/)
+
+
+# on hotkey
+
+bookmarks I have binded to keystrokes
+
+
+- [pinboard popular](https://pinboard.in/popular/)
+
+- [lobsters](https://lobste.rs/)
+
+- [facebook](https://www.facebook.com/)
+
+
+# w: top
+
+w = websites
+
+
+- [w: quizlet](https://quizlet.com/latest)
+
+- [w: dribble](https://dribbble.com/shots)
+
+- [w: slashdot](https://slashdot.org/)
+
+- [w: ph today](http://ph.needles.me/)
+
+- [w: no excuse](http://ph.needles.me/)
+
+- [w: favourite and forget](http://usefulinterweb.com/)
+
+- [w: stack overflow](https://stackoverflow.com/)
+
+- [w: freecodecamp](https://www.freecodecamp.com/)
+
+- [w: product hunt](https://www.producthunt.com/)
+
+- [w: medium](https://medium.com/)
+
+- [w: devpost](https://devpost.com/)
+
+- [w: habrahabr](https://habrahabr.ru/top/)
+
+- [w: zen habits](https://zenhabits.net/archives/)
+
+- [w: eventbrite](https://www.eventbrite.com/)
+
+- [w: hackerrank](https://www.hackerrank.com/)
+
+- [w: interviewbit](https://www.interviewbit.com/)
+
+- [w: youtube](https://www.youtube.com/)
+
+
+# w: life
+
+
+- [w: drive](https://drive.google.com/drive/my-drive)
+
+- [w: toggl](https://toggl.com/)
+
+- [w: apple id](https://appleid.apple.com/)
+
+- [w: dropbox](https://www.dropbox.com/home)
+
+
+# f: forums
+
+
+- [f: km](https://forum.keyboardmaestro.com/latest)
+
+- [f: longecity](http://www.longecity.org/forum/)
+
+- [f: affinity](https://affinity.serif.com/forum/)
+
+- [f: alfred](https://www.alfredforum.com/)
+
+- [f: hack forums](https://hackforums.net/index.php)
+
+- [f: nixers](https://nixers.net/)
+
+- [f: hazel](https://www.noodlesoft.com/forums/)
+
+- [f: script debugger](http://forum.latenightsw.com/)
+
+- [f: taskpaper](http://support.hogbaysoftware.com/c/taskpaper)
+
+- [f: things network](https://www.thethingsnetwork.org/forum/top/all?order=activity)
+
+- [f: go](https://forum.golangbridge.org/)
+
+- [f: sublime](https://forum.sublimetext.com/)
+
+- [f: discourse](https://try.discourse.org/)
+
+- [f: shroomery](https://www.shroomery.org/)
+
 
 # w: photo
 
 
-- [ill gander](https://illgander.com/)
+- [w: ill gander](https://illgander.com/)
 
 - [w: flickr](https://www.flickr.com/)
 
@@ -448,6 +479,10 @@ t: = tooling
 
 - [t: wakatime](https://wakatime.com/dashboard)
 
+- [t: can I use](http://caniuse.com/)
+
+- [t: go play space](https://goplay.space/)
+
 
 # d: development
 
@@ -464,7 +499,7 @@ d: = development
 
 - [d: free interactive tutorials](https://github.com/vhf/free-programming-books/blob/master/free-programming-interactive-tutorials-en.md)
 
-- [d: algorithm visualiser](http://algo-visualizer.jasonpark.me)
+- [d: algorithm visualiser](http://algo-visualizer.jasonpark.me/)
 
 - [d: hackr](https://hackr.io/)
 
