@@ -8,19 +8,6 @@
 	<string>mine</string>
 	<key>connections</key>
 	<dict>
-		<key>028790C6-E340-43F0-AC6E-A558F0023785</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>495F8EF3-0DB6-4D8F-893F-AAB1CBAE475B</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>05C2CDF4-B8F6-48B5-9DCC-75AC001E1500</key>
 		<array>
 			<dict>
@@ -47,80 +34,8 @@
 				<false/>
 			</dict>
 		</array>
-		<key>24B93F63-9718-48DD-9E5A-082FDD27A563</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>C3007CD6-DE9B-4D11-BFE0-0DB3911FB270</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>2EFB822D-9BFC-44B8-BE11-8320A2A14AB8</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>495F8EF3-0DB6-4D8F-893F-AAB1CBAE475B</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>495F8EF3-0DB6-4D8F-893F-AAB1CBAE475B</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>24B93F63-9718-48DD-9E5A-082FDD27A563</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>B7CC43F1-E2A2-4671-8685-94C988D2BB46</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>C3007CD6-DE9B-4D11-BFE0-0DB3911FB270</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>4B8F6CB3-6CE5-4E39-B754-078544362F3D</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>F93F8B4B-CC97-4AB8-83B3-E44C3F88BE3B</key>
 		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>B7CC43F1-E2A2-4671-8685-94C988D2BB46</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
 			<dict>
 				<key>destinationuid</key>
 				<string>238CAD6B-EF29-4AF9-8A6D-A45407BBC0CE</string>
@@ -146,6 +61,19 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>triggerid</key>
+				<string>learn</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>05C2CDF4-B8F6-48B5-9DCC-75AC001E1500</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>browser</key>
 				<string></string>
 				<key>spaces</key>
@@ -158,240 +86,7 @@
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>4B8F6CB3-6CE5-4E39-B754-078544362F3D</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>triggerid</key>
-				<string>inside</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>028790C6-E340-43F0-AC6E-A558F0023785</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>alfredfiltersresults</key>
-				<true/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>script</key>
-				<string>IFS=$'\n'
-
-echo "&lt;?xml version='1.0'?&gt;&lt;items&gt;"
-for line in $(grep --extended-regexp '\[.+\]\(.+\)' &lt; "$mdfile"); do
-  sed -E "s|.*\[(.+)\]\((.+)\).*|&lt;item arg='\2' valid='yes'&gt;&lt;title&gt;\1&lt;/title&gt;&lt;/item&gt;|" &lt;&lt;&lt; "${line}"
-done
-echo "&lt;/items&gt;"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>C3007CD6-DE9B-4D11-BFE0-0DB3911FB270</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>fixedorder</key>
-				<false/>
-				<key>items</key>
-				<string>[{"title":"blogs","arg":"inside\/blogs.md","subtitle":""},{"title":"books","arg":"inside\/books.md","subtitle":""},{"title":"courses","arg":"inside\/courses.md","subtitle":""},{"title":"github","arg":"inside\/github.md","subtitle":""},{"title":"images","arg":"inside\/images.md","subtitle":""},{"title":"more","arg":"inside\/more.md","subtitle":""},{"title":"personal","arg":"inside\/personal.md","subtitle":""},{"title":"research papers","arg":"inside\/research-papers.md","subtitle":""},{"title":"websites","arg":"inside\/websites.md","subtitle":""},{"title":"reddit","arg":"inside\/reddit.md"},{"title":"web","arg":"inside\/bookmarks.md"},{"title":"articles","arg":"inside\/my-articles.md"},{"title":"gists","arg":"inside\/my-gists.md"},{"title":"quora","arg":"inside\/quora.md"},{"title":"notes","arg":"inside\/my-notes.md"},{"title":"twitter","arg":"inside\/twitter.md"}]</string>
-				<key>keyword</key>
-				<string>inside</string>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>go inside any of the mind maps</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.listfilter</string>
-			<key>uid</key>
-			<string>495F8EF3-0DB6-4D8F-893F-AAB1CBAE475B</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>variables</key>
-				<dict>
-					<key>mdfile</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>24B93F63-9718-48DD-9E5A-082FDD27A563</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>0</integer>
-				<key>hotmod</key>
-				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>2EFB822D-9BFC-44B8-BE11-8320A2A14AB8</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string>readonly remote_info_plist="https://github.com/nikitavoloboev/alfred-knowledge-map/blob/master/knowledge%20map.alfredworkflow?raw=true"
-readonly workflow_url="https://github.com/nikitavoloboev/alfred-knowledge-map/blob/master/knowledge%20map.alfredworkflow"
-readonly workflow_type='workflow'
-readonly frequency_check='15'
-
-# FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED UNLESS YOU KNOW WHAT YOU ARE DOING
-function abort {
-  echo "${1}" &gt;&amp;2
-  exit 1
-}
-
-function url_exists {
-  curl --silent --location --output /dev/null --fail --range 0-0 "${1}"
-}
-
-function notification {
-  local readonly terminal_notifier="$(find . -name terminal-notifier.app)"
-
-  if [[ -n "${terminal_notifier}" ]]; then
-    "${terminal_notifier}"/Contents/MacOS/terminal-notifier -title "${alfred_workflow_name}" -subtitle 'A new version is available' -message "${1}"
-  else
-    osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
-  fi
-}
-
-# Local sanity checks
-readonly local_info_plist='info.plist'
-readonly local_version="$(/usr/libexec/PlistBuddy -c 'print version' "${local_info_plist}")"
-
-[[ -n "${local_version}" ]] || abort 'You need to set a workflow version in the configuration sheet.'
-[[ "${workflow_type}" =~ ^(workflow|page)$ ]] || abort "'workflow_type' (${workflow_type}) needs to be one of 'workflow' or 'page'."
-[[ "${frequency_check}" =~ ^[0-9]+$ ]] || abort "'frequency_check' (${frequency_check}) needs to be a number."
-
-# Check for updates
-if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
-  if ! url_exists "${remote_info_plist}"; then abort "'remote_info_plist' (${remote_info_plist}) appears to not be reachable."; fi # Remote sanity check
-
-  readonly tmp_file="$(mktemp)"
-  curl --silent --location --output "${tmp_file}" "${remote_info_plist}"
-  readonly remote_version="$(/usr/libexec/PlistBuddy -c 'print version' "${tmp_file}")"
-
-  if [[ "${local_version}" != "${remote_version}" ]]; then
-    if [[ "${workflow_type}" == 'page' ]]; then
-      notification 'Opening download page…'
-      open "${workflow_url}"
-    else
-      if url_exists "${workflow_url}"; then
-        notification 'Downloading and installing…'
-        curl --silent --location --output "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow" "${workflow_url}"
-        open "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow"
-      else
-        abort "'workflow_url' (${workflow_url}) appears to not be reachable."
-      fi # url_exists
-    fi # workflow_type
-  else
-    touch "${local_info_plist}" # Reset timer by touching local file
-  fi # diff
-fi #find</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>B7CC43F1-E2A2-4671-8685-94C988D2BB46</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>triggerid</key>
-				<string>learn</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>05C2CDF4-B8F6-48B5-9DCC-75AC001E1500</string>
+			<string>238CAD6B-EF29-4AF9-8A6D-A45407BBC0CE</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -421,25 +116,6 @@ fi #find</string>
 			<string>alfred.workflow.input.listfilter</string>
 			<key>uid</key>
 			<string>F93F8B4B-CC97-4AB8-83B3-E44C3F88BE3B</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>238CAD6B-EF29-4AF9-8A6D-A45407BBC0CE</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -494,90 +170,35 @@ You can :
 Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 	<key>uidata</key>
 	<dict>
-		<key>028790C6-E340-43F0-AC6E-A558F0023785</key>
-		<dict>
-			<key>xpos</key>
-			<integer>40</integer>
-			<key>ypos</key>
-			<integer>170</integer>
-		</dict>
 		<key>05C2CDF4-B8F6-48B5-9DCC-75AC001E1500</key>
 		<dict>
 			<key>xpos</key>
-			<integer>40</integer>
+			<integer>20</integer>
 			<key>ypos</key>
-			<integer>420</integer>
+			<integer>20</integer>
 		</dict>
 		<key>142ADED3-CBA3-4CBC-BC93-177187930792</key>
 		<dict>
 			<key>xpos</key>
-			<integer>40</integer>
+			<integer>20</integer>
 			<key>ypos</key>
-			<integer>550</integer>
+			<integer>150</integer>
 		</dict>
 		<key>238CAD6B-EF29-4AF9-8A6D-A45407BBC0CE</key>
 		<dict>
 			<key>xpos</key>
-			<integer>470</integer>
+			<integer>400</integer>
 			<key>ypos</key>
-			<integer>490</integer>
-		</dict>
-		<key>24B93F63-9718-48DD-9E5A-082FDD27A563</key>
-		<dict>
-			<key>xpos</key>
-			<integer>410</integer>
-			<key>ypos</key>
-			<integer>200</integer>
-		</dict>
-		<key>2EFB822D-9BFC-44B8-BE11-8320A2A14AB8</key>
-		<dict>
-			<key>xpos</key>
-			<integer>40</integer>
-			<key>ypos</key>
-			<integer>300</integer>
-		</dict>
-		<key>495F8EF3-0DB6-4D8F-893F-AAB1CBAE475B</key>
-		<dict>
-			<key>note</key>
-			<string>search insides of mind maps</string>
-			<key>xpos</key>
-			<integer>240</integer>
-			<key>ypos</key>
-			<integer>170</integer>
-		</dict>
-		<key>4B8F6CB3-6CE5-4E39-B754-078544362F3D</key>
-		<dict>
-			<key>xpos</key>
-			<integer>660</integer>
-			<key>ypos</key>
-			<integer>170</integer>
-		</dict>
-		<key>B7CC43F1-E2A2-4671-8685-94C988D2BB46</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>12</integer>
-			<key>note</key>
-			<string>OneUpdater</string>
-			<key>xpos</key>
-			<integer>470</integer>
-			<key>ypos</key>
-			<integer>310</integer>
-		</dict>
-		<key>C3007CD6-DE9B-4D11-BFE0-0DB3911FB270</key>
-		<dict>
-			<key>xpos</key>
-			<integer>490</integer>
-			<key>ypos</key>
-			<integer>170</integer>
+			<integer>60</integer>
 		</dict>
 		<key>F93F8B4B-CC97-4AB8-83B3-E44C3F88BE3B</key>
 		<dict>
 			<key>note</key>
 			<string>open mind maps from learn anything</string>
 			<key>xpos</key>
-			<integer>240</integer>
+			<integer>220</integer>
 			<key>ypos</key>
-			<integer>460</integer>
+			<integer>60</integer>
 		</dict>
 	</dict>
 	<key>version</key>
