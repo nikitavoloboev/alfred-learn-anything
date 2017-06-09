@@ -2,7 +2,7 @@
 
 # [Download](https://www.dropbox.com/s/upmuxh6t88h61mb/learn%20anything.alfredworkflow?dl=1)
 
-## [Demonstration](http://quick.as/b1gwsneao) 🚀
+## [Demonstration](http://quick.as/x6wpI3mpz) 🚀
 
 # Description
 
