@@ -1,7 +1,5 @@
 <h1 align="center"> Alfred interface to <a href="https://learn-anything.xyz/"> Learn Anything </a> </h1> 
 
-# [Download](https://www.dropbox.com/s/upmuxh6t88h61mb/learn%20anything.alfredworkflow?dl=1)
-
 <h1 align="center"> <a href="https://www.dropbox.com/s/upmuxh6t88h61mb/learn%20anything.alfredworkflow?dl=1">Download 💾</a></h1>
 
 <h2 align="center"> <a href="http://quick.as/x6wpI3mpz"> Demonstration 🍀</a></h2>
