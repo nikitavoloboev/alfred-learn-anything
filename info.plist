@@ -61,7 +61,7 @@
 	<key>createdby</key>
 	<string>nikivi</string>
 	<key>description</key>
-	<string>open any of 500+ mind maps on the web to learn anything</string>
+	<string>open any of 2000+ mind maps from learn anything</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -169,8 +169,8 @@
 				<integer>0</integer>
 				<key>script</key>
 				<string>readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/alfred-learn-anything/master/info.plist"
-readonly workflow_url="https://github.com/nikitavoloboev/alfred-learn-anything/blob/master/learn%20anything.alfredworkflow?raw=true"
-readonly workflow_type='workflow'
+readonly workflow_url="https://github.com/nikitavoloboev/alfred-learn-anything/releases"
+readonly workflow_type='page'
 readonly frequency_check='15'
 
 # FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED UNLESS YOU KNOW WHAT YOU ARE DOING
@@ -253,21 +253,21 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 			<key>xpos</key>
 			<integer>20</integer>
 			<key>ypos</key>
-			<integer>30</integer>
+			<integer>20</integer>
 		</dict>
 		<key>142ADED3-CBA3-4CBC-BC93-177187930792</key>
 		<dict>
 			<key>xpos</key>
 			<integer>20</integer>
 			<key>ypos</key>
-			<integer>160</integer>
+			<integer>140</integer>
 		</dict>
 		<key>238CAD6B-EF29-4AF9-8A6D-A45407BBC0CE</key>
 		<dict>
 			<key>xpos</key>
-			<integer>390</integer>
+			<integer>380</integer>
 			<key>ypos</key>
-			<integer>30</integer>
+			<integer>20</integer>
 		</dict>
 		<key>38F74039-4D09-4F21-851A-8301375B3DD6</key>
 		<dict>
@@ -276,18 +276,18 @@ Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>390</integer>
+			<integer>380</integer>
 			<key>ypos</key>
-			<integer>160</integer>
+			<integer>150</integer>
 		</dict>
 		<key>F93F8B4B-CC97-4AB8-83B3-E44C3F88BE3B</key>
 		<dict>
 			<key>note</key>
 			<string>open mind maps from learn anything</string>
 			<key>xpos</key>
-			<integer>210</integer>
+			<integer>200</integer>
 			<key>ypos</key>
-			<integer>80</integer>
+			<integer>70</integer>
 		</dict>
 	</dict>
 	<key>version</key>
