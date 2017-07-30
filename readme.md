@@ -9,8 +9,6 @@
 	</a>
 </div>
 
-<h2 align="center"> <a href="https://github.com/nikitavoloboev/alfred-learn-anything/releases/latest">Latest Release 🍀</a></h2>
-
 <h2 align="center"> <a href="http://quick.as/x6wpI3mpz"> Demonstration 👀</a></h2>
 
 <h1 align="center"> Description 📕</h1>
@@ -19,6 +17,10 @@ Open any mind map from [Learn Anything](https://learn-anything.xyz/) in seconds 
 
 
 <p align="center"><img src="http://i.imgur.com/SymyfvG.png" alt="img" width="600"></p>
+
+<h1 align="center"> Install 💎</h1>
+
+Download the workflow from [GitHub releases](https://github.com/nikitavoloboev/alfred-learn-anything/releases/latest).
 
 <h1 align="center"> Thanks 🍀</h1>
 
