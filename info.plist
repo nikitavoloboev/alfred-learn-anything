@@ -242,10 +242,7 @@ fi #find</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Learn Anything Alfred Extension
-
-
-Big thank you to Vitor without whom this workflow wouldn't exist. 💚</string>
+	<string>GitHub : https://github.com/nikitavoloboev/learn-anything</string>
 	<key>uidata</key>
 	<dict>
 		<key>05C2CDF4-B8F6-48B5-9DCC-75AC001E1500</key>
