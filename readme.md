@@ -22,10 +22,6 @@ Open any mind map from [Learn Anything](https://learn-anything.xyz/) in seconds 
 
 Download the workflow from [GitHub releases](https://github.com/nikitavoloboev/alfred-learn-anything/releases/latest).
 
-<h1 align="center"> Contribute 💛</h1>
-
-Take a look at the [issues](https://github.com/nikitavoloboev/boxes/issues) and see if you find anything interesting you want to help with. Or [create your own](https://github.com/nikitavoloboev/boxes/issues/new) if wish something was added or you think is wrong.
-
 <h1 align="center"> Thanks 🍀</h1>
 
 You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look [into other repositories](https://my.mindnode.com/ZKGETDkUaQUsL3q8q9z788CxG84oEHgDiT79GuzX#-191.2,-905.2,2) I shared. Thank you. 💛 
