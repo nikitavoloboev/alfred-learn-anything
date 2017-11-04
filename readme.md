@@ -1,9 +1,8 @@
 # Alfred interface to [Learn Anything](https://learn-anything.xyz/) [![Thanks](https://img.shields.io/badge/Say%20Thanks-💗-ff69b4.svg)](https://www.patreon.com/nikitavoloboev)
+<img src="http://i.imgur.com/SymyfvG.png" width="500" alt="img">
 
 ## Description 📕
 Open any mind map from [Learn Anything](https://learn-anything.xyz/) in seconds from Alfred.
-
-<img src="http://i.imgur.com/SymyfvG.png" width="500" alt="img">
 
 ## Install 💎
 Download the workflow from [GitHub releases](https://github.com/nikitavoloboev/alfred-learn-anything/releases/latest).
