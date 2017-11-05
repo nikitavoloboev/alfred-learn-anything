@@ -1,5 +1,5 @@
 # Alfred Learn Anything [![Thanks](https://img.shields.io/badge/Say%20Thanks-💗-ff69b4.svg)](https://www.patreon.com/nikitavoloboev)
-> [Alfred](https://www.alfredforum.com/) workflow for [Learn Anything](https://learn-anything.xyz/)
+> [Alfred](https://www.alfredforum.com/) workflow to search [Learn Anything](https://learn-anything.xyz/)
 
 <img src="http://i.imgur.com/SymyfvG.png" width="500" alt="img">
 
