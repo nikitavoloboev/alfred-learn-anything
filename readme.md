@@ -3,9 +3,7 @@
 
 <img src="http://i.imgur.com/SymyfvG.png" width="500" alt="img">
 
-Open any mind map from [Learn Anything](https://learn-anything.xyz/) in seconds from Alfred.
-
-## Installation
+## Install
 Download the workflow from [GitHub releases](https://github.com/nikitavoloboev/alfred-learn-anything/releases/latest).
 
 ## Thank you 💜
