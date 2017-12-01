@@ -3,11 +3,11 @@
 
 <img src="http://i.imgur.com/SymyfvG.png" width="500" alt="img">
 
-## Install
+## Installing
 Download the workflow from [GitHub releases](https://github.com/nikitavoloboev/alfred-learn-anything/releases/latest).
 
 ## Contributing
-Contributions are welcome. Look into [issues](https://github.com/nikitavoloboev/alfred-learn-anything/issues) and see if anything sparks your interest. 
+Contributions are welcome. Look into [issues](https://github.com/nikitavoloboev/alfred-learn-anything/issues) and see if anything sparks your interest or [add ideas of your own](https://github.com/nikitavoloboev/alfred-learn-anything/issues/new).
 
 ## Thank you 💜
 You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look [into other repositories](https://my.mindnode.com/ZKGETDkUaQUsL3q8q9z788CxG84oEHgDiT79GuzX#-143.5,-902.6,0) I shared. 
