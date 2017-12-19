@@ -14,7 +14,7 @@ If you want to add features and things to the workflow. I advise you to install 
 
 `go get -u github.com/jason0x43/go-alfred/alfred`
 
-You can then make the changes to the code and run `alfred build` inside this repo to build the workflow to `workflow` directory. You can then use the built binary from Alfred script filters.
+You can then make your changes to the code and run `alfred build` inside this repo to build the go binary to `workflow` directory. Which you can then use from Alfred script filters.
 
 ## Thank you 💜
 You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look into [other repositories](https://my.mindnode.com/ZKGETDkUaQUsL3q8q9z788CxG84oEHgDiT79GuzX#-143.5,-902.6,0) I shared. 
