@@ -18,7 +18,8 @@ func doSearch() error {
 	if err != nil {
 		log.Fatal(err)
 	}
-	wf.NewItem(name).Arg(id)
+	// TODO: Uppercase name
+	wf.NewItem(name).Arg(id).Valid(true)
 	wf.SendFeedback()
 	return nil
 }

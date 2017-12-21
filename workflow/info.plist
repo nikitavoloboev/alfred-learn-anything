@@ -95,7 +95,7 @@
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string></string>
+				<string>Loading...</string>
 				<key>script</key>
 				<string>./alfred-learn-anything search -q "$1"</string>
 				<key>scriptargtype</key>
@@ -126,7 +126,7 @@
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>{query}</string>
+				<string>https://learn-anything.xyz/{query}</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
@@ -178,28 +178,28 @@
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>70</integer>
+			<integer>20</integer>
 		</dict>
 		<key>238CAD6B-EF29-4AF9-8A6D-A45407BBC0CE</key>
 		<dict>
 			<key>xpos</key>
 			<integer>360</integer>
 			<key>ypos</key>
-			<integer>110</integer>
+			<integer>60</integer>
 		</dict>
 		<key>790627A4-87DA-408A-BC71-90FA3D9CDF36</key>
 		<dict>
 			<key>xpos</key>
 			<integer>190</integer>
 			<key>ypos</key>
-			<integer>110</integer>
+			<integer>60</integer>
 		</dict>
 		<key>E6665CD5-B125-4AC4-BF28-01A5DDE02431</key>
 		<dict>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>190</integer>
+			<integer>140</integer>
 		</dict>
 	</dict>
 	<key>version</key>
