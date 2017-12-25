@@ -17,11 +17,19 @@ func doSearch() error {
 		log.Fatal(err)
 	}
 	for k, v := range m {
-		// log.Printf(strconv.Itoa(k))
-		// log.Printf(v)
+		log.Printf(strconv.Itoa(k))
+		log.Printf(v)
 		wf.NewItem(v).Arg(strconv.Itoa(k)).Valid(true).UID(v)
 	}
+
+	if query != "" {
+		wf.Filter(query)
+	}
+
+	wf.WarnEmpty("No matching items", "Try a different query?")
+	wf.SendFeedback()
 	return nil
+
 }
 
 type Result struct {
