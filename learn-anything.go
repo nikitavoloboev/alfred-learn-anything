@@ -2,40 +2,52 @@ package main
 
 import (
 	"encoding/json"
-	"io/ioutil"
+	"io"
 	"log"
-	"net/http"
+	"os"
+	"strconv"
 )
 
-// Suggestion holds a suggested map from Learn Anything.
-type Suggestion struct {
-	Name string `json:"key"`
-	ID   string `json:"id"`
-}
-
+// doSearch searches all Learn Anything topics.
 func doSearch() error {
-	id, name, err := getRandomSuggestion()
+	log.Printf("query=%s", query)
+
+	m, err := loadValues("maps.json")
 	if err != nil {
 		log.Fatal(err)
 	}
-	// TODO: Uppercase name
-	wf.NewItem(name).Arg(id).Valid(true)
-	wf.SendFeedback()
+	for k, v := range m {
+		// log.Printf(strconv.Itoa(k))
+		// log.Printf(v)
+		wf.NewItem(v).Arg(strconv.Itoa(k)).Valid(true).UID(v)
+	}
 	return nil
 }
 
-// getRandomSuggestion returns random suggestion from Learn Anything.
-func getRandomSuggestion() (id string, name string, err error) {
-	res, err := http.Get("https://learn-anything.xyz/api/maps/")
+type Result struct {
+	ID  int    `json:"mapID"`
+	Key string `json:"key"`
+}
+
+// loadVaules returns ID's and keys from read JSON file.
+func loadValues(fileName string) (map[int]string, error) {
+	file, err := os.Open(fileName)
+	m := make(map[int]string)
 	if err != nil {
 		log.Fatal(err)
 	}
-	body, err := ioutil.ReadAll(res.Body)
-	defer res.Body.Close()
-	var suggestion []Suggestion
-	err = json.Unmarshal(body, &suggestion)
-	if err != nil {
-		log.Fatal(err)
+	dec := json.NewDecoder(file)
+	for {
+		var ret Result
+		err := dec.Decode(&ret)
+		if err != nil {
+			if err == io.EOF {
+				break
+			}
+			log.Fatal(err)
+			return m, err
+		}
+		m[ret.ID] = ret.Key
 	}
-	return suggestion[0].ID, suggestion[0].Name, nil
+	return m, nil
 }
