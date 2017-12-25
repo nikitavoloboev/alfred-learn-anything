@@ -6,6 +6,7 @@ import (
 	"log"
 	"os"
 	"strconv"
+	"strings"
 )
 
 // doSearch searches all Learn Anything topics.
@@ -17,9 +18,9 @@ func doSearch() error {
 		log.Fatal(err)
 	}
 	for k, v := range m {
-		log.Printf(strconv.Itoa(k))
-		log.Printf(v)
-		wf.NewItem(v).Arg(strconv.Itoa(k)).Valid(true).UID(v)
+		// log.Printf(strconv.Itoa(k))
+		// log.Printf(v)
+		wf.NewItem(strings.Title(string(v[0])) + v[1:]).Arg(strconv.Itoa(k)).Valid(true).UID(v)
 	}
 
 	if query != "" {
