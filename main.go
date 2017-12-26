@@ -15,8 +15,8 @@ const (
 
 // Icons
 var (
-	iconDefault = &aw.Icon{Value: "icon.png"}
-	iconUpdate  = &aw.Icon{Value: "icons/update-available.png"}
+	IconDefault = &aw.Icon{Value: "icon.png"}
+	IconUpdate  = &aw.Icon{Value: "icons/update-available.png"}
 )
 
 var (
@@ -62,15 +62,16 @@ func run() {
 	switch cmd {
 	case searchCmd.FullCommand():
 		err = doSearch()
+	case updateCmd.FullCommand():
+		err = doUpdate()
 	default:
 		err = fmt.Errorf("Uknown command: %s", cmd)
 	}
 
-	// TODO: Fix error with update
 	// Check for update
-	// if err == nil && cmd != updateCmd.FullCommand() {
-	// 	err = checkForUpdate()
-	// }
+	if err == nil && cmd != updateCmd.FullCommand() {
+		err = checkForUpdate()
+	}
 
 	if err != nil {
 		wf.FatalError(err)
