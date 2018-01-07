@@ -3,7 +3,7 @@
 
 <img src="https://i.imgur.com/avMYwZR.png" width="500" alt="img">
 
-## Installing
+## Install
 Download the workflow from [GitHub releases](https://github.com/nikitavoloboev/alfred-learn-anything/releases/latest).
 
 ## Contributing
