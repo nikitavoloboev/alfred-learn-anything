@@ -11,6 +11,7 @@ import (
 
 // doSearch searches all Learn Anything topics.
 func doSearch() error {
+	showUpdateStatus()
 	log.Printf("query=%s", query)
 
 	m, err := loadValues("maps.json")

@@ -33,6 +33,16 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D42BF709-D05C-44B7-94A2-3BDC5BF37CC6</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string>Open in Chrome</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 		<key>E6665CD5-B125-4AC4-BF28-01A5DDE02431</key>
 		<array>
@@ -68,6 +78,25 @@
 			<string>alfred.workflow.trigger.external</string>
 			<key>uid</key>
 			<string>05C2CDF4-B8F6-48B5-9DCC-75AC001E1500</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://learn-anything.xyz/{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>238CAD6B-EF29-4AF9-8A6D-A45407BBC0CE</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -121,25 +150,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>https://learn-anything.xyz/{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>238CAD6B-EF29-4AF9-8A6D-A45407BBC0CE</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -168,6 +178,25 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string>com.google.Chrome</string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://learn-anything.xyz/{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>D42BF709-D05C-44B7-94A2-3BDC5BF37CC6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>Details on how to effectively use this workflow are found in the GitHub repository attached to this workflow.
@@ -185,9 +214,9 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>238CAD6B-EF29-4AF9-8A6D-A45407BBC0CE</key>
 		<dict>
 			<key>xpos</key>
-			<integer>360</integer>
+			<integer>380</integer>
 			<key>ypos</key>
-			<integer>60</integer>
+			<integer>20</integer>
 		</dict>
 		<key>790627A4-87DA-408A-BC71-90FA3D9CDF36</key>
 		<dict>
@@ -195,6 +224,13 @@ Post any issues and feature requests you have there. 💜</string>
 			<integer>190</integer>
 			<key>ypos</key>
 			<integer>60</integer>
+		</dict>
+		<key>D42BF709-D05C-44B7-94A2-3BDC5BF37CC6</key>
+		<dict>
+			<key>xpos</key>
+			<integer>380</integer>
+			<key>ypos</key>
+			<integer>140</integer>
 		</dict>
 		<key>E6665CD5-B125-4AC4-BF28-01A5DDE02431</key>
 		<dict>
@@ -205,7 +241,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>2.0.0</string>
+	<string>2.3.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/alfred-learn-anything</string>
 </dict>
