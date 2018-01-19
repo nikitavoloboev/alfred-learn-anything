@@ -12,7 +12,7 @@ Download the workflow from [GitHub releases](../../releases/latest).
 See [Contributing](contributing.md).
 
 ## Credits
-The workflow is built using [Deanishe](https://github.com/deanishe)'s amazing [AwGo](https://github.com/deanishe/awgo) library.
+The workflow is built using amazing [AwGo](https://github.com/deanishe/awgo) library.
 
 ## Thank you 💜
 You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look into [other projects](https://nikitavoloboev.xyz/projects) I shared.
