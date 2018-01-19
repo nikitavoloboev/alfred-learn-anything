@@ -9,7 +9,7 @@ Download the workflow from [GitHub releases](../../releases/latest).
 ## Contributing
 [Suggestions](../../issues/) and pull requests are highly encouraged!
 
-See [contributing](contributing.md).
+See [Contributing](contributing.md).
 
 ## Credits
 The workflow is built using [Deanishe](https://github.com/deanishe)'s amazing [AwGo](https://github.com/deanishe/awgo) library.
