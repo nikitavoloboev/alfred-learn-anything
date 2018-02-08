@@ -31,18 +31,20 @@ var (
 	// Script options (populated by Kingpin application)
 	query string
 
+	repo = "nikitavoloboev/alfred-learn-anything"
+
 	// Workflow stuff
 	wf *aw.Workflow
 )
 
 // Sets up kingpin commands
 func init() {
-	wf = aw.New(update.GitHub("nikitavoloboev/alfred-learn-anything"), aw.HelpURL("https://github.com/nikitavoloboev/alfred-learn-anything/issues"))
-	app = kingpin.New("learn anything", "Search Learn Anything maps.")
+	wf = aw.New(update.GitHub(repo), aw.HelpURL(repo+"/issues"))
+	app = kingpin.New("learn anything", "Search Learn Anything.")
 
 	// Update command
-	updateCmd = app.Command("update", "Check for new workflow version.")
-	searchCmd = app.Command("search", "Search Learn Anything maps.")
+	updateCmd = app.Command("update", "Check for new version.")
+	searchCmd = app.Command("search", "Search Learn Anything topics.")
 
 	for _, cmd := range []*kingpin.CmdClause{
 		searchCmd,
