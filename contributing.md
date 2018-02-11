@@ -1,7 +1,7 @@
 # Contributing
 Thank you for wanting to make the workflow better. You can:
 - Make suggestions and file bugs in [Issues](../../issues/).
-- Fix issues and add features to the workflow with [Pull Requests](../../pulls/). Instructions below will provide the necessary information on how you can do that.
+- Fix issues and add features to the workflow with [Pull Requests](../../pulls/).
 - Improve [Learn anything](https://learn-anything.xyz/) and its [curated lists](https://github.com/learn-anything/learn-anything/wiki/Curated-Lists) that the workflow searches over.
 
 ## Developing the workflow
@@ -14,3 +14,7 @@ You can then clone this repository and run: `alfred link` inside it. This will m
 
 You can then make changes to the code and after run `alfred build` to build the go binary to `workflow` directory. Which you can then use from inside Alfred [script filters](https://www.alfredapp.com/help/workflows/inputs/script-filter/).
 
+## Submitting a Pull Request
+Please go through [existing issues](../../issues/) and [pull requests](../../pulls/) to check if somebody else is already working on the issue.
+
+#### Thank you for taking the time to contribute! 💜
