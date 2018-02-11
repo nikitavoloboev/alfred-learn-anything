@@ -9,9 +9,6 @@ Download the workflow from [GitHub releases](../../releases/latest).
 ## Contributing
 See [CONTRIBUTING.md](CONTRIBUTING.md)
 
-## Credits
-The workflow uses [AwGo](https://github.com/deanishe/awgo) library for all the workflow related things.
-
 ## Thank you 💜
 You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look into [other projects](https://nikitavoloboev.xyz/projects) I shared.
 
