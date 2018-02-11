@@ -4,6 +4,9 @@ Thank you for wanting to make the workflow better. You can:
 - Fix issues and add features to the workflow with [Pull Requests](../../pulls/).
 - Improve [Learn anything](https://learn-anything.xyz/) and its [curated lists](https://github.com/learn-anything/learn-anything/wiki/Curated-Lists) that the workflow searches over.
 
+## Dependencies
+The workflow is written in [Go language](https://golang.org/) and uses [AwGo](https://github.com/deanishe/awgo) library for all the Alfred related things.
+
 ## Developing the workflow
 If you want to add features and things to the workflow.
 
