@@ -1,16 +1,19 @@
 package main
 
 import (
+	"bufio"
 	"encoding/json"
 	"io"
+	"io/ioutil"
 	"log"
 	"os"
+	"regexp"
 	"strconv"
 	"strings"
 )
 
 // doSearch searches all Learn Anything topics.
-func doSearch() error {
+func doSearchTopics() error {
 	showUpdateStatus()
 	log.Printf("query=%s", query)
 
@@ -32,6 +35,39 @@ func doSearch() error {
 	wf.SendFeedback()
 	return nil
 
+}
+
+// doSearchLists searches curated lists.
+func doSearchLists() error {
+	showUpdateStatus()
+
+	log.Printf("query=%s", query)
+
+	parseList()
+
+	if query != "" {
+		wf.Filter(query)
+	}
+
+	wf.WarnEmpty("No matching items", "Try a different query?")
+	wf.SendFeedback()
+
+	return nil
+}
+
+// parseList parses a markdown list for links.
+func parseList() {
+	bytes, _ := ioutil.ReadFile("lists.md")
+
+	// Regex to extract markdown links
+	re := regexp.MustCompile(`\[([^\]]*)\]\(([^)]*)\)`)
+
+	// Read string line by line and apply regex
+	scanner := bufio.NewScanner(strings.NewReader(string(bytes)))
+	for scanner.Scan() {
+		matches := re.FindAllStringSubmatch(scanner.Text(), -1)
+		wf.NewItem(matches[0][1]).Arg(matches[0][2]).Valid(true).UID(matches[0][1])
+	}
 }
 
 type Result struct {

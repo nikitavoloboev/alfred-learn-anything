@@ -24,9 +24,10 @@ var (
 	app *kingpin.Application
 
 	// Application commands
-	searchCmd *kingpin.CmdClause
-	updateCmd *kingpin.CmdClause
-	testCmd   *kingpin.CmdClause
+	searchTopicsCmd *kingpin.CmdClause
+	searchListsCmd  *kingpin.CmdClause
+	updateCmd       *kingpin.CmdClause
+	testCmd         *kingpin.CmdClause
 
 	// Script options (populated by Kingpin application)
 	query string
@@ -42,12 +43,14 @@ func init() {
 	wf = aw.New(update.GitHub(repo), aw.HelpURL(repo+"/issues"))
 	app = kingpin.New("learn anything", "Search Learn Anything.")
 
-	// Update command
 	updateCmd = app.Command("update", "Check for new version.")
-	searchCmd = app.Command("search", "Search Learn Anything topics.")
+
+	searchTopicsCmd = app.Command("topics", "Search Learn Anything topics.")
+
+	searchListsCmd = app.Command("lists", "Search curated lists.")
 
 	for _, cmd := range []*kingpin.CmdClause{
-		searchCmd,
+		searchTopicsCmd, searchListsCmd,
 	} {
 		cmd.Flag("query", "Search query.").Short('q').StringVar(&query)
 	}
@@ -62,8 +65,10 @@ func run() {
 	}
 
 	switch cmd {
-	case searchCmd.FullCommand():
-		err = doSearch()
+	case searchTopicsCmd.FullCommand():
+		err = doSearchTopics()
+	case searchListsCmd.FullCommand():
+		err = doSearchLists()
 	case updateCmd.FullCommand():
 		err = doUpdate()
 	default:

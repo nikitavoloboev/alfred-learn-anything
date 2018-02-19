@@ -21,11 +21,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>790627A4-87DA-408A-BC71-90FA3D9CDF36</key>
+		<key>2C61650C-01F2-4BC7-AAE0-8C31508A2833</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>238CAD6B-EF29-4AF9-8A6D-A45407BBC0CE</string>
+				<string>4F774142-7D29-4E25-8B08-5CCEAA253E53</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -33,6 +33,22 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+		</array>
+		<key>4F774142-7D29-4E25-8B08-5CCEAA253E53</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C7FE3DF8-D5CD-4468-8CE0-BB050EF48F17</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>790627A4-87DA-408A-BC71-90FA3D9CDF36</key>
+		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>D42BF709-D05C-44B7-94A2-3BDC5BF37CC6</string>
@@ -43,12 +59,9 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
-		</array>
-		<key>E6665CD5-B125-4AC4-BF28-01A5DDE02431</key>
-		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>790627A4-87DA-408A-BC71-90FA3D9CDF36</string>
+				<string>238CAD6B-EF29-4AF9-8A6D-A45407BBC0CE</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -68,6 +81,72 @@
 	<string>Learn Anything</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string>com.google.Chrome</string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://learn-anything.xyz/{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>D42BF709-D05C-44B7-94A2-3BDC5BF37CC6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>learn</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading...</string>
+				<key>script</key>
+				<string>./alfred-learn-anything topics -q "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Open Mind Maps</string>
+				<key>title</key>
+				<string>Learn anything</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>790627A4-87DA-408A-BC71-90FA3D9CDF36</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -103,6 +182,38 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>triggerid</key>
+				<string>lists</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>2C61650C-01F2-4BC7-AAE0-8C31508A2833</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>C7FE3DF8-D5CD-4468-8CE0-BB050EF48F17</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -114,7 +225,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>learn</string>
+				<string>list</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -126,15 +237,15 @@
 				<key>runningsubtext</key>
 				<string>Loading...</string>
 				<key>script</key>
-				<string>./alfred-learn-anything search -q "$1"</string>
+				<string>./alfred-learn-anything lists -q "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>Open Mind Maps</string>
+				<string>Search curated lists</string>
 				<key>title</key>
-				<string>Learn anything</string>
+				<string>Curated lists</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -143,59 +254,9 @@
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>790627A4-87DA-408A-BC71-90FA3D9CDF36</string>
+			<string>4F774142-7D29-4E25-8B08-5CCEAA253E53</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>0</integer>
-				<key>hotmod</key>
-				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>E6665CD5-B125-4AC4-BF28-01A5DDE02431</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string>com.google.Chrome</string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>https://learn-anything.xyz/{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>D42BF709-D05C-44B7-94A2-3BDC5BF37CC6</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -209,39 +270,59 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>20</integer>
+			<integer>60</integer>
 		</dict>
 		<key>238CAD6B-EF29-4AF9-8A6D-A45407BBC0CE</key>
 		<dict>
 			<key>xpos</key>
-			<integer>380</integer>
+			<integer>370</integer>
 			<key>ypos</key>
-			<integer>20</integer>
+			<integer>180</integer>
 		</dict>
-		<key>790627A4-87DA-408A-BC71-90FA3D9CDF36</key>
-		<dict>
-			<key>xpos</key>
-			<integer>190</integer>
-			<key>ypos</key>
-			<integer>60</integer>
-		</dict>
-		<key>D42BF709-D05C-44B7-94A2-3BDC5BF37CC6</key>
-		<dict>
-			<key>xpos</key>
-			<integer>380</integer>
-			<key>ypos</key>
-			<integer>140</integer>
-		</dict>
-		<key>E6665CD5-B125-4AC4-BF28-01A5DDE02431</key>
+		<key>2C61650C-01F2-4BC7-AAE0-8C31508A2833</key>
 		<dict>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>140</integer>
+			<integer>340</integer>
+		</dict>
+		<key>4F774142-7D29-4E25-8B08-5CCEAA253E53</key>
+		<dict>
+			<key>note</key>
+			<string>Search lists</string>
+			<key>xpos</key>
+			<integer>170</integer>
+			<key>ypos</key>
+			<integer>340</integer>
+		</dict>
+		<key>790627A4-87DA-408A-BC71-90FA3D9CDF36</key>
+		<dict>
+			<key>note</key>
+			<string>Search topics</string>
+			<key>xpos</key>
+			<integer>160</integer>
+			<key>ypos</key>
+			<integer>60</integer>
+		</dict>
+		<key>C7FE3DF8-D5CD-4468-8CE0-BB050EF48F17</key>
+		<dict>
+			<key>xpos</key>
+			<integer>370</integer>
+			<key>ypos</key>
+			<integer>340</integer>
+		</dict>
+		<key>D42BF709-D05C-44B7-94A2-3BDC5BF37CC6</key>
+		<dict>
+			<key>note</key>
+			<string>Adding resources to maps works better on Chrome currently :(</string>
+			<key>xpos</key>
+			<integer>370</integer>
+			<key>ypos</key>
+			<integer>10</integer>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>2.3.2</string>
+	<string>2.3.3</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/alfred-learn-anything</string>
 </dict>
