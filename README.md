@@ -3,11 +3,13 @@
 
 <img src="https://i.imgur.com/avMYwZR.png" width="500" alt="img">
 
+The workflow lets you search through all the 2000+ topics found on [Learn Anything](https://learn-anything.xyz/).
+
 ## Install
 Download the workflow from [GitHub releases](../../releases/latest).
 
 ## Contributing
-See [CONTRIBUTING.md](CONTRIBUTING.md)
+See [contribution guidelines](CONTRIBUTING.md#contributing).
 
 ## Thank you 💜
 You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look into [other projects](https://nikitavoloboev.xyz/projects) I shared.

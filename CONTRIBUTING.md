@@ -1,5 +1,5 @@
 # Contributing
-Thank you for wanting to make the workflow better. You can:
+Thank you for wanting to make Alfred Learn Anything better. You can:
 - Make suggestions and file bugs in [Issues](../../issues/).
 - Fix issues and add features to the workflow with [Pull Requests](../../pulls/).
 - Improve [Learn anything](https://learn-anything.xyz/) and its [curated lists](https://github.com/learn-anything/curated-lists#curated-lists-) that the workflow searches over.
