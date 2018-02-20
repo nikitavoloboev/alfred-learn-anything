@@ -29,5 +29,5 @@
 - [Mind maps](https://github.com/learn-anything/mindmaps#interesting-mind-maps-)
 - [Reddit subreddits](https://github.com/learn-anything/reddit#interesting-reddit-subreddits-)
 - [Reddit Multis](https://github.com/learn-anything/reddit-multi#interesting-reddit-multis-)
-- [Awesome lists](https://github.com/sindresorhus/awesome)
-- [Awesome awesomeness](https://github.com/bayandin/awesome-awesomeness)
+- [Awesome lists](https://github.com/sindresorhus/awesome#contents)
+- [Awesome awesomeness](https://github.com/bayandin/awesome-awesomeness#awesome-awesomeness)
