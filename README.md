@@ -3,7 +3,9 @@
 
 <img src="https://i.imgur.com/avMYwZR.png" width="500" alt="img">
 
-The workflow lets you search through all the 2000+ topics found on [Learn Anything](https://learn-anything.xyz/). And it lets you search through all the [curated lists](https://github.com/learn-anything/curated-lists#curated-lists).
+The workflow lets you search through all the 2000+ topics found on [Learn Anything](https://learn-anything.xyz/).
+
+And it lets you search through all the [curated lists](https://github.com/learn-anything/curated-lists#curated-lists).
 
 ## Install
 Download the workflow from [GitHub releases](../../releases/latest).
