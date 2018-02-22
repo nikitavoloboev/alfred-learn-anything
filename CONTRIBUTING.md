@@ -16,7 +16,7 @@ It is best to use [Alfred CLI tool](https://godoc.org/github.com/jason0x43/go-al
 
 You can then clone this repository and run: `alfred link` inside it. This will make a symbolic link of the [`workflow`](workflow) directory.
 
-You can then make changes to the code and after run `alfred build` to build the go binary to `workflow` directory. Which you can then use from inside Alfred [Script Filters](https://www.alfredapp.com/help/workflows/inputs/script-filter/).
+You can then make changes to the code and after run `alfred build` to build the go binary to `workflow` directory. Which you can then call from inside Alfred [Script Filters](https://www.alfredapp.com/help/workflows/inputs/script-filter/).
 
 I also wrote about my own process in making Alfred workflows [here](https://wiki.nikitavoloboev.xyz/macOS/apps/alfred/making-workflows.html).
 
