@@ -21,6 +21,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>0AFED35D-0B15-4070-A6C4-E762A091EC86</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>60D56C11-AA30-44D1-82E2-67C0A0B87073</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>2C61650C-01F2-4BC7-AAE0-8C31508A2833</key>
 		<array>
 			<dict>
@@ -39,6 +52,29 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>C7FE3DF8-D5CD-4468-8CE0-BB050EF48F17</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>0AFED35D-0B15-4070-A6C4-E762A091EC86</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string>Edit list</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>60D56C11-AA30-44D1-82E2-67C0A0B87073</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>62FC303E-01BA-430E-BC35-C7365486A097</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -132,7 +168,7 @@
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>Open Mind Maps</string>
+				<string>Open Maps</string>
 				<key>title</key>
 				<string>Learn anything</string>
 				<key>type</key>
@@ -182,19 +218,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>triggerid</key>
-				<string>lists</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>2C61650C-01F2-4BC7-AAE0-8C31508A2833</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>browser</key>
 				<string></string>
 				<key>spaces</key>
@@ -208,6 +231,19 @@
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>C7FE3DF8-D5CD-4468-8CE0-BB050EF48F17</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>lists</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>2C61650C-01F2-4BC7-AAE0-8C31508A2833</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -258,6 +294,68 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{var:link}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>62FC303E-01BA-430E-BC35-C7365486A097</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>query=$1
+
+echo -n "${query//#readme}"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>0AFED35D-0B15-4070-A6C4-E762A091EC86</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>variables</key>
+				<dict>
+					<key>link</key>
+					<string>{query}/edit/master/readme.md</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>60D56C11-AA30-44D1-82E2-67C0A0B87073</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>Details on how to effectively use this workflow are found in the GitHub repository attached to this workflow.
@@ -272,6 +370,15 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>60</integer>
 		</dict>
+		<key>0AFED35D-0B15-4070-A6C4-E762A091EC86</key>
+		<dict>
+			<key>note</key>
+			<string>Edit list</string>
+			<key>xpos</key>
+			<integer>370</integer>
+			<key>ypos</key>
+			<integer>480</integer>
+		</dict>
 		<key>238CAD6B-EF29-4AF9-8A6D-A45407BBC0CE</key>
 		<dict>
 			<key>xpos</key>
@@ -284,7 +391,7 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>340</integer>
+			<integer>400</integer>
 		</dict>
 		<key>4F774142-7D29-4E25-8B08-5CCEAA253E53</key>
 		<dict>
@@ -293,7 +400,21 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>xpos</key>
 			<integer>170</integer>
 			<key>ypos</key>
-			<integer>340</integer>
+			<integer>400</integer>
+		</dict>
+		<key>60D56C11-AA30-44D1-82E2-67C0A0B87073</key>
+		<dict>
+			<key>xpos</key>
+			<integer>530</integer>
+			<key>ypos</key>
+			<integer>510</integer>
+		</dict>
+		<key>62FC303E-01BA-430E-BC35-C7365486A097</key>
+		<dict>
+			<key>xpos</key>
+			<integer>630</integer>
+			<key>ypos</key>
+			<integer>480</integer>
 		</dict>
 		<key>790627A4-87DA-408A-BC71-90FA3D9CDF36</key>
 		<dict>
@@ -314,7 +435,7 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>D42BF709-D05C-44B7-94A2-3BDC5BF37CC6</key>
 		<dict>
 			<key>note</key>
-			<string>Adding resources to maps works better on Chrome currently :(</string>
+			<string>Adding resources to maps works better on Chrome currently</string>
 			<key>xpos</key>
 			<integer>370</integer>
 			<key>ypos</key>
@@ -322,7 +443,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>2.3.3</string>
+	<string>2.3.4</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/alfred-learn-anything</string>
 </dict>
