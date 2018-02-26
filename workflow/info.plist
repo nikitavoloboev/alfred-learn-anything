@@ -63,7 +63,7 @@
 				<key>destinationuid</key>
 				<string>0AFED35D-0B15-4070-A6C4-E762A091EC86</string>
 				<key>modifiers</key>
-				<integer>262144</integer>
+				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string>Edit list</string>
 				<key>vitoclose</key>
@@ -89,7 +89,7 @@
 				<key>destinationuid</key>
 				<string>D42BF709-D05C-44B7-94A2-3BDC5BF37CC6</string>
 				<key>modifiers</key>
-				<integer>262144</integer>
+				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string>Open in Chrome</string>
 				<key>vitoclose</key>
@@ -372,8 +372,6 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 		<key>0AFED35D-0B15-4070-A6C4-E762A091EC86</key>
 		<dict>
-			<key>note</key>
-			<string>Edit list</string>
 			<key>xpos</key>
 			<integer>370</integer>
 			<key>ypos</key>
@@ -411,6 +409,8 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 		<key>62FC303E-01BA-430E-BC35-C7365486A097</key>
 		<dict>
+			<key>note</key>
+			<string>Edit list</string>
 			<key>xpos</key>
 			<integer>630</integer>
 			<key>ypos</key>
