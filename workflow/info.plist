@@ -65,6 +65,16 @@
 				<key>modifiers</key>
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
+				<string>Contributing guidelines</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>72B1AA05-3281-415B-9252-9036D705817A</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
 				<string>Edit list</string>
 				<key>vitoclose</key>
 				<false/>
@@ -75,6 +85,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>62FC303E-01BA-430E-BC35-C7365486A097</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>72B1AA05-3281-415B-9252-9036D705817A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>AEABCB9D-9232-43D3-8640-84C9451203E0</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -98,6 +121,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>238CAD6B-EF29-4AF9-8A6D-A45407BBC0CE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>AEABCB9D-9232-43D3-8640-84C9451203E0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A2A341B0-792A-43F0-A4F7-7F2755274850</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -346,13 +382,75 @@ echo -n "${query//#readme}"</string>
 				<key>variables</key>
 				<dict>
 					<key>link</key>
-					<string>{query}/edit/master/readme.md</string>
+					<string>{query}/blob/master/contributing.md#contribution-guidelines</string>
 				</dict>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>60D56C11-AA30-44D1-82E2-67C0A0B87073</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>query=$1
+
+echo -n "${query//#readme}"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>72B1AA05-3281-415B-9252-9036D705817A</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{var:link}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>A2A341B0-792A-43F0-A4F7-7F2755274850</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>variables</key>
+				<dict>
+					<key>link</key>
+					<string>{query}/edit/master/readme.md</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>AEABCB9D-9232-43D3-8640-84C9451203E0</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -373,9 +471,9 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>0AFED35D-0B15-4070-A6C4-E762A091EC86</key>
 		<dict>
 			<key>xpos</key>
-			<integer>370</integer>
+			<integer>460</integer>
 			<key>ypos</key>
-			<integer>480</integer>
+			<integer>460</integer>
 		</dict>
 		<key>238CAD6B-EF29-4AF9-8A6D-A45407BBC0CE</key>
 		<dict>
@@ -403,18 +501,25 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>60D56C11-AA30-44D1-82E2-67C0A0B87073</key>
 		<dict>
 			<key>xpos</key>
-			<integer>530</integer>
+			<integer>620</integer>
 			<key>ypos</key>
-			<integer>510</integer>
+			<integer>490</integer>
 		</dict>
 		<key>62FC303E-01BA-430E-BC35-C7365486A097</key>
 		<dict>
 			<key>note</key>
-			<string>Edit list</string>
+			<string>Contributing guidelines</string>
 			<key>xpos</key>
-			<integer>630</integer>
+			<integer>720</integer>
 			<key>ypos</key>
-			<integer>480</integer>
+			<integer>460</integer>
+		</dict>
+		<key>72B1AA05-3281-415B-9252-9036D705817A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>460</integer>
+			<key>ypos</key>
+			<integer>590</integer>
 		</dict>
 		<key>790627A4-87DA-408A-BC71-90FA3D9CDF36</key>
 		<dict>
@@ -425,12 +530,28 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>60</integer>
 		</dict>
+		<key>A2A341B0-792A-43F0-A4F7-7F2755274850</key>
+		<dict>
+			<key>note</key>
+			<string>Edit list</string>
+			<key>xpos</key>
+			<integer>720</integer>
+			<key>ypos</key>
+			<integer>590</integer>
+		</dict>
+		<key>AEABCB9D-9232-43D3-8640-84C9451203E0</key>
+		<dict>
+			<key>xpos</key>
+			<integer>620</integer>
+			<key>ypos</key>
+			<integer>620</integer>
+		</dict>
 		<key>C7FE3DF8-D5CD-4468-8CE0-BB050EF48F17</key>
 		<dict>
 			<key>xpos</key>
-			<integer>370</integer>
+			<integer>460</integer>
 			<key>ypos</key>
-			<integer>340</integer>
+			<integer>320</integer>
 		</dict>
 		<key>D42BF709-D05C-44B7-94A2-3BDC5BF37CC6</key>
 		<dict>
@@ -443,7 +564,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>2.3.4</string>
+	<string>2.3.5</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/alfred-learn-anything</string>
 </dict>
