@@ -2,7 +2,7 @@
 There are many ways you can contribute. You can:
 - Make suggestions and file bugs in [Issues](../../issues/).
 - Fix issues and add features to the workflow with [Pull Requests](../../pulls/).
-- Improve [Learn anything](https://learn-anything.xyz/) and its [curated lists](https://github.com/learn-anything/curated-lists#readme) that the workflow searches over.
+- Improve [Learn Anything](https://learn-anything.xyz/) and its [curated lists](https://github.com/learn-anything/curated-lists#readme) that the workflow searches over.
 
 ## Dependencies
 The workflow is written in [Go language](https://golang.org/) and uses [AwGo](https://github.com/deanishe/awgo) library for all the Alfred related things.
