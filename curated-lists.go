@@ -27,7 +27,8 @@ func doSearchLists() error {
 
 	log.Printf("query=%s", query)
 
-	parseList()
+	// TODO: where is cache placed?
+	parseList("lists.md")
 
 	if query != "" {
 		wf.Filter(query)
@@ -40,8 +41,8 @@ func doSearchLists() error {
 }
 
 // parseList parses a markdown list for links.
-func parseList() {
-	bytes, _ := ioutil.ReadFile("lists.md")
+func parseList(file string) {
+	bytes, _ := ioutil.ReadFile(file)
 
 	// Regex to extract markdown links
 	re := regexp.MustCompile(`\[([^\]]*)\]\(([^)]*)\)`)

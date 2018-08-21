@@ -15,7 +15,7 @@ type Topic struct {
 	Key string `json:"key"`
 }
 
-// doSearch searches all Learn Anything topics.
+// doSearchTopics searches all Learn Anything topics.
 func doSearchTopics() error {
 	showUpdateStatus()
 	log.Printf("query=%s", query)
@@ -37,7 +37,6 @@ func doSearchTopics() error {
 	wf.WarnEmpty("No matching items", "Try a different query?")
 	wf.SendFeedback()
 	return nil
-
 }
 
 // loadVaules returns ID's and keys from read JSON file.

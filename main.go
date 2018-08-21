@@ -89,7 +89,6 @@ func doTest() error {
 	return nil
 }
 
-// main wraps run() (actual entry point) to catch errors
 func main() {
 	wf.Run(run)
 }
