@@ -1,4 +1,4 @@
-# Alfred Learn Anything [![Lists](https://img.shields.io/badge/-more%20workflows-0a0a0a.svg?style=flat&colorA=0a0a0a)](https://github.com/learn-anything/alfred-workflows#readme) [![Thanks](http://bit.ly/saythankss)](https://patreon.com/nikitavoloboev)
+# Alfred Learn Anything [![Workflows](https://img.shields.io/badge/-more%20workflows-0a0a0a.svg?style=flat&colorA=0a0a0a)](https://github.com/learn-anything/alfred-workflows#readme) [![Thanks](http://bit.ly/saythankss)](https://patreon.com/nikitavoloboev)
 
 > [Alfred](https://www.alfredapp.com/) workflow to search [Learn Anything](https://learn-anything.xyz/)
 
