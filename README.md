@@ -2,7 +2,7 @@
 
 > [Alfred](https://www.alfredapp.com/) workflow to search [Learn Anything](https://learn-anything.xyz/)
 
-![](https://i.imgur.com/lNpfhQM.png)
+<img src="https://i.imgur.com/lNpfhQM.png" width="500" alt="img">
 
 The workflow lets you search through all the 2000+ topics found on [Learn Anything](https://learn-anything.xyz/).
 
