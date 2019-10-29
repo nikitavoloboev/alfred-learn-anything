@@ -17,7 +17,7 @@ It uses [modd](https://github.com/cortesi/modd#readme) and [Alfred command](http
 To run the project:
 
 1. Clone the repo (`git clone https://github.com/nikitavoloboev/alfred-learn-anything`)
-2. Run `alfred link` (makes symbolic link of [`workflow`] directory)
+2. Run `alfred link` (makes symbolic link of [`workflow`](workflow) directory)
 3. Run `modd` (starts a process that automatically builds the workflow with `alfred build` on any changes you make to `.go` files, this builds and places a binary inside [`workflow`](workflow) directory.)
 4. Make changes to code or modify Alfred objects to do what you want! Open debugger in Alfred or run the workflow with `workflow:log` passed in as argument to see the logs Alfred produces.
 
