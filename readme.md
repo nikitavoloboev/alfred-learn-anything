@@ -10,7 +10,7 @@ And it lets you search through all the [curated lists](https://github.com/learn-
 
 ## Install
 
-Download the workflow from [GitHub releases](../../releases/latest).
+Download workflow from [GitHub releases](../../releases/latest).
 
 ## Contributing
 
