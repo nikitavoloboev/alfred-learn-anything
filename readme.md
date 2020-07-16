@@ -12,6 +12,8 @@ And it lets you search through all the [curated lists](https://github.com/learn-
 
 Download workflow from [GitHub releases](../../releases/latest).
 
+See [here](https://github.com/deanishe/awgo/wiki/Catalina) for instructions on fixing permissions in macOS refusing to run Go binary.
+
 ## Contributing
 
 See [contribution guidelines](contributing.md).
